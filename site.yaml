@@ -11,7 +11,6 @@ plugins:
     - hyde.ext.plugins.textlinks.TextlinksPlugin
 context:
     data:
-        tweet_via: ringce
         menu:
             -
                 name: Home
@@ -32,15 +31,15 @@ context:
                 type: node
                 url: blog
             -
-                name: About
-                description: About
+                name: BioCV
+                description: Bio/CV 
                 css_class: about
                 type: page
                 url: about.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
-    author: Lakshmi Vyasarajan
+    author: Adam Tindale
 sorter:
     time:
         attr:
