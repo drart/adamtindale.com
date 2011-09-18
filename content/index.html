@@ -90,6 +90,7 @@
         <meta name="viewport" content="width=1024">
         <meta name="keywords" content="Adam Tindale">
         <meta name="author" content="Adam Tindale">
+        <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
     </head>
     <body >
         <div id=menu>
@@ -113,17 +114,20 @@
 
                     <p><hr width="180px"></p> 
 
-                    <p>Permanent Instructor of Interaction Design<br /> 
-                    Head of Media Arts and Digital Technologies<br /> 
-                    <em>Alberta College of Art and Design</em><br /> 
-                    </p> 
-                    <p>contact: adam.tindale a t acad.ca <br /> </p> 
+
+                    {% markdown %} 
+                    Permanent Instructor of Interaction Design   
+                    Head of Media Arts and Digital Technologies   
+                    *[Alberta College of Art and Design](http://www.acad.ca)*
+                    {% endmarkdown %}
+                    {% markdown %} <adam.tindale@acad.ca>  {% endmarkdown %}
+                    
                     <p><hr width="180px"></p> 
 
                     <h2>Upcoming Events</h2>
-                    {% include 'events/upcoming.html' ignore missing %}
-                    <h2>Recent Blog Post</h2>
-
+                    {% markdown %}
+                    {% include "events/upcoming.markdown" ignore missing without context %}
+                    {% endmarkdown %}
                 </div> 
             </div> 
         </div> 

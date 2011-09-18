@@ -38,8 +38,11 @@ context:
                 url: about.html
 meta:
     nodemeta: meta.yaml
-    created: !!timestamp 2010-01-01 00:00:00
+    created: !!timestamp 2011-01-01 00:00:00
     author: Adam Tindale
+    charset: utf-8
+    analytics:
+        id: UA-18509679-1
 sorter:
     time:
         attr:
