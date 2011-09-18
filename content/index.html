@@ -20,6 +20,9 @@
                 padding-top: 80px;
                 font-size: 80%;
             }
+nav, header, footer, section, article {
+	display: block;
+}
             #wrapper { 
                 overflow: hidden;
             }
@@ -52,36 +55,48 @@
                 <!-- width: 360px; -->
             }
             #social{
-                position: fixed;
-                top : 50px;
-                right: 20px;
+                position: absolute;
                 border-style: none; 
                 text-decoration: none;
                 border:0;
-
+                margin: auto 0;
             }
+            #social a {
+                text-decoration: none;
+            }
+            nav {
+                margin-left: 15px;
+            }
+.content {
+  margin: 0 auto;
+}
             #menu{
                 position: fixed;
                 display: block;
                 top:0;
                 left:0;
                 width: 100%;
-                z-index: 3;
                 clear: both;
                 display: block;
                 background: #333;
                 opacity: 0.8;
                 -moz-opacity: 0.8;
-                filter:alpha(opacity=80);  height: 42px;
+                filter:alpha(opacity=80);  
                 .box-shadow(0, 1px, 8px, 0.6);
                 -moz-box-shadow: 0 0 0 #000; // Because firefox sucks.
+                //background-color: #990000;
+                height: 50px;
             }
-            a:link { text-decoration: none;
-                color: #444459;
+            a {
+                text-decoration: none;
+                color: #888888;
             }
-            a:active { text-decoration: none; }
-            a:visited { text-decoration: none;  }
-            a:hover { text-decoration: none; }
+            a:active { text-decoration: underline; }
+            a:visited { 
+                text-decoration: none;  
+                color : #888888;
+            }
+            a:hover { text-decoration: underline; }
 
             /* Let's compensate for IE6's inability to interpret top: 0; and bottom: 0; */
             * html #column-1 .overlay { height: expression(document.getElementById("column-1").offsetHeight); }
@@ -93,35 +108,37 @@
         <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
     </head>
     <body >
-        <div id=menu>
+        <!--
+        <section id="menu"> 
+        <div class="content"> 
+            <nav> 
             <a href="http://www.adamtindale.com/blog"> Blog </a>
             <a href="biocv"> Bio/CV </a>
-        </div>
-        <div id="social">
             <a href="http://www.twitter.com/adamtindale" target="_blank"><img src="media/images/bird_48_black.png" > </a><br />
             <a href="http://www.youtube.com/adamrtindale" target="_blank"> <img src="media/images/youtube_logo_onecolor_againstwhite-vflhSQ1Dt.png" width="48px"> </a><br />
             <a href="http://www.github.com/drart" target="_blank"> <img src="media/images/octocat_black.png" width="48px"> </a><br />
             <a href="http://www.soundcloud.com/adamtindale" target="_blank"> <img src="media/images/soundcloud_black.png" width="48px"> </a><br />
-        </div>
+            </nav> 
+        </div> 
+        </section> 
+        -->
+
         <div id="wrapper"> 
             <div id="column-1" class="container"> 
                 <div class="overlay"></div> 
-                <div class="content"> 
-                    <h1>Adam Tindale</h1> 
-                    <p>Drummer/Researcher<br /> 
-                    Artist/Programmer<br /> 
-                    Wanderer/Tinkerer</p> 
+{% markdown %} 
+#Adam Tindale 
 
-                    <p><hr width="180px"></p> 
+Drummer/Researcher  
+Artist/Programmer  
+Wanderer/Tinkerer  
+*********
+Permanent Instructor of Interaction Design   
+Head of Media Arts and Digital Technologies   
+*[Alberta College of Art and Design](http://www.acad.ca)*
+{% endmarkdown %}
+{% markdown %} <adam.tindale@acad.ca>  {% endmarkdown %}
 
-
-                    {% markdown %} 
-                    Permanent Instructor of Interaction Design   
-                    Head of Media Arts and Digital Technologies   
-                    *[Alberta College of Art and Design](http://www.acad.ca)*
-                    {% endmarkdown %}
-                    {% markdown %} <adam.tindale@acad.ca>  {% endmarkdown %}
-                    
                     <p><hr width="180px"></p> 
 
                     <h2>Upcoming Events</h2>
