@@ -1,11 +1,4 @@
-<html>
-    <!--  http://bitsamppixels.com/transparent-columns/ -->
-    <head>
 
-        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-        <meta name="robots" content="index">
-        <title>Adam R. Tindale</title>
-        <style type="text/css">
             html { 
                 background: url(media/images/adamtindale.jpg) no-repeat center center fixed; 
                 -webkit-background-size: cover;
@@ -19,12 +12,10 @@
                 padding-top: 80px;
                 font-size: 80%;
             }
-            <!-- save this for the blog
             ::-webkit-scrollbar-thumb:vertical {background-color: #555; height:200px;}
             ::-webkit-scrollbar-thumb:horizontal {background-color: #555; height:10px !important;
             }
             ::-webkit-scrollbar { height:10px; width:7px; background-color:#fff; }
-            -->
             nav, header, footer, section, article {
                 display: block;
             }
@@ -113,83 +104,4 @@
                 font-size: 9px;
             }
 
-            /* Let's compensate for IE6's inability to interpret top: 0; and bottom: 0; */
-            * html #column-1 .overlay { height: expression(document.getElementById("column-1").offsetHeight); }
-            
-        </style>
-        <meta name="description" content="I like stuff.">
-        <meta name="viewport" content="width=1024">
-        <meta name="keywords" content="Adam Tindale">
-        <meta name="author" content="Adam Tindale">
-        <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
-
-        <script language="javascript"> 
-            function toggle() {
-                var text = document.getElementById("events");
-                if(text.style.display == "block") {
-                    text.style.display = "none";
-                }
-                else {
-                    text.style.display = "block";
-                }
-            } 
-        </script>
-
-
-    </head>
-    <body >
-
-        <section id="menu"> 
-        <nav style="word-spacing:50px;margin-left:50px;"> 
-        <h2>
-            <a href="biocv">&#35;Bio/CV</a> 
-            <a href="events">&#35;Events</a> 
-            <a href="projects">&#35;Projects</a> 
-            <a href="code">&#35;Code</a>
-            <a href="blog">&#35;Blog</a>
-        </h2>
-        </nav> 
-        </section> 
-
-        <section id="social">
-        <a href="http://www.twitter.com/adamtindale" target="_blank"><img src="{{ media_url('images/bird_48_black.png') }}" ></a>
-            <a href="http://www.youtube.com/adamrtindale" target="_blank"><img src="/media/images/youtube_logo_onecolor_againstwhite-vflhSQ1Dt.png" width="48px"></a>
-            <a href="http://www.github.com/drart" target="_blank"><img src="/media/images/octocat_black.png" width="48px"></a>
-            <a href="http://www.soundcloud.com/adamtindale" target="_blank"><img src="/media/images/soundcloud_black.png" width="48px"></a>
-        </section> 
-
-        <footer>Powered by <a href="">Hyde</a></footer>
-            
-        <div id="wrapper"> 
-            <div id="column-1" class="container"> 
-                <div class="overlay"></div> 
-                    <div class="content"> 
-{% markdown %} 
-#Adam Tindale 
-
-Drummer/Researcher  
-Artist/Programmer  
-Wanderer/Tinkerer  
-*********
-Permanent Instructor of Interaction Design   
-Head of Media Arts and Digital Technologies   
-*[Alberta College of Art and Design](http://www.acad.ca)*
-
-<adam.tindale@acad.ca>  
-*****************
-{% endmarkdown %}
-
-                    
-
-                        <h2><a href="#" onclick="toggle()">Upcoming Events</a></h2>
-                        <div id="events" style="display:none;">
-                        {% markdown %}
-                        {% include "events/upcoming.markdown" ignore missing without context %}
-                        {% endmarkdown %}
-                        </div>
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </body>
-</html>
+      
