@@ -1,131 +1,14 @@
-<html>
-    <!--  http://bitsamppixels.com/transparent-columns/ -->
-    <head>
+---
+extends: base.j2
+title: Adam R. Tindale
+---
+{## <!--  http://bitsamppixels.com/transparent-columns/ --> ##}
 
-        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-        <meta name="robots" content="index">
-        <title>Adam R. Tindale</title>
-        <style type="text/css">
-            html { 
-                background: url(media/images/adamtindale.jpg) no-repeat center center fixed; 
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                font-family: Arial, Helvetica, sans-serif; 
-                color: #fff;
-                margin: 0 auto;
-                padding: 50px;
-                padding-top: 80px;
-                font-size: 80%;
-            }
-            <!-- save this for the blog
-            ::-webkit-scrollbar-thumb:vertical {background-color: #555; height:200px;}
-            ::-webkit-scrollbar-thumb:horizontal {background-color: #555; height:10px !important;
-            }
-            ::-webkit-scrollbar { height:10px; width:7px; background-color:#fff; }
-            -->
-            nav, header, footer, section, article {
-                display: block;
-            }
-            #wrapper { 
-                overflow: hidden;
-            }
-            .overlay {
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                background: #333;
-                opacity: 0.8;
-                -moz-opacity: 0.8;
-                filter:alpha(opacity=80);
-            }
-            .container {
-                position: relative;
-                float: left;
-            }
-            .content {
-                position: relative; /* Fixes the z-index */
-                float: left;
-                margin: 0 auto;
-            }
-            .content hr{
-                width: 180px;
-            }
-            #column-1 {
-            }
-            #column-1 .content {
-                padding: 20px;
-                text-align: center;
-                line-height: 1.5;
-            }
-            #social{
-                position: fixed;
-                top: 0px;
-                right: 10px;
-                height: 50px;
-                display: inline;
-                vertical-align: middle;
-                border-style: none; 
-                text-decoration: none;
-                margin: 0 0;
-            }
-            #social a {
-                text-decoration: none;
-            }
-            #social a:hover {
-                text-decoration: none;
-            }
-            #menu{
-                position: fixed;
-                display: inline;
-                top:0;
-                left:0;
-                height: 50px;
-                width: 100%;
-                margin: 0 0;
-               // text-align: center;
-                float: left;
-                background: #333;
-                opacity: 0.8;
-                -moz-opacity: 0.8;
-                filter:alpha(opacity=80);  
-                .box-shadow(0, 1px, 8px, 0.6);
-                -moz-box-shadow: 0 0 0 #000; // Because firefox sucks.
-            }
-            a {
-                text-decoration: none;
-                color: #888888;
-            }
-            a:active { text-decoration: none; }
-            a:visited { 
-                text-decoration: none;  
-                color : #888888;
-            }
-            a:hover { text-decoration: underline; }
-            footer{
-                position: fixed;
-                bottom: 3px;
-                right: 15px;
-                color: #dddddd;
-                font-size: 9px;
-            }
-
-            /* Let's compensate for IE6's inability to interpret top: 0; and bottom: 0; */
-            * html #column-1 .overlay { height: expression(document.getElementById("column-1").offsetHeight); }
-            
-        </style>
-        <meta name="description" content="I like stuff.">
-        <meta name="viewport" content="width=1024">
-        <meta name="keywords" content="Adam Tindale">
-        <meta name="author" content="Adam Tindale">
-        <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
-
+{% block headjs %}
+{{ super() }}
         <script language="javascript"> 
-            function toggle() {
-                var text = document.getElementById("events");
+            function toggle(id) {
+                var text = document.getElementById(id);
                 if(text.style.display == "block") {
                     text.style.display = "none";
                 }
@@ -134,35 +17,11 @@
                 }
             } 
         </script>
+{% endblock headjs %}
 
-
-    </head>
-    <body >
-
-        <section id="menu"> 
-        <nav style="word-spacing:50px;margin-left:50px;"> 
-        <h2>
-            <a href="biocv">&#35;Bio/CV</a> 
-            <a href="events">&#35;Events</a> 
-            <a href="projects">&#35;Projects</a> 
-            <a href="code">&#35;Code</a>
-            <a href="blog">&#35;Blog</a>
-        </h2>
-        </nav> 
-        </section> 
-
-        <section id="social">
-        <a href="http://www.twitter.com/adamtindale" target="_blank"><img src="{{ media_url('images/bird_48_black.png') }}" ></a>
-            <a href="http://www.youtube.com/adamrtindale" target="_blank"><img src="/media/images/youtube_logo_onecolor_againstwhite-vflhSQ1Dt.png" width="48px"></a>
-            <a href="http://www.github.com/drart" target="_blank"><img src="/media/images/octocat_black.png" width="48px"></a>
-            <a href="http://www.soundcloud.com/adamtindale" target="_blank"><img src="/media/images/soundcloud_black.png" width="48px"></a>
-        </section> 
-
-        <footer>Powered by <a href="">Hyde</a></footer>
-            
-        <div id="wrapper"> 
+{% block main %}
             <div id="column-1" class="container"> 
-                <div class="overlay"></div> 
+                 <div class="overlay"></div> 
                     <div class="content"> 
 {% markdown %} 
 #Adam Tindale 
@@ -178,18 +37,29 @@ Head of Media Arts and Digital Technologies
 <adam.tindale@acad.ca>  
 *****************
 {% endmarkdown %}
-
                     
 
-                        <h2><a href="#" onclick="toggle()">Upcoming Events</a></h2>
+                        <h3><a href="#" onclick="toggle('events')">Upcoming Events</a></h3>
                         <div id="events" style="display:none;">
                         {% markdown %}
-                        {% include "events/upcoming.markdown" ignore missing without context %}
+                        {% include "events/upcoming.markdown" without context %}
+                        {% endmarkdown %}
+                        </div>
+
+                        <h3><a href="#" onclick="toggle('pastevents')">Past Events</a></h3> 
+                        <div id="pastevents" style="display:none;">
+                        {% markdown %}
+                        {% include "events/past.markdown" without context %}
+                        {% endmarkdown %}
+                        </div>
+                        
+                        <h3><a href="#" onclick="toggle('bio')">Bio/CV</a></h3> 
+                        <div id="bio" style="display:none;">
+                        {% markdown %}
+                        {% include "biocv/biocv.markdown" without context %}
                         {% endmarkdown %}
                         </div>
                     </div> 
                 </div> 
             </div> 
-        </div> 
-    </body>
-</html>
+{% endblock main %}
