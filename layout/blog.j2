@@ -1,15 +1,19 @@
 {% extends "base.j2" %}
 
+{% block css %}
+  <link rel="stylesheet" href="{{ media_url('css/blog.css') }}">
+{% endblock css %}
+
 {% block main -%}
 <article class="post">
 <nav class="post_nav">
-<a class="backlink" href="{{ content_url(resource.node.url) }}">Back to list</a>
+<a class="backlink" href="/blog">Back to list</a>
+{% if resource.prev_by_time %}
 <a class="prev{{' disabled' if not resource.prev_by_time }}"
     title="{{ resource.prev_by_time.meta.title }}"
-    {% if resource.prev_by_time %}
-    href="{{ content_url(resource.prev_by_time.url) }}"{% endif %}>
+    href="{{ content_url(resource.prev_by_time.url) }}">
     Previous
-</a>
+</a>{% endif %}
 
 <a class="next{{' disabled' if not resource.next_by_time }}"
     title="{{ resource.next_by_time.meta.title }}"
@@ -17,7 +21,6 @@
     href="{{ content_url(resource.next_by_time.url) }}"{% endif %}>
     Next
 </a>
-
 
 </nav>
 <h1 class="title">
@@ -30,6 +33,7 @@
 </time>
 
 {% if resource.meta.tags %}
+<h3> Tags </h3>
 <ul class="tags clear">
 {% for tag in resource.meta.tags %}
 <li>
@@ -47,4 +51,4 @@
 {%- endfilter %}
 </article>
 
-{%- endblock %}
+{%- endblock main %}

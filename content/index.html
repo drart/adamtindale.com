@@ -3,7 +3,6 @@ extends: base.j2
 title: Adam R. Tindale
 ---
 {## <!--  http://bitsamppixels.com/transparent-columns/ --> ##}
-
 {% block headjs %}
 {{ super() }}
         <script language="javascript"> 
@@ -37,8 +36,6 @@ Head of Media Arts and Digital Technologies
 <adam.tindale@acad.ca>  
 *****************
 {% endmarkdown %}
-                    
-
                         <h3><a href="#" onclick="toggle('events')">Upcoming Events</a></h3>
                         <div id="events" style="display:none;">
                         {% markdown %}
@@ -59,6 +56,7 @@ Head of Media Arts and Digital Technologies
                         {% include "biocv/biocv.markdown" without context %}
                         {% endmarkdown %}
                         </div>
+
                     </div> 
                 </div> 
             </div> 

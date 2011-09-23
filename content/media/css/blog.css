@@ -75,8 +75,9 @@ nav, header, footer, section, article {
     opacity: 0.8;
     -moz-opacity: 0.8;
     filter:alpha(opacity=80);  
-    .box-shadow(0, 1px, 8px, 0.6);
-    -moz-box-shadow: 0 0 0 #000; // Because firefox sucks.
+    -moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  box-shadow: 5px 5px 5px #ccc;
 }
 a {
     text-decoration: none;
@@ -89,9 +90,7 @@ a:visited {
 }
 a:hover { text-decoration: underline; }
 footer{
-    position: fixed;
-    bottom: 3px;
-    right: 15px;
-    color: #dddddd;
+    text-align: right;
+    color: #444444;
     font-size: 9px;
 }
