@@ -1,4 +1,4 @@
-{% extends "base.j2" %}
+{% extends "blog.j2" %}
 
 {% block main %}
 <section class="archives">
@@ -14,7 +14,7 @@
     <ul class="tags">
     {% for tag in resource.meta.tags %}
     <li>
-        <a class="small" href="{{ content_url('blog/tags/'~tag~'.html') }}">
+        <a class="small" href="{{ content_url('blog/categories/'~tag~'.html') }}">
             {{ tag }}
         </a>
     </li>
@@ -25,4 +25,4 @@
 {%- endfor %}
 </ul>
 </section>
-{% endblock %}
+{% endblock main %}
