@@ -75,9 +75,9 @@ nav, header, footer, section, article {
     opacity: 0.8;
     -moz-opacity: 0.8;
     filter:alpha(opacity=80);  
-    -moz-box-shadow: 5px 5px 5px #ccc;
-  -webkit-box-shadow: 5px 5px 5px #ccc;
-  box-shadow: 5px 5px 5px #ccc;
+    -moz-box-shadow: 0px 5px 5px #ccc;
+  -webkit-box-shadow: 0px 5px 5px #ccc;
+  box-shadow: 0px 5px 5px #ccc;
 }
 a {
     text-decoration: none;
