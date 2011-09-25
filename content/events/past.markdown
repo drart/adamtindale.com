@@ -1,3 +1,11 @@
+Colour Data Processing
+Jordan Tate, Ryan Boatright, and Adam Tindale
+International Symposium on Electronic Art  
+Sabanci University  
+Istanbul, Turkey  
+September 14, 2011 - September  21, 2011  
+<http://isea2011.sabanciuniv.edu/>  
+
 Conference on Interdisciplinary Musicology   
 Glasgow University   
 Glasgow, Scotland   

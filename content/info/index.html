@@ -1,0 +1,13 @@
+---
+extends: base.j2
+default_block: main
+title: Adam Tindale Bio/CV
+---
+{% markdown %}
+## Bio
+{% include "info/biocv.markdown" %}
+## Upcoming Events
+{% include "events/upcoming.markdown" %}
+## Past Events
+{% include "events/past.markdown" %}
+{% endmarkdown %}

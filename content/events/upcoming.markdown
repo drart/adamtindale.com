@@ -1,9 +1,4 @@
 {% markdown %}  
-International Symposium on Electronic Art  
-Sabanci University  
-Istanbul, Turkey  
-September 14, 2011 - September  21, 2011  
-<http://isea2011.sabanciuniv.edu/>  
    
 ARRAY  
 DETAILS TBA  

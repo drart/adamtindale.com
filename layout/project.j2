@@ -1,20 +1,14 @@
 {% extends "base.j2" %}
 
-
-{% block main -%}
-
+{% block main %}
 <h1 class="title"> {{ resource.meta.title }} </h1>
+{% block link %} <{{resource.meta.link}}> {% endblock link %}
 
-{% block link %}
-<{{resource.meta.link}}>
-{% endblock link %}
+{% block blurb %}
+{% markdown %}
+{% endmarkdown %}
+{% endblock %}
 
+{% block videos %} {% endblock videos %}
 
-
-{% filter markdown|typogrify -%}
-{% mark post -%}
-{% block post -%}{%- endblock %}
-{%- endmark %}
-{%- endfilter %}
-
-{%- endblock main %}
+{% endblock main %}

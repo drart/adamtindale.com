@@ -13,7 +13,6 @@
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <meta name="robots" content="index">
 
-
   <title>{% block title %}{{ resource.meta.title }}{% endblock %}</title>
   <meta name="description" content="{{ resource.meta.description }}">
   <meta name="author" content="{{ resource.meta.author }}">
@@ -32,7 +31,7 @@
   {% block headjs %}
   <!-- All JavaScript at the bottom, except for Modernizr which
         enables HTML5 elements & feature detects -->
-    <script src="{{ media_url('js/libs/modernizr-1.7.min.js') }}"></script>
+    <script src="{{ media_url('js/libs/modernizr.js') }}"></script>
   {% endblock headjs %}
   {% block endhead %}{% endblock endhead %}
 </head>
@@ -41,7 +40,7 @@
         <nav style="word-spacing:50px;margin-left:50px;"> 
         <h2>
             <a href="/">&#35;Home</a> 
-            <a href="/biocv">&#35;Info</a> 
+            <a href="/info">&#35;Info</a> 
             <a href="/projects">&#35;Projects</a> 
             <a href="/code">&#35;Code</a>
             <a href="/blog">&#35;Blog</a>
