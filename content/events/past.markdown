@@ -1,5 +1,5 @@
-Colour Data Processing
-Jordan Tate, Ryan Boatright, and Adam Tindale
+Colour Data Processing  
+Jordan Tate, Ryan Boatright, and Adam Tindale  
 International Symposium on Electronic Art  
 Sabanci University  
 Istanbul, Turkey  

@@ -3,12 +3,14 @@ extends: base.j2
 title: Adam R. Tindale - Projects
 default_block: main
 ---
+{% from "macros.j2" import youtube with context %}
+
 {% markdown %}
 #Projects
-- ARRAY
-- Colour Data Processing
-- Lossless Processing
-- Vector Rails
+- <a href="http://a-r-r-a-y.com" target="_blank">ARRAY</a>
+- <a href="http://colourdataprocessing.net" target="_blank">Colour Data Processing</a>
+- <a href="http://losslessprocessing.tumblr.com" target="_blank">Lossless Processing</a>
+- [Vector Rails]({{site.url}}/projects/vectorails.html)
 
 ##Research
 - E-Drumset
@@ -20,8 +22,8 @@ default_block: main
 - The Open Spaces Project (2009)
 - Duo with Chris Chafe (2009)
 - i send data live (Electronic Drums and Laptop Duo with Robin Davies) (2004-2008)
-- Trimpin's Turntables (2005)
-- Smackon 9000 (2003)
+- <a href="#trimpin">Trimpin's Turntables </a>(2005)
+- <a href="#smackon9000">Smackon 9000 </a>(2003)
 
 ##Other Projects (Bands, Groups, etc.)
 - The Electron Orchestra Withdrawal - Clinker (Bass, Electronics), Jackson 2Bears (Turntables, Electronics), Les Robot (Guitar), Adam Tindale (Electronic Drums) (2008)
@@ -32,16 +34,20 @@ default_block: main
 - Appleman Collective (2008-2009)
 - Andrea Revel (2008-2010)
 
+###Smackon 9000
+<a name="smackon9000"></a>
+This is an early digital musical instrument that was created in a class at McGill University. The class was divided up into groups containing a technologist, a performer and a composer. The group was responsible for designing and implementing a new musical instrument and then creating a piece of music for it and then having it performed in a concert setting.
+
+The smackon9000 utilized a wacom tablet and a keyboard in order to put early versions of the instrument into the performer's hands. This allowed the performer to give feedback about the handling of the instrument and not just speculating on the desired features. The keyboard emmulates flute fingerings because the performer was a trained flutist.
+
+{{ youtube("Dedx5gVWjY8") }}
+
+###Trimpin's Turntables
+<a name="trimpin"></a>
+Trimpin, the famous sound sculptor, brought his musical turntable robots to the University of Victoria and left them for two months to allow students to deeply explore them. During this time I currated the exhibit locally and provided initial training to all particpants, as well as giving demos for interested researchers.
+
+My short performance utilizes a game controller and Max/MSP to send MIDI messages to the robots. Various Wagner records were used as source material.
+
+{{ youtube("08l-D6Of1Hc") }}
 {% endmarkdown %}
-
-<h3>Smackon 9000</h3><br /> 
-<p>This is an early digital musical instrument that was created in a class at McGill University. The class was divided up into groups containing a technologist, a performer and a composer. The group was responsible for designing and implementing a new musical instrument and then creating a piece of music for it and then having it performed in a concert setting.</p><br /> 
-<p>The smackon9000 utilized a wacom tablet and a keyboard in order to put early versions of the instrument into the performer's hands. This allowed the performer to give feedback about the handling of the instrument and not just speculating on the desired features. The keyboard emmulates flute fingerings because the performer was a trained flutist.</p><br /> 
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/Dedx5gVWjY8&#38;hl=en_US&#38;fs=1&#38;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Dedx5gVWjY8&#38;hl=en_US&#38;fs=1&#38;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object><br /> 
-<hr><br /> 
-
-<h3>Trimpin's Turntables</h3><br /> 
-<p>Trimpin, the famous sound sculptor, brought his musical turntable robots to the University of Victoria and left them for two months to allow students to deeply explore them. During this time I currated the exhibit locally and provided initial training to all particpants, as well as giving demos for interested researchers.<p><br /> 
-<p>My short performance utilizes a game controller and Max/MSP to send MIDI messages to the robots. Various Wagner records were used as source material.</p><br /> 
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/08l-D6Of1Hc&#38;hl=en&#38;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/08l-D6Of1Hc&#38;hl=en&#38;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object><br /> 
 

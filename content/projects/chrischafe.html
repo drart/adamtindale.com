@@ -1,22 +1,27 @@
 ---
-extends: base.j2
-default_block: main
-title: Chris Chafe +  Adam Tindale
+extends: project.j2
+title: Chris Chafe +  Adam Tindale Duo
 ---
 
+{% block image %}
+{{ projectimage('/media/images/18_chris-chafe-and-adam-tindale-wide-shot.jpg') }}
+{% endblock image %}
+
+{% block blurb %}
+- Chris Chafe - Electronic Celletto
+- Adam Tindale - Electronic Drums
+
+In the summer of 2009 at the Interactive Screen 0.9: The Makers event at the Banff Centre Chris Chafe and Adam Tindale performed a 30 minute improvised set. Videos and images from the event can be viewed below.
+{% endblock blurb %}
+
+{% block videos %}
+{{ youtube("WJMZ83MOt5k") }}
+{% endblock videos %}
+
+
+{% block gallery %} {% endblock gallery %}
 /files/gimgs/th-18_chrischafe09.jpg
 
 /files/gimgs/th-18_chris-chafe-and-adam-tindale-wide-shot.jpg
 
 /files/gimgs/th-18_chris-chafe-and-adam-tindale.jpg
-
-## Duo With Chris Chafe 
-- Chris Chafe - Electronic Celletto
-- Adam Tindale - Electronic Drums
-
-In the summer of 2009 at the Interactive Screen 0.9: The Makers event at the Banff Centre Chris Chafe and Adam Tindale performed a 30 minute improvised set. Videos and images from the event can be viewed below.
-
-
-{% block video %}
-{{ youtube("WJMZ83MOt5k") }}
-{% endblock video %}

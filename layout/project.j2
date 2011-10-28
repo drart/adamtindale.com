@@ -1,14 +1,24 @@
 {% extends "base.j2" %}
+{% from "macros.j2" import youtube with context %}
+{% from "macros.j2" import projectimage with context %}
 
 {% block main %}
 <h1 class="title"> {{ resource.meta.title }} </h1>
-{% block link %} <{{resource.meta.link}}> {% endblock link %}
 
-{% block blurb %}
+{% if resource.meta.link is defined %}
+{% block link %} 
+{% markdown %}<{{resource.meta.link}}> {% endmarkdown %} {% endblock link %}
+{% endif %}
+
+{% block image %}{% endblock image %}
+
 {% markdown %}
+
+{% block blurb %}{% endblock blurb %}
+{% block events %} {% endblock events %}
 {% endmarkdown %}
-{% endblock %}
 
 {% block videos %} {% endblock videos %}
+{% block gallery %}{% endblock gallery %}
 
 {% endblock main %}

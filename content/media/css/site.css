@@ -1,9 +1,5 @@
 html { 
-    background: url({{media_url('images/adamtindale.jpg')}}) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
     font-family: Arial, Helvetica, sans-serif; 
     color: #fff;
     margin: 0 auto;
