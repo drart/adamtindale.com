@@ -1,7 +1,7 @@
 html { 
 
     font-family: Arial, Helvetica, sans-serif; 
-    color: #fff;
+    color: #000;
     margin: 0 auto;
     padding: 50px;
     padding-top: 80px;
@@ -37,6 +37,7 @@ nav, header, footer, section, article {
     overflow: hidden;
 }
 #column-1 .content {
+    color: #fff;
     padding: 20px;
     text-align: center;
     line-height: 1.5;
@@ -76,21 +77,27 @@ nav, header, footer, section, article {
     .box-shadow(0, 1px, 8px, 0.6);
     -moz-box-shadow: 0 0 0 #000; // Because firefox sucks.
 }
+#processing{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: -100;
+}
 a {
     text-decoration: none;
-    color: #888888;
+    color: #aaa;
 }
 a:active { text-decoration: none; }
 a:visited { 
     text-decoration: none;  
-    color : #888888;
+    color : #aaa;
 }
 a:hover { text-decoration: underline; }
 footer{
     position: fixed;
     bottom: 3px;
     right: 15px;
-    color: #dddddd;
+    color: #333;
     font-size: 9px;
 }
 
