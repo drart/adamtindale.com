@@ -61,6 +61,14 @@
         </section> 
 
   {% block main %}
+          <div id="maincolumn"> 
+             <div class="overlay"></div> 
+                  <div class="content"> 
+                  {% block content %}
+                  {% endblock content %}
+                  </div> 
+             </div> 
+          </div> 
   {% endblock main %}
 
   <footer>Powered by <a href="http://ringce.com/hyde">hyde</a>.</footer>
