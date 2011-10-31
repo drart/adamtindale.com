@@ -62,6 +62,7 @@ nav, header, footer, section, article {
     border-style: none; 
     text-decoration: none;
     margin: 0 0;
+    z-index: 3;
 }
 #social a {
     text-decoration: none;
