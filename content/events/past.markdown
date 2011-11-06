@@ -1,3 +1,18 @@
+Adam Tindale  
+Octophonic [stereo redux]  
+Protospace  
+Calgary, AB, Canada  
+October 22, 2011  
+<http://www.protospace.ca/events/21/hack-halloween>  
+
+ARRAY  
+Rick Silva, Katherine Fraser + Adam Tindale  
+SLAMMENBERRY JAM Festival  
+Vertigo Theatre  
+Calgary, AB, Canada  
+October 6, 2011  
+[http://www.calgaryurbanfestival.com](http://www.calgaryurbanfestival.com/Home/Entries/2011/9/27_Slammenberry_Jam_5.html)  
+  
 Colour Data Processing  
 Jordan Tate, Ryan Boatright, and Adam Tindale  
 International Symposium on Electronic Art  

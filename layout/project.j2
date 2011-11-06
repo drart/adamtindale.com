@@ -2,7 +2,7 @@
 {% from "macros.j2" import youtube with context %}
 {% from "macros.j2" import projectimage with context %}
 
-{% block main %}
+{% block content %}
 <h1 class="title"> {{ resource.meta.title }} </h1>
 
 {% if resource.meta.link is defined %}
@@ -21,4 +21,4 @@
 {% block videos %} {% endblock videos %}
 {% block gallery %}{% endblock gallery %}
 
-{% endblock main %}
+{% endblock content %}

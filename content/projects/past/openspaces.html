@@ -1,19 +1,13 @@
 ---
 title: The Open Spaces Project
-extends: base.j2
-default_block: main
+extends: project.j2
+default_block: content 
 ---
-{% from "macros.j2" import youtube with context %}
-{% markdown %}
-#MACHiNENOiSY (Vancouver): The Open Spaces Project (2009)
+
+{% block blurb %}
 <em>Co-presented with MACHiNENOiSY through The Dance Centre's Artist-in-Residence program</em>
 
 An ambitious and exciting new work for a cast of six men, The Open Spaces Project is an international collaboration between MACHiNENOiSY Co-Artistic Director Daelik, Berlin-based Australian performance artist Paul Gazzola and Calgary-based sound and new media artist Adam Tindale. The piece investigates the influence of space on identity, the relationship between architecture and gender, and constructs of masculinity, drawing on themes ranging from the cowboy as a masculine icon to the colonization of remote landscapes. Weaving innovative choreography, sophisticated video manipulation and sound together, The Open Spaces Project presents a multilayered essay on people and space.
-
-## Videos
-{{ youtube("Ox7IZPovU3w") }}
-
-{{ youtube("eQX9SZlueZw") }}
 
 ##Sound Track
 
@@ -27,4 +21,12 @@ An ambitious and exciting new work for a cast of six men, The Open Spaces Projec
 - <http://www.straight.com/article-273832/vancouver/machinoisys-open-spaces-project-feels-happening>
 - <http://www.straight.com/article-273106/vancouver/architects-dance>
 
-{% endmarkdown %}
+{% endblock blurb%}
+
+{% block video %}
+## Videos
+{{ youtube("Ox7IZPovU3w") }}
+{{ youtube("eQX9SZlueZw") }}
+
+{% endblock video %}
+
