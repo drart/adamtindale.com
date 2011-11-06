@@ -1,16 +1,13 @@
 ---
-extends: base.j2
-default_block: content
+extends: project.j2
 title: Acoustically Excited Physical Models
 ---
-{% from "macros.j2" import youtube with context %}
-{% markdown %}
-#Acoustically Excited Physical Models
+{% block blurb %}
 
-### Demo of acoustically excited physical models with [timbre recognition]({{site.url}}/research/timbre-recognition.html).
+### Demo of acoustically excited physical models with [timbre recognition]({{site.url}}/projects/research/timbre-recognition.html).
 {{ youtube("8wiG4dcH9JM") }}
 
 ###Demo at NIME 2007 in NYC.
 {{ youtube("4KfCGhccbdw") }}
 
-{% endmarkdown %}
+{% endblock blurb %}

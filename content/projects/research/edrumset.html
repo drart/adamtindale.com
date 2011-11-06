@@ -1,8 +1,9 @@
 ---
-extends: base.j2
-default_block: content 
+extends: project.j2
 title: E-Drumset
 ---
+
+{% block blurb %}
 <h1>E-Drumset</h1>
 
 <img src='/media/images/th-4_mg1653.jpg' alt='N/A' title='N/A' id='img0' />
@@ -14,3 +15,5 @@ title: E-Drumset
 <p>The E-Drumset is collection of software and hardware that allows alternatives to the acoustic components of the drumset. By mixing the components into different combinations it can be personalized for each player. The hardware can be any sound source that sends a signal into a computer so that it may be processed by the software.</p>
 
 <p>Read my Ph.D. dissertation on the E-Drumset <a href='/media/files/thesis.pdf'>(.pdf)
+
+{% endblock blurb %}

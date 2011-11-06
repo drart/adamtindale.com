@@ -7,8 +7,10 @@
 <head>
   {% block starthead %}{% endblock starthead %}
   <meta charset="{{ resource.meta.charset }}">
+  {#
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
        Remove this if you use the .htaccess -->
+  #}
   <meta http-equiv="X-UA-Compatible" content="{{ resource.meta.compatibility }}">
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <meta name="robots" content="index">
@@ -18,8 +20,10 @@
   <meta name="author" content="{{ resource.meta.author }}">
 
   {% block favicons %}
+  {#
   <!-- Place favicon.ico & apple-touch-icon.png
         in the root of your domain and delete these references -->
+   #}
   <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
   <link rel="apple-touch-icon" href="{{ media_url('/apple-touch-icon.png') }}">
   {% endblock favicons %}
@@ -29,15 +33,29 @@
   {% endblock css %}
 
   {% block headjs %}
+  {#
   <!-- All JavaScript at the bottom, except for Modernizr which
         enables HTML5 elements & feature detects -->
+  #}
     <script src="{{ media_url('js/libs/modernizr.js') }}"></script>
+    <script type="text/javascript">
+        function resize_canvas(){
+            canvas = document.getElementById('bg');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var processingInstance; 
+            if (!processingInstance)
+            {
+                processingInstance = Processing.getInstanceById('bg');
+            }
+            processingInstance.size(window.innerWidth, window.innerHeight);
+        }
+    </script>
     <script src="{{ media_url('js/libs/processing-1.3.6.min.js') }}"></script>
-    
   {% endblock headjs %}
   {% block endhead %}{% endblock endhead %}
 </head>
-<body id="{{ resource.meta.id if resource.meta.id else resource.slug }}">
+<body id="{{ resource.meta.id if resource.meta.id else resource.slug }}" onresize="resize_canvas()">
 <div id="processing" class="content">
     <canvas data-processing-sources="{{ media_url('js/bg.pde') }}" id="bg"></canvas> 
 </div>

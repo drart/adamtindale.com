@@ -10,15 +10,14 @@
 {% markdown %}<{{resource.meta.link}}> {% endmarkdown %} {% endblock link %}
 {% endif %}
 
-{% block image %}{% endblock image %}
-
 {% markdown %}
 
+{% block image %}{% endblock image %}
 {% block blurb %}{% endblock blurb %}
 {% block events %} {% endblock events %}
-{% endmarkdown %}
-
 {% block videos %} {% endblock videos %}
 {% block gallery %}{% endblock gallery %}
+
+{% endmarkdown %}
 
 {% endblock content %}
