@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   {% block starthead %}{% endblock starthead %}
   <meta charset="{{ resource.meta.charset }}">
@@ -11,7 +7,9 @@
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
        Remove this if you use the .htaccess -->
   #}
-  <meta http-equiv="X-UA-Compatible" content="{{ resource.meta.compatibility }}">
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <meta name="robots" content="index">
 
@@ -72,19 +70,18 @@
         </section> 
 
         <section id="social">
-        <a href="http://www.twitter.com/adamtindale" target="_blank"><img src="{{ media_url('images/bird_48_black.png') }}" ></a>
-            <a href="http://www.youtube.com/adamrtindale" target="_blank"><img src="/media/images/youtube_logo_onecolor_againstwhite-vflhSQ1Dt.png" width="48px"></a>
-            <a href="http://www.github.com/drart" target="_blank"><img src="/media/images/octocat_black.png" width="48px"></a>
-            <a href="http://www.soundcloud.com/adamtindale" target="_blank"><img src="/media/images/soundcloud_black.png" width="48px"></a>
+            <a href="http://www.twitter.com/adamtindale" target="_blank"><img src="{{ media_url('images/bird_48_black.png') }}" alt="twitter"></a>
+            <a href="http://www.youtube.com/adamrtindale" target="_blank"><img src="/media/images/youtube_logo_onecolor_againstwhite-vflhSQ1Dt.png" width="48" alt="youtube"></a>
+            <a href="http://www.github.com/drart" target="_blank"><img src="/media/images/octocat_black.png" width="48" alt="github"></a>
+            <a href="http://www.soundcloud.com/adamtindale" target="_blank"><img src="/media/images/soundcloud_black.png" width="48" alt="soundcloud"></a>
         </section> 
 
   {% block main %}
           <div id="maincolumn"> 
              <div class="overlay"></div> 
-                  <div class="content"> 
+             <div class="content"> 
                   {% block content %}
                   {% endblock content %}
-                  </div> 
              </div> 
           </div> 
   {% endblock main %}
@@ -92,7 +89,7 @@
   <footer>Powered by <a href="http://ringce.com/hyde">hyde</a>.</footer>
 
   {% block js %}
-  <!-- Javascript at the bottom for fast page loading -->
+  {# <!-- Javascript at the bottom for fast page loading --> #}
 	  {% block scripts %}
 	  {% endblock scripts %}
 	  {% block analytics %}

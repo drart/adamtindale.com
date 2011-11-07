@@ -4,6 +4,10 @@ default_block: content
 title: Adam Tindale - Bio/CV
 ---
 
+{% from "macros.j2" import projectimage without context %}
+
+{{ projectimage('adamtindale.jpg') }}
+
 {% markdown %}
 ## Bio
 
@@ -22,6 +26,7 @@ Those things in the right hand corner up there are links to my microblog, youtub
 - [https://www.github.com/drart](Github)
 - [http://www.soundcloud.com/adamtindale](Soundcloud)
 
+{{ projectimage('adamtindaledrumming.jpg') }}
 
 ## Past Events
 
