@@ -10,14 +10,18 @@
 {% markdown %}<{{resource.meta.link}}> {% endmarkdown %} {% endblock link %}
 {% endif %}
 
-{% markdown %}
+{# I'd love for this to work...
+{% if resource.block.gallery is defined %}
+flajfalkjf;ajd;
+{% endif %}
+#}
 
+{% markdown %}
 {% block image %}{% endblock image %}
 {% block blurb %}{% endblock blurb %}
 {% block events %} {% endblock events %}
 {% block videos %} {% endblock videos %}
 {% block gallery %}{% endblock gallery %}
-
 {% endmarkdown %}
 
 {% endblock content %}
