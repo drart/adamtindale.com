@@ -1,27 +1,16 @@
 Adam Tindale  
-Processing.js Workshop  
-University of Cincinnati   
-Cincinnati, OH, USA  
-November 14-16, 2011  
-
-Jeannie Vandekerkhove + Adam Tindale  
-For Acoustic Dancer & Laptop  
-Sea of Sound 2011  
-Edmonton, AB, Canada  
-November 18-20  
-<http://seaofsoundedmonton.wordpress.com>  
-  
-Adam Tindale  
 Dorkbot Calgary Presentation  
 Protospace
 Calgary, AB, Canada  
 November 22, 2011  
+<http://dorkbotcalgary.wordpress.com/2011/11/06/next-meeting-tuesday-november-22nd-7-pm-protospace/>
   
 Octophonic [stereo redux]  
 Streaming Festival  
 The Hague, Netherlands  
 December 1-18, 2011  
 <http://www.streamingfestival.com>  
+<a href="http://www.streamingfestival.com/archive/2011/?id=47&f=Adam&l=Tindale" title="Streaming Festival: Adam Tindale | Edition: 2011">Streaming Festival: Octophonic</a>  
 
 ARRAY  
 Rick Silva, Katherine Fraser + Adam Tindale  

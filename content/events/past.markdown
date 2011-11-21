@@ -1,3 +1,16 @@
+Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
+For Amplified Dancers & Laptop  
+Sea of Sound 2011  
+Edmonton, AB, Canada  
+November 18-20  
+<http://seaofsoundedmonton.wordpress.com>  
+
+Adam Tindale  
+Processing Workshop  
+University of Cincinnati   
+Cincinnati, OH, USA  
+November 14-16, 2011  
+
 Adam Tindale  
 Octophonic [stereo redux]  
 Protospace  
