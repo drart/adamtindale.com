@@ -1,3 +1,10 @@
+Adam Tindale  
+Dorkbot Calgary Presentation  
+Protospace
+Calgary, AB, Canada  
+November 22, 2011  
+<http://dorkbotcalgary.wordpress.com/2011/11/06/next-meeting-tuesday-november-22nd-7-pm-protospace/>
+
 Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
 For Amplified Dancers & Laptop  
 Sea of Sound 2011  
