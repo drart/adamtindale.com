@@ -1,3 +1,10 @@
+Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
+For Amplified Dancers & Laptop  
+Mile Zero Dance Salon: The Wired Body  
+Edmonton, AB, Canada  
+November 26, 2011  
+<http://www.milezerodance.com/wired.html>  
+
 Adam Tindale  
 Dorkbot Calgary Presentation  
 Protospace
@@ -9,7 +16,7 @@ Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale
 For Amplified Dancers & Laptop  
 Sea of Sound 2011  
 Edmonton, AB, Canada  
-November 18-20  
+November 18-20, 2011  
 <http://seaofsoundedmonton.wordpress.com>  
 
 Adam Tindale  
