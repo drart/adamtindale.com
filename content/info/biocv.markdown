@@ -3,4 +3,5 @@ Adam Tindale is an electronic drummer and digital instrument designer. He is a P
 
 ## Curriculum Vitae
 
-Download my CV. [pdf](/media/files/AdamTindaleCV.pdf)
+Download my CV. <a href="/media/files/AdamTindaleCV.pdf" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/cv']);">pdf</a>
+

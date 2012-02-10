@@ -1,3 +1,26 @@
+<!--
+    Name
+    Title
+    Festival/conference name
+    Place
+    Date
+    Link
+-->
+Adam Tindale  
+Octophonic [stereo redux]  
+Streaming Festival  
+The Hague, Netherlands  
+December 1-18, 2011  
+<http://www.streamingfestival.com>  
+<!--a href="http://www.streamingfestival.com/archive/2011/?id=47&f=Adam&l=Tindale" title="Streaming Festival: Adam Tindale | Edition: 2011">Streaming Festival: Octophonic</a-->  
+
+Adam Tindale  
+Original Artwork  
+Contemporary Art Gallery of Calgary  
+It's Worth at Least 30$  
+Circa Showroom  
+December 14, 2011  
+
 Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
 For Amplified Dancers & Laptop  
 Mile Zero Dance Salon: The Wired Body  
