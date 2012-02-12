@@ -7,6 +7,13 @@
     Link
 -->
 
+
+Adam Tindale  
+BYOB Calgary  
+Hillhurst Sunnyside Community Centre  
+February 11, 2012  
+<http://www.byobworldwide.com/post/17001340991/byob-calgary-we-are-pleased-to-announce-the>
+
 ARRAY  
 Rick Silva, Katherine Fraser + Adam Tindale  
 High Performance Rodeo - Soundasaurus  
@@ -131,9 +138,16 @@ April 2, 2011
    
 RECORD   
 Adam Tindale   
+Resound Festival  
 Falmouth, England   
 March 25, 2011 - March 27, 2011   
 http://resoundfalmouth2011.tumblr.com/   
+
+Adam Tindale   
+(Un) Pleasant Over Drones  
+Falmouth, England   
+March 25, 2011   
+http://resoundfalmouth2011.tumblr.com/post/3589356104/un-pleasant-over-drones
    
 Array   
 Rick Silva, Katherine Fraser + Adam Tindale   
