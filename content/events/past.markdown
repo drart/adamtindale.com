@@ -11,6 +11,7 @@
 Adam Tindale  
 BYOB Calgary  
 Hillhurst Sunnyside Community Centre  
+Calgary, AB, Canada  
 February 11, 2012  
 <http://www.byobworldwide.com/post/17001340991/byob-calgary-we-are-pleased-to-announce-the>
 
@@ -21,50 +22,49 @@ Engineered Air Theatre - EPCOR Centre for the Arts
 Calgary, AB, Canada  
 January 22, 2012  
 
-Adam Tindale  
 Octophonic [stereo redux]  
+Adam Tindale  
 Streaming Festival  
 The Hague, Netherlands  
 December 1-18, 2011  
-<http://www.streamingfestival.com>  
-<!--a href="http://www.streamingfestival.com/archive/2011/?id=47&f=Adam&l=Tindale" title="Streaming Festival: Adam Tindale | Edition: 2011">Streaming Festival: Octophonic</a-->  
+<http://www.streamingfestival.com>  <!--a href="http://www.streamingfestival.com/archive/2011/?id=47&f=Adam&l=Tindale" title="Streaming Festival: Adam Tindale | Edition: 2011">Streaming Festival: Octophonic</a-->  
 
-Adam Tindale  
 Original Artwork  
+Adam Tindale  
 Contemporary Art Gallery of Calgary  
 It's Worth at Least 30$  
 Circa Showroom  
 December 14, 2011  
 
-Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
 For Amplified Dancers & Laptop  
+Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
 Mile Zero Dance Salon: The Wired Body  
 Edmonton, AB, Canada  
 November 26, 2011  
 <http://www.milezerodance.com/wired.html>  
 
-Adam Tindale  
 Dorkbot Calgary Presentation  
+Adam Tindale  
 Protospace
 Calgary, AB, Canada  
 November 22, 2011  
 <http://dorkbotcalgary.wordpress.com/2011/11/06/next-meeting-tuesday-november-22nd-7-pm-protospace/>
 
-Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
 For Amplified Dancers & Laptop  
+Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale  
 Sea of Sound 2011  
 Edmonton, AB, Canada  
 November 18-20, 2011  
 <http://seaofsoundedmonton.wordpress.com>  
 
-Adam Tindale  
 Processing Workshop  
+Adam Tindale  
 University of Cincinnati   
 Cincinnati, OH, USA  
 November 14-16, 2011  
 
-Adam Tindale  
 Octophonic [stereo redux]  
+Adam Tindale  
 Protospace  
 Calgary, AB, Canada  
 October 22, 2011  
@@ -149,7 +149,7 @@ Falmouth, England
 March 25, 2011   
 http://resoundfalmouth2011.tumblr.com/post/3589356104/un-pleasant-over-drones
    
-Array   
+ARRAY   
 Rick Silva, Katherine Fraser + Adam Tindale   
 EMMEDIA, Calgary, AB, Canada   
 March 5, 2011   
@@ -230,7 +230,7 @@ Stanford University, Palo Alto, CA, USA
 July 24-30, 2010   
 More Information   
    
-Array   
+ARRAY   
 Rick Silva, Katherine Fraser + Adam Tindale   
 Central United Church, 131 7th Avenue SW, Calgary, AB, Canada   
 7:30pm   
