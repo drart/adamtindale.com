@@ -1,10 +1,10 @@
 #
+# 
 #
 #
 #
 #
-#
-#
+# derived from this rsync command that worked well for publishing
 # rsync -e ssh  --size-only -avn --exclude 'projects' --exclude 'uc' --exclude ".*" --exclude 'blog' --exclude '*.markdown' deploy/ adamrtindale@adamtindale.com:adamtindale.com/
 
 
