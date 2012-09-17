@@ -72,14 +72,15 @@ nav, header, footer, section, article {
 }
 #menu{
     position: fixed;
-    display: inline;
+    display: block;
     top:0;
+    width: 100%;
     left:0;
     height: 50px;
-    width: 100%;
     margin: 0 0;
     // text-align: center;
-    float: left;
+    //float: left;
+    clear:both;
     z-index: 3;
     background: #333;
     opacity: 0.8;

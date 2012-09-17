@@ -42,5 +42,7 @@ void draw()
   { curveVertex( i,  (float)i/width * height/4*sin((float)i/width* (float)i/width* TWO_PI + phi  )); }
   endShape();
 
+  popMatrix();
+
   phi += 0.05;
 }

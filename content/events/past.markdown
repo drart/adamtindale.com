@@ -1,12 +1,83 @@
 <!--
-    Name
     Title
+    Name
     Festival/conference name
     Place
     Date
     Link
 -->
 
+Building Audio Control Interfaces for Android  
+Lawrence Fyfe & Adam Tindale  
+CCRMA Summer Workshops  
+Stanford University  
+Palo Alto, CA, USA  
+July 30, 2012 - August 3, 2012 
+(CANCELLED)
+
+
+Sisters
+Jeannie and Jodie Vandekerkhove with Adam Tindale
+The Works Festival
+Edmonton, AB, Canada
+June 21 & 27, July 1 & 2, 2012
+http://www.theworks.ab.ca/festivalfolder/festival/2012/pdf/Works2012Guide.pdf
+
+Lossless Processing  
+Jordan Tate + Adam Tindale
+Hot One Inch Action  
+Calgary, AB, Canada  
+May 26, 2012  
+http://www.hotoneinchaction.com/  
+
+Node and Message Management with the JunctionBox Interaction Toolkit  
+Lawrence Fyfe, Adam Tindale, & Sheelagh Carpendale  
+New Interfaces for Musical Expression  
+University of Michigan  
+Ann Arbor, MI, USA  
+May 21-23, 2012  
+http://www.eecs.umich.edu/nime2012/  
+
+Touch  
+Corrine Vessey, Ian Nicolas, and Adam Tindale  
+Bach, Tots, and Tiptoes  
+Calgary, AB, Canada  
+May 21, 2012  
+
+Touch  
+Corrine Vessey, Ian Nicolas, and Adam Tindale  
+Bach, Tots, and Tiptoes  
+Calgary, AB, Canada  
+May 9, 2012  
+
+JunctionBox for Android: An Interaction Toolkit for Android-based Mobile Devices  
+Lawrence Fyfe, Adam Tindale, & Sheelagh Carpendale  
+Linux Audio Conference  
+Stanford University  
+Palo Alto, CA, USA  
+April 12-15, 2012  
+http://lac.linuxaudio.org/2012/  
+
+CE3C: Past, Present, and Future  
+Kurtis Lesick, Travis Kirton, and Adam Tindale  
+Technology in Society: An Exploration  
+DeVry Institute of Technology  
+Calgary, AB, Canada  
+March 30, 2012  
+
+THE DESTROYER  
+Adam Tindale  
+The Lossless Gallery  
+Calgary, AB, Canada  
+March 6, 2012  
+http://acadpopup.wordpress.com/2012/03/03/the-lossless-gallery-opening-next-week/
+
+RECORD  
+Adam Tindale  
+[SONiK] Fest 5.0  
+New York, NY, USA  
+March 3, 2012  
+http://sonikfest.info/  
 
 Adam Tindale  
 BYOB Calgary  
@@ -167,7 +238,7 @@ January 29, 2011
 Vector Rails   
 Soundasaurus Festival - High Performance Rodeo   
 Engineered Air Theatre, EPCOR Centre   
-Soundasaurs at EPCOR Centre  
+Soundasaurus at EPCOR Centre  
 Calgary, AB, Canada   
 January 21, 2011   
 http://www.hprodeo.ca/2011/soundasaurus   
