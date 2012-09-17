@@ -1,0 +1,59 @@
+Original Artwork
+
+An original performance captured by a computer. 
+
+
+<pre>
+import processing.opengl.*;
+import ddf.minim.*;
+
+Minim minim;
+AudioInput in;
+
+int numberOfPoints = 2048;
+float hourAngle = TWO_PI / numberOfPoints;
+
+void setup() 
+{
+  size( 800, 800, OPENGL);
+  smooth();
+  
+  minim = new Minim(this);  
+  in = minim.getLineIn(Minim.STEREO, numberOfPoints);
+}
+
+void draw()
+{
+  background(255);
+  translate(width/2, height/2);
+  stroke(0, 100);
+  fill(0, 100);
+  float[] data = new float[numberOfPoints];
+ 
+  beginShape();
+  pushMatrix();
+  for ( int i = 0; i < numberOfPoints + 1 ; i++ )
+  {
+    data[i%numberOfPoints] = abs(in.mix.get(i%numberOfPoints) )* height/2 ;
+
+    // x = Rcos(theta), y = Rsin(theta) where R is number of data points
+    vertex( data[i%data.length]*cos(i*hourAngle-HALF_PI), 
+      data[i%data.length]*sin(i*hourAngle - HALF_PI)  );
+    // connect back to origin with % operator
+  }
+  popMatrix();
+  endShape();
+     
+  saveFrame("original-##.jpg");
+  
+  if (frameCount > 51)
+    exit();
+}
+
+void stop()
+{
+  in.close();
+  minim.stop();
+  super.stop();
+}
+</pre>

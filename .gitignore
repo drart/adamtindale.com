@@ -1,2 +1,4 @@
 deploy/
 .hyde_deps
+.DS_STORE
+.DS_Store
