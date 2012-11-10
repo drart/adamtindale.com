@@ -7,6 +7,12 @@
     Link
 -->
 
+Adam Tindale  
+Developing Tools for Comporary Electronic Music Performance  
+Alan Turing Lecture Series  
+University of Victoria  
+November 8, 2012  
+
 Building Audio Control Interfaces for Android  
 Lawrence Fyfe & Adam Tindale  
 CCRMA Summer Workshops  
