@@ -7,6 +7,25 @@
     Link
 -->
 
+
+Adam Tindale  
+Faculty Talks Series  
+OCAD University  
+Toronto, ON, Canada  
+December 4, 2012  
+
+ARRAY  
+Jim Olsen, Katherine Fraser + Adam Tindale  
+Soundasaurus Festival  
+Engineered Air Theatre - EPCOR Centre for the Arts  
+Calgary, AB, Canada  
+November 15, 2012  
+
+Adam Tindale  
+Artist Talk  
+University of Victoria  
+November 9, 2012  
+
 Adam Tindale  
 Developing Tools for Comporary Electronic Music Performance  
 Alan Turing Lecture Series  
@@ -20,7 +39,6 @@ Stanford University
 Palo Alto, CA, USA  
 July 30, 2012 - August 3, 2012 
 (CANCELLED)
-
 
 Sisters
 Jeannie and Jodie Vandekerkhove with Adam Tindale
