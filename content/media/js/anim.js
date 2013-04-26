@@ -1,4 +1,5 @@
 var phi = 0.0;
+//var sin1[]; //precompute buffer
 
 function animate() {
 	reqAnimFrame = window.mozRequestAnimationFrame    ||
@@ -14,16 +15,18 @@ function draw() {
 	var canvas  = document.getElementById("myCanvas");
 	canvas.height = window.innerHeight;
 	canvas.width= window.innerWidth;
+    var canvasHeight = canvas.width;
+    var canvasWidth = canvas.width;
 	var context = canvas.getContext("2d");
 	var i =0;
 
-	context.clearRect(0, 0, canvas.width, canvas.height);
+	context.clearRect(0, 0, canvasWidth, canvasHeight);
 	context.lineWidth=0.4;
 	context.strokeStyle="#64";
 
 	context.beginPath();
 	for(i=0;i<canvas.width+4;i++)
-		context.lineTo( i,  canvas.height/2 + canvas.height/2* i/canvas.width* Math.cos( phi/3 + 2 * Math.PI *  i/canvas.width)  ); 
+		context.lineTo( i,  canvasHeight/2 + canvasHeight/2* i/canvasWidth* Math.cos( phi/3 + 2 * Math.PI *  i/canvasWidth)  ); 
 	context.stroke();
 
 	context.beginPath();
