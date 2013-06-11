@@ -7,6 +7,21 @@
     Link
 -->
 
+Adam Tindale  
+New Software for Documenting Visual Responses to Music  
+American Synesthesia Association Conference  
+OCAD University  
+Toronto, ON, Canada  
+May 31, 2013 - June 2, 2013  
+http://blog.ocad.ca/wordpress/synesthesiaconference/music-visualization-workshop-may-31-2013/  
+http://www.synesthesia.info/  
+
+ABA  
+Hazelton Lanes Art Festival  
+Toronto, ON, Canada  
+May 10, 2013  
+http://hazeltonlanes.com/arts-festival/
+
 
 Adam Tindale  
 Faculty Talks Series  
