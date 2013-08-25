@@ -1,12 +1,6 @@
-ARRAY  
-Rick Silva, Katherine Fraser + Adam Tindale  
-Soundasaurus Festival  
-Engineered Air Theatre - EPCOR Centre for the Arts  
-Calgary, AB, Canada  
-November 15, 2012  
+David Ogborn, Adam Tindale, Daffyd Hughes, and Ian Jarvis
+Dundas Square curated by New Adventures in Sound Art
+Toronto, ON, Canada
+August 31, 2013
 
-Adam Tindale  
-Faculty Talks  
-OCAD University  
-Toronto, ON, Canada  
-December 4, 2012  
+

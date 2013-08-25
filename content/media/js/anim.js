@@ -9,8 +9,7 @@ function animate() {
 		window.webkitRequestAnimationFrame ||
 		window.msRequestAnimationFrame     ||
 		window.oRequestAnimationFrame
-		;
-	
+		;	
 	setTimeout(function(){
 	reqAnimFrame(animate);
    	}, 1000 / 25);
@@ -21,6 +20,7 @@ function animate() {
 function draw() {
 	canvas.height = window.innerHeight;
 	canvas.width= window.innerWidth;
+<<<<<<< HEAD
     	var canvasHeight = window.innerHeight;
 	var canvasWidth = window.innerWidth;
 	var context = canvas.getContext("2d");

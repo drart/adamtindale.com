@@ -1,6 +1,6 @@
 # My Website Redesign 2011
 
-Built with hyde, html5, css, javascript, vim, bash, and probably some other tools.
+Built with hyde, html5, css, javascript, vim, bash, processing.js and probably some other tools.
 
 ## Inspiration/Attributions
 - <http://danielmiessler.com/study/git>  
@@ -10,12 +10,11 @@ Built with hyde, html5, css, javascript, vim, bash, and probably some other tool
 - <http://www.cssplay.co.uk>
 - <http://www.organicgrid.com/#/home>
 
+## TODO ##
 
-## Other stuff
-- Imagemagick is used for image conversion to thumbnails
-
-Example. 
-    %> convert adamtindale.jpg resize '560' -quality 70% th_adamtindale.jpg
+- Add some jquery to appropriate parts
+- Add flocking.js to 404 page
+- Move blog to consistent format 
 
 ## Favicon Code
 
