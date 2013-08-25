@@ -20,7 +20,6 @@ function animate() {
 function draw() {
 	canvas.height = window.innerHeight;
 	canvas.width= window.innerWidth;
-<<<<<<< HEAD
     	var canvasHeight = window.innerHeight;
 	var canvasWidth = window.innerWidth;
 	var context = canvas.getContext("2d");
