@@ -5,17 +5,25 @@ title: Adam R. Tindale
 {## <!--  http://bitsamppixels.com/transparent-columns/ --> ##}
 {% block headjs %}
 {{ super() }}
-        <script language="javascript"> 
-            function toggle(id) {
-                var text = document.getElementById(id);
-                if(text.style.display == "block") {
-                    text.style.display = "none";
-                }
-                else {
-                    text.style.display = "block";
-                }
-            } 
-        </script>
+	<script>
+	$(document).ready(function(){
+	$('#upcoming').click(function() {
+  		$('#events').toggle('slow', function() {
+
+	  });
+	});
+	$('#past').click(function() {
+  		$('#pastevents').toggle('slow', function() {
+
+	  });
+	});
+	$('#cv').click(function() {
+  		$('#bio').toggle('slow', function() {
+
+	  });
+	});
+	});
+	</script>
 {% endblock headjs %}
 
 {% block main %}
@@ -35,21 +43,21 @@ Digital Futures Initiative
 *********
 <adam@adamtindale.com>  
 {% endmarkdown %}
-                        <h3><a href="#" onclick="toggle('events')">Upcoming Events</a></h3>
+                        <h3><a href="#" id="upcoming">Upcoming Events</a></h3>
                         <div id="events" style="display:none;">
                         {% markdown %}
                         {% include "events/upcoming.markdown" without context %}
                         {% endmarkdown %}
                         </div>
 
-                        <h3><a href="#" onclick="toggle('pastevents')">Past Events</a></h3> 
+                        <h3><a href="#" id="past">Past Events</a></h3> 
                         <div id="pastevents" style="display:none;">
                         {% markdown %}
                         {% include "events/past.markdown" without context %}
                         {% endmarkdown %}
                         </div>
                         
-                        <h3><a href="#" onclick="toggle('bio')">Bio/CV</a></h3> 
+                        <h3><a href="#" id="cv">Bio/CV</a></h3> 
                         <div id="bio" style="display:none;">
                         {% markdown %}
                         {% include "info/biocv.markdown" without context %}
