@@ -1,5 +1,9 @@
+var canvas  = document.getElementById("myCanvas");
+var i = 0;
 var phi = 0.0;
-//var sin1[]; //precompute buffer
+var sin1 = new Array(1024); //precompute buffer
+for (i = 0; i < 1024; i++)
+	sin1[i] = Math.sin(2 * Math.PI *  i / canvas.width);
 
 function animate() {
 	reqAnimFrame = window.mozRequestAnimationFrame    ||
@@ -12,13 +16,12 @@ function animate() {
 }
 
 function draw() {
-	var canvas  = document.getElementById("myCanvas");
 	canvas.height = window.innerHeight;
 	canvas.width= window.innerWidth;
-    var canvasHeight = canvas.width;
-    var canvasWidth = canvas.width;
+    var canvasHeight = window.innerHeight;
+    var canvasWidth = window.innerWidth;
 	var context = canvas.getContext("2d");
-	var i =0;
+	i =0;
 
 	context.clearRect(0, 0, canvasWidth, canvasHeight);
 	context.lineWidth=0.4;
