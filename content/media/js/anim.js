@@ -27,7 +27,7 @@ function draw() {
 	var i =0;
 
 	//for (i = 0; i < 1024; i++)
-	//	sin1[i] = Math.sin(2 * Math.PI *  i / canvas.width);
+	//	sin1[i] = i/canvasWidth * Math.sin(2 * Math.PI *  i / canvasWidth);
 	//context.clearRect(0, 0, canvasWidth, canvasHeight);
 	context.lineWidth=0.3;
 	context.strokeStyle="#64";
