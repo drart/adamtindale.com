@@ -7,6 +7,13 @@
     Link
 -->
 
+Sarah Peebles, Adam Tindale, Daffyd Hughes, and Ian Jarvis
+INTERsection Music Festival curated by New Adventures in Sound Art
+Dundas Square
+Toronto, ON, Canada
+August 31, 2013
+
+
 Oscillating Oscillators  
 Adam Tindale and Doug Van Nort  
 Toronto Electroacoustic Symposium  
@@ -86,12 +93,12 @@ Palo Alto, CA, USA
 July 30, 2012 - August 3, 2012 
 (CANCELLED)
 
-Sisters
-Jeannie and Jodie Vandekerkhove with Adam Tindale
-The Works Festival
-Edmonton, AB, Canada
-June 21 & 27, July 1 & 2, 2012
-http://www.theworks.ab.ca/festivalfolder/festival/2012/pdf/Works2012Guide.pdf
+Sisters  
+Jeannie and Jodie Vandekerkhove with Adam Tindale  
+The Works Festival  
+Edmonton, AB, Canada  
+June 21 & 27, July 1 & 2, 2012  
+http://www.theworks.ab.ca/festivalfolder/festival/2012/pdf/Works2012Guide.pdf  
 
 Lossless Processing  
 Jordan Tate + Adam Tindale
