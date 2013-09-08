@@ -1,18 +1,17 @@
-<!--
+{#
     Title
     Name
     Festival/conference name
     Place
     Date
     Link
--->
-
-Sarah Peebles, Adam Tindale, Daffyd Hughes, and Ian Jarvis
-INTERsection Music Festival curated by New Adventures in Sound Art
-Dundas Square
-Toronto, ON, Canada
-August 31, 2013
-
+#}
+Sarah Peebles, Adam Tindale, Daffyd Hughes, and Ian Jarvis  
+INTERsection Music Festival curated by New Adventures in Sound Art  
+Dundas Square  
+Toronto, ON, Canada  
+August 31, 2013  
+<http://www.contactcontemporarymusic.ca/intersection/>
 
 Oscillating Oscillators  
 Adam Tindale and Doug Van Nort  
@@ -20,7 +19,7 @@ Toronto Electroacoustic Symposium
 New Adventures in Sound Art  
 Toronto, ON, Canada  
 August 14, 2013 - August 17, 2013  
-http://cec.sonus.ca/events/TES/2013/
+<http://cec.sonus.ca/events/TES/2013/>
 
 SIMPLE  
 Adam Tindale  
@@ -28,14 +27,14 @@ Toronto Electroacoustic Symposium
 New Adventures in Sound Art  
 Toronto, ON, Canada  
 August 14, 2013 - August 17, 2013  
-http://cec.sonus.ca/events/TES/2013/
+<http://cec.sonus.ca/events/TES/2013/>
 
 Adam Tindale + Travis Kirton  
 Music and Media - International Musicological Society  
 Carleton University  
 Ottawa, ON, Canada  
 July 11, 2013 - July 13, 2013  
-http://www.wwclassicsonline.com/mam.html
+<http://www.wwclassicsonline.com/mam.html>
 
 Travis Kirton, Adam Tindale, and Greg Debicki  
 C4 – Media, Interactivity & Audio for iOS  
@@ -43,7 +42,7 @@ ITP Camp
 New York University  
 New York, NY, USA  
 June 10, 2013 - June 12, 2013  
-http://itp.nyu.edu/camp2013/ai1ec_event/c4-media-interactivity-for-ios  
+<http://itp.nyu.edu/camp2013/ai1ec_event/c4-media-interactivity-for-ios>
 
 Adam Tindale  
 New Software for Documenting Visual Responses to Music  
@@ -51,14 +50,14 @@ American Synesthesia Association Conference
 OCAD University  
 Toronto, ON, Canada  
 May 31, 2013 - June 2, 2013  
-http://blog.ocad.ca/wordpress/synesthesiaconference/music-visualization-workshop-may-31-2013/  
-http://www.synesthesia.info/  
+<http://blog.ocad.ca/wordpress/synesthesiaconference/music-visualization-workshop-may-31-2013/>  
+<http://www.synesthesia.info/>    
 
 ABA  
 Hazelton Lanes Art Festival  
 Toronto, ON, Canada  
 May 10, 2013  
-http://hazeltonlanes.com/arts-festival/
+<http://hazeltonlanes.com/arts-festival/>  
 
 
 Adam Tindale  
@@ -80,7 +79,7 @@ University of Victoria
 November 9, 2012  
 
 Adam Tindale  
-Developing Tools for Comporary Electronic Music Performance  
+Developing Tools for Contemporary Electronic Music Performance  
 Alan Turing Lecture Series  
 University of Victoria  
 November 8, 2012  
@@ -98,14 +97,14 @@ Jeannie and Jodie Vandekerkhove with Adam Tindale
 The Works Festival  
 Edmonton, AB, Canada  
 June 21 & 27, July 1 & 2, 2012  
-http://www.theworks.ab.ca/festivalfolder/festival/2012/pdf/Works2012Guide.pdf  
+<http://www.theworks.ab.ca/festivalfolder/festival/2012/pdf/Works2012Guide.pdf>  
 
 Lossless Processing  
 Jordan Tate + Adam Tindale
 Hot One Inch Action  
 Calgary, AB, Canada  
 May 26, 2012  
-http://www.hotoneinchaction.com/  
+<http://www.hotoneinchaction.com/>  
 
 Node and Message Management with the JunctionBox Interaction Toolkit  
 Lawrence Fyfe, Adam Tindale, & Sheelagh Carpendale  
@@ -113,7 +112,7 @@ New Interfaces for Musical Expression
 University of Michigan  
 Ann Arbor, MI, USA  
 May 21-23, 2012  
-http://www.eecs.umich.edu/nime2012/  
+<http://www.eecs.umich.edu/nime2012/>  
 
 Touch  
 Corrine Vessey, Ian Nicolas, and Adam Tindale  
@@ -133,7 +132,7 @@ Linux Audio Conference
 Stanford University  
 Palo Alto, CA, USA  
 April 12-15, 2012  
-http://lac.linuxaudio.org/2012/  
+<http://lac.linuxaudio.org/2012/>  
 
 CE3C: Past, Present, and Future  
 Kurtis Lesick, Travis Kirton, and Adam Tindale  
@@ -147,14 +146,14 @@ Adam Tindale
 The Lossless Gallery  
 Calgary, AB, Canada  
 March 6, 2012  
-http://acadpopup.wordpress.com/2012/03/03/the-lossless-gallery-opening-next-week/
+<http://acadpopup.wordpress.com/2012/03/03/the-lossless-gallery-opening-next-week/>  
 
 RECORD  
 Adam Tindale  
 [SONiK] Fest 5.0  
 New York, NY, USA  
 March 3, 2012  
-http://sonikfest.info/  
+<http://sonikfest.info/>  
 
 Adam Tindale  
 BYOB Calgary  
@@ -238,13 +237,13 @@ Conference on Interdisciplinary Musicology
 Glasgow University   
 Glasgow, Scotland   
 August 30, 2011 - September 3, 2011   
-http://www.n-ism.org/CIM2011/   
+<http://www.n-ism.org/CIM2011/>   
    
 Understanding Visual Music Conference   
 Concordia University   
 August 26, 2011 - August 27, 2011   
 Montreal, QC, Canada   
-http://uvm2011.hexagram.ca/   
+<http://uvm2011.hexagram.ca/>   
    
 Octophonic: Guest Performance in Mark Lowe's Bin 15   
 Adam Tindale    
@@ -256,7 +255,7 @@ RECORD
 Adam Tindale   
 Calgary, AB, Canada   
 June 11, 2011   
-http://www.speedshow.net/   
+<http://www.speedshow.net/>   
    
 Digital Media 2020 Summit   
 Banff Centre for the Arts,   
@@ -276,7 +275,7 @@ Jordan Tate + Adam Tindale
 .GIF .JPG .PNG .TIF   
 HEREart, New York, NY, USA   
 March 3, 2011 - April 30, 2011   
-http://gjpt.wordpress.com/   
+<http://gjpt.wordpress.com/>   
    
 Vector Rails - Temporal Extinction Event + Evidence - Losperus   
 Convocation Hall   
@@ -289,13 +288,13 @@ Adam Tindale
 Resound Festival  
 Falmouth, England   
 March 25, 2011 - March 27, 2011   
-http://resoundfalmouth2011.tumblr.com/   
+<http://resoundfalmouth2011.tumblr.com/>   
 
 Adam Tindale   
 (Un) Pleasant Over Drones  
 Falmouth, England   
 March 25, 2011   
-http://resoundfalmouth2011.tumblr.com/post/3589356104/un-pleasant-over-drones
+<http://resoundfalmouth2011.tumblr.com/post/3589356104/un-pleasant-over-drones>
    
 ARRAY   
 Rick Silva, Katherine Fraser + Adam Tindale   
@@ -318,7 +317,7 @@ Engineered Air Theatre, EPCOR Centre
 Soundasaurus at EPCOR Centre  
 Calgary, AB, Canada   
 January 21, 2011   
-http://www.hprodeo.ca/2011/soundasaurus   
+<http://www.hprodeo.ca/2011/soundasaurus>   
    
 ALE   
 Midway - High Performance Rodeo   
@@ -331,14 +330,14 @@ DigitalCultures001
 Alberta College of Art + Design   
 Calgary, AB, Canada   
 November 29, 2010   
-http://ce3c.com   
+<http://ce3c.com>   
    
 CLAP   
 Adam Tindale   
 Instructions for Initial Conditions   
 Lincoln, Nebraska,  USA   
 November 5, 2010 – November 29, 2010   
-http://www.driftstation.org/   
+<http://www.driftstation.org/>   
    
 Lossless Processing    
 Jordan Tate + Adam Tindale   
@@ -346,7 +345,7 @@ Unleashed Devices Group Show
 TINT arts @ Watermans   
 London, England   
 September 1, 2010 - October 22, 2010 (Opening September 15, 2010. 6:30 GMT)   
-http://www.watermans.org.uk/exhibitions/unleashed_devices   
+<http://www.watermans.org.uk/exhibitions/unleashed_devices>   
 Check out the  Catalogue   
    
 TPTP in 6 Bits (Lossless Processing + Error)   
@@ -354,7 +353,7 @@ Jordan Tate, Ryan Boatright, + Adam Tindale
 TPTP Space   
 Paris, France   
 October 7, 2010 - October 22, 2010   
-http://tptpspace.net/  
+<http://tptpspace.net/>  
    
 Sphere  
 Adam Tindale  
@@ -362,7 +361,7 @@ Vertico Theatre
 Soulocentric Festival  
 Calgary, Alberta  
 October 9, 2010. 8pm.  
-http://www.soulocentric.org   
+<http://www.soulocentric.org>
    
 Self-Directed Creative Residency   
 Jordan Tate + Adam Tindale   
@@ -399,7 +398,7 @@ TINTarts Lab Virtual Residency
 Jordan Tate, Ryan Boatright, + Adam Tindale   
 London, England / internet   
 June - August, 2010   
-http://lab.tintarts.org/   
+<http://lab.tintarts.org/>
    
 MUTEK   
 Montreal, QC, Canada   
@@ -429,7 +428,7 @@ Paul Becher, Richard Boulet, + Adam Tindale
 Illingworth Kerr Gallery   
 Calgary, AB, Canada   
 April 15, 2010   
-http://www.acad.ab.ca/wh_2010_04_ikg_mic_pd.html   
+<http://www.acad.ab.ca/wh_2010_04_ikg_mic_pd.html>
    
 ALE Performance   
 Alberta College of Art + Design   
@@ -440,7 +439,7 @@ Adam Tindale + Jordan Tate Talk
 Calgary Open Source Software Festival   
 Calgary, AB, Canada   
 April 9, 2010   
-http://cossfest.ca/   
+<http://cossfest.ca/>
    
 Live Cinema Panel   
 The District   
@@ -482,7 +481,7 @@ January 22, 2010
    
 ALE   
 High Performance Rodeo - Midway   
-Epcor Centre   
+EPCOR Centre   
 Calgary, AB, Canada   
 January 8, 2010   
   
