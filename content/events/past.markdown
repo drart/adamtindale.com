@@ -6,6 +6,27 @@
     Date
     Link
 #}
+
+ABA  
+Placebo Space  
+Toronto, ON, Canada  
+November 1, 2013  
+<https://www.facebook.com/events/608937292461267/>
+
+Tweet Your Work at the Unicorn 
+Jeff Watson, Simone Jones, and Adam Tindale
+Gamercamp Conference  
+Toronto, ON, Canada  
+November 1, 2013  
+<http://www.gamercamp.ca/conference/>
+
+Artist Talk   
+Adam Tindale  
+COM 349: Projects in Digital Sound   
+Marymount Manhattan College  
+New York, NY, USA  
+September 30, 2013  
+
 Sarah Peebles, Adam Tindale, Daffyd Hughes, and Ian Jarvis  
 INTERsection Music Festival curated by New Adventures in Sound Art  
 Dundas Square  
