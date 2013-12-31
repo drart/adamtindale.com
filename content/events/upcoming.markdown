@@ -23,7 +23,15 @@ January, 2014
 
 Adam Tindale  
 Function Keys Conference  
-Centre3 for Print and Media Art  
+Centre3 for Print and Media Art < 
 Hamilton, ON, Canada  
 February, 2014
 http://www.functionkeys.ca/
+
+
+Flight by ARRAY_3  
+Jim Olsen, Adam Tindale, and Katherine Fraser  
+Gallgery of Ablerta Media Art  
+Calgary, AB, Canada  
+February 2014 – April 2014  
+
