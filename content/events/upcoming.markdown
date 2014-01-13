@@ -9,10 +9,10 @@
 
 Audiopollination  
 ABA  
-January 15, 2014
 Array Space  
-http://audiopollination.ca/  
-
+January 15, 2014  
+<http://audiopollination.ca/>  
+<https://www.facebook.com/events/1445539602326794/>
 
 What I think Music is Made of  
 Adam Tindale  
@@ -26,10 +26,9 @@ Function Keys Conference
 Centre3 for Print and Media Art < 
 Hamilton, ON, Canada  
 February, 2014
-http://www.functionkeys.ca/
+<http://www.functionkeys.ca/>
 
-
-Flight by ARRAY_3  
+Flight by ARRAY<sub>3</sub>  
 Jim Olsen, Adam Tindale, and Katherine Fraser  
 Gallgery of Ablerta Media Art  
 Calgary, AB, Canada  
