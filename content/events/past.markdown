@@ -11,7 +11,8 @@ Flight by ARRAY<sub>3</sub>
 Jim Olsen, Adam Tindale, and Katherine Fraser  
 Gallgery of Ablerta Media Art  
 Calgary, AB, Canada  
-February 2014 – April 2014  
+January 30, 2014 – April 29, 2014  
+<http://www.epcorcentre.org/WhatsOn/ShowDetails.aspx?show_id=4F31CD9E-9CDC-4BCB-9FB1-DFE0E75376B5>
 
 Audiopollination  
 ABA  

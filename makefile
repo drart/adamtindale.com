@@ -11,7 +11,7 @@
 SITE=adamrtindale@adamtindale.com:adamtindale.com/
 RSYNCFLAGS=-avcz
 TESTFLAGS=$(RSYNCFLAGS) -n
-EXCLUDEFLAGS=--exclude 'blog' --exclude '*.markdown' --exclude 'projects' --exclude '.*' --exclude 'uc'
+EXCLUDEFLAGS=--exclude 'blog' --exclude '*.markdown' --exclude 'projects' --exclude '.*' --exclude 'uc' --exclude='.DS_Store'
 
 default: 
 	hyde gen -r
