@@ -1,3 +1,5 @@
+Title: Past Events
+
 {#
     Title
     Name
@@ -7,28 +9,14 @@
     Link
 #}
 
-Flight by ARRAY<sub>3</sub>  
-Jim Olsen, Adam Tindale, and Katherine Fraser  
-Gallgery of Ablerta Media Art  
-Calgary, AB, Canada  
-January 30, 2014 – April 29, 2014  
-<http://www.epcorcentre.org/WhatsOn/ShowDetails.aspx?show_id=4F31CD9E-9CDC-4BCB-9FB1-DFE0E75376B5>
-
-Audiopollination  
-ABA  
-Array Space  
-January 15, 2014  
-<http://audiopollination.ca/>  
-<https://www.facebook.com/events/1445539602326794/>
-
 ABA  
 Placebo Space  
 Toronto, ON, Canada  
 November 1, 2013  
 <https://www.facebook.com/events/608937292461267/>
 
-Tweet Your Work at the Unicorn  
-Jeff Watson, Simone Jones, and Adam Tindale  
+Tweet Your Work at the Unicorn 
+Jeff Watson, Simone Jones, and Adam Tindale
 Gamercamp Conference  
 Toronto, ON, Canada  
 November 1, 2013  
