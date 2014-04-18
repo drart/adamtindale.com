@@ -11,10 +11,14 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=localhost
+SSH_HOST=adamtindale.com
 SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_USER=adamrtindale
+SSH_TARGET_DIR=adamtindale.com/
+
+RSYNCFLAGS=-avcz
+RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n
+RSYNC_EXCLUDES=--exclude 'blog' --exclude '*.markdown' --exclude 'projects' --exclude '.*' --exclude 'uc' --exclude='.DS_Store'
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -75,39 +79,14 @@ github: publish
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
 
-
-
-####
-
-# 
-# #
-# #
-# #
-# #
 # # derived from this rsync command that worked well for publishing
 # # rsync -e ssh  --size-only -avn --exclude 'projects' --exclude 'uc' --exclude ".*" --exclude 'blog' --exclude '*.markdown' deploy/ adamrtindale@adamtindale.com:adamtindale.com/
 #
-#
-# SITE=adamrtindale@adamtindale.com:adamtindale.com/
-# RSYNCFLAGS=-avcz
-# TESTFLAGS=$(RSYNCFLAGS) -n
-# EXCLUDEFLAGS=--exclude 'blog' --exclude '*.markdown' --exclude 'projects' --exclude '.*' --exclude 'uc' --exclude='.DS_Store'
-#
-# default: 
-# 	hyde gen -r
-#
 # 	push:
-# 		sed -i '' 's/development/production/' site.yaml
-# 			hyde gen -r 
-# 				rsync -e ssh  $(RSYNCFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
-# 					git checkout site.yaml
+# 	hyde gen -r 
+# 	rsync -e ssh  $(RSYNCFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
 #
-# 					test:
-# 						sed -i '' 's/development/production/' site.yaml
-# 							hyde gen -r 
-# 								rsync -e ssh $(TESTFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
-# 									git checkout site.yaml
-#
-# 									clean:
-# 										rm -rf deploy/
+# 	test:
+# 	hyde gen -r 
+# 	rsync -e ssh $(TESTFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
 #

@@ -64,7 +64,7 @@ PAGINATION_PATTERNS = (
 
 MENUITEMS = (
         ('Home', ''),
-        ('Bio/CV', 'info'),
+        ('Bio/CV/Events', 'info'),
         ('Projects', 'projects'),
         ('Code', 'code'),
         )
@@ -74,14 +74,20 @@ STATIC_PATHS = [
         'SIMPLE',
         'record',
         'img',
+#        'js/jquery.github-activity.js',
+#        'js/jquery.timeago.js'
         ]
+
+#EXTRA_PATH_METADATA = {
+#        'js/jquery.github-activity.js' : {'test/js': 'jquery.github-activity.js'},
+#        }
 
 GITHUB_URL = 'https://github.com/drart/'
 
 SOCIAL = (
     ('twitter', 'http://twitter.com/adamtindale'),
     ('github', 'https://github.com/drart/adamtindale.com'),
-    ('email', 'mailto:adam@adamtindale.com'),
+    ('email', '&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#97;&#109;&#64;&#97;&#100;&#97;&#109;&#116;&#105;&#110;&#100;&#97;&#108;&#101;&#46;&#99;&#111;&#109;'),
     ('stackoverflow', 'http://stackoverflow.com/users/1945902/adam-tindale'),
     ('soundcloud', 'https://soundcloud.com/adamtindale'), 
     ('googlescholar', 'http://scholar.google.ca/citations?user=cy820NIAAAAJ&hl=en'), 
@@ -98,7 +104,7 @@ WORKLINKS = (
 
 
 PLUGIN_PATH = 'pelican-plugins'
-PLUGINS = ['neighbors']
+PLUGINS = ['neighbors', 'code_include']
 #PLUGINS = ['neighbors','sitemap']
 
 SITEMAP = {
