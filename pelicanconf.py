@@ -74,8 +74,11 @@ STATIC_PATHS = [
         'SIMPLE',
         'record',
         'img',
-#        'js/jquery.github-activity.js',
-#        'js/jquery.timeago.js'
+        'js/jquery.github-activity.js',
+        'js/jquery.timeago.js',
+        'js/jquery.knob.js',
+        'js/flocking-all.min.js',
+        'missing.html'
         ]
 
 #EXTRA_PATH_METADATA = {
