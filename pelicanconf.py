@@ -71,19 +71,22 @@ MENUITEMS = (
 DISPLAY_PAGES_ON_MENU = False
 
 STATIC_PATHS = [
-        'SIMPLE',
-        'record',
         'img',
         'js/jquery.github-activity.js',
         'js/jquery.timeago.js',
         'js/jquery.knob.js',
         'js/flocking-all.min.js',
-        'missing.html'
+        'missing.html',
+        'records/record/record.html',
         ]
 
-#EXTRA_PATH_METADATA = {
-#        'js/jquery.github-activity.js' : {'test/js': 'jquery.github-activity.js'},
-#        }
+EXTRA_PATH_METADATA = {
+        'js/jquery.github-activity.js' : {'path': 'theme/js/jquery.github-activity.js'},
+        'js/jquery.knob.js' : {'path': 'theme/js/jquery.knob.js'},
+        'js/jquery.timeago.js' : {'path': 'theme/js/jquery.timeago.js'},
+        'js/flocking-all.min.js' : {'path': 'theme/js/flocking-all.min.js'},
+        'records/record/record.html' : {'path': 'record/index.html'}, 
+        }
 
 GITHUB_URL = 'https://github.com/drart/'
 
