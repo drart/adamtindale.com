@@ -1,6 +1,6 @@
 # My Website Redesign 2014
 
-Built with pelican, html5, css, javascript, vim, bash, jquery and probably some other tools.
+Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably some other tools.
 
 ## Inspiration/Attributions
 - <http://danielmiessler.com/study/git>  

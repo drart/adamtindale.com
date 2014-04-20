@@ -78,6 +78,7 @@ STATIC_PATHS = [
         'js/flocking-all.min.js',
         'missing.html',
         'records/record/record.html',
+        'records/simple.html',
         'flocking/template.html',
         'flocking/waveshapetest.html',
         ]
@@ -88,6 +89,7 @@ EXTRA_PATH_METADATA = {
         'js/jquery.timeago.js' : {'path': 'theme/js/jquery.timeago.js'},
         'js/flocking-all.min.js' : {'path': 'theme/js/flocking-all.min.js'},
         'records/record/record.html' : {'path': 'record/index.html'}, 
+        'records/simple.html' : {'path': 'simple/index.html'}, 
         }
 
 GITHUB_URL = 'https://github.com/drart/'
