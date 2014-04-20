@@ -78,6 +78,8 @@ STATIC_PATHS = [
         'js/flocking-all.min.js',
         'missing.html',
         'records/record/record.html',
+        'flocking/template.html',
+        'flocking/waveshapetest.html',
         ]
 
 EXTRA_PATH_METADATA = {
