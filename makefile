@@ -18,7 +18,7 @@ SSH_TARGET_DIR=adamtindale.com/
 
 RSYNCFLAGS=-avcz
 RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n
-RSYNC_EXCLUDES=--exclude 'blog' --exclude '*.markdown' --exclude 'projects' --exclude '.*' --exclude 'uc' --exclude='.DS_Store'
+RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  --exclude='.DS_Store'
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -34,6 +34,7 @@ help:
 	@echo '   make devserver                   start/restart develop_server.sh    '
 	@echo '   ssh_upload                       upload the web site via SSH        '
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
+	@echo '   rsync_test                       test rsync files via rsync+ssh     '
 	@echo '   dropbox_upload                   upload the web site via Dropbox    '
 	@echo '   ftp_upload                       upload the web site via FTP        '
 	@echo '   github                           upload the web site via gh-pages   '
@@ -65,7 +66,10 @@ ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_upload: publish
-	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvz $(RSYNCEXCLUDES) $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
+rsync_test: publish
+	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_TESTFLAGS) $(RSYNCEXCLUDES) $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 dropbox_upload: publish
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
@@ -89,4 +93,5 @@ github: publish
 # 	test:
 # 	hyde gen -r 
 # 	rsync -e ssh $(TESTFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
-#
+# SYNCFLAGS=-avcz
+# TESTFLAGS=$(RSYNCFLAGS) -n

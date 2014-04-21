@@ -13,6 +13,9 @@ Curriculum Vitae
 
     <p> Download my CV. <a href="/media/files/AdamTindaleCV.pdf" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/cv']);">pdf</a> </p>
 
+Events
+------
+
 .. include:: ../events/upcoming.rst
 .. include:: ../events/past.rst
 

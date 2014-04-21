@@ -1,7 +1,7 @@
 .. raw:: html
 
     <h3><a href="#" id="upcoming">Upcoming Events</a></h3>
-    <div id="events" style="display:none;">
+    <div id="futureevents">
 
 | Adam Tindale
 | Function Keys Conference

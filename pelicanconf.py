@@ -53,7 +53,7 @@ DEFAULT_CATEGORY = 'Uncategorized'
 DIRECT_TEMPLATES = ('index', 'archives')
 
 
-IGNORE_FILES = ['.DS_Store', '.DS_Store']
+IGNORE_FILES = ['.DS_Store', '.DS_store']
 
 # http://docs.getpelican.com/en/3.3.0/settings.html#using-pagination-patterns
 PAGINATION_PATTERNS = (
