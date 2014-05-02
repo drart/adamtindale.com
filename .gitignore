@@ -1,5 +1,4 @@
-deploy/
-.hyde_deps
+output/
 .DS_STORE
 .DS_Store
 .*.swp

@@ -1,6 +1,6 @@
-# My Website Redesign 2011
+# My Website Redesign 2014
 
-Built with hyde, html5, css, javascript, vim, bash, processing.js and probably some other tools.
+Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably some other tools.
 
 ## Inspiration/Attributions
 - <http://danielmiessler.com/study/git>  
@@ -8,13 +8,11 @@ Built with hyde, html5, css, javascript, vim, bash, processing.js and probably s
 - <http://jinja.pocoo.org>  
 - <http://gist-it.appspot.com>
 - <http://www.cssplay.co.uk>
-- <http://www.organicgrid.com/#/home>
 
 ## TODO ##
 
 - Add some jquery to appropriate parts
 - Add flocking.js to 404 page
-- Move blog to consistent format 
 
 ## Favicon Code
 

@@ -1,0 +1,39 @@
+<html>
+    <head> 
+    <script src="/theme/js/flocking-all.min.js"></script>
+    <script src="/theme/js/jquery.knob.js"></script>
+    <script>
+    $(document).ready(function(){
+        var synth1 = flock.synth({
+            synthDef : {
+                ugen: "flock.ugen.filter.biquad.lp",
+                freq: {
+                    ugen: "flock.ugen.sinOsc",
+                    rate: "control",
+                    freq: 5,
+                    phase: 0,
+                    mul: 1000,
+                    add: 2200
+                },
+                source: {
+                    id: "source",
+                    ugen: "flock.ugen.impulse",
+                    freq: 4,
+                    mul: 1.0
+                }
+            }
+
+        });
+        flock.enviro.shared.play();
+    });
+    </script>
+</head>
+<body>
+    <!-- 
+    http://stackoverflow.com/questions/7840347/web-audio-api-waveshapernode
+    https://github.com/janesconference/MorningStar/blob/master/audio/WAAMorningStar.js
+    -->
+
+    <div style="position:fixed;bottom:5px;right:5px">Made with <a href="">Flocking.js</a></div>
+</body>
+</html>
