@@ -2,6 +2,10 @@ Bio/CV/Events
 #############
 :slug: info
 
+
+.. image:: /img/adamtindalethumb.jpg
+    :target: /img/adamtindale.jpg
+
 Bio
 ---
 

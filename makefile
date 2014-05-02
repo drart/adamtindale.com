@@ -18,7 +18,8 @@ SSH_TARGET_DIR=adamtindale.com/
 
 RSYNCFLAGS=-avcz
 RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n
-RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  --exclude='.DS_Store'
+RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  
+OLD_RSYNC_FLAGS='-P -rvz'
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -66,10 +67,10 @@ ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_upload: publish
-	rsync -e "ssh -p $(SSH_PORT)" -P -rvz $(RSYNCEXCLUDES) $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -e "ssh -p $(SSH_PORT)"  $(RSYNCFLAGS) $(RSYNC_EXCLUDES) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_test: publish
-	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_TESTFLAGS) $(RSYNCEXCLUDES) $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_TESTFLAGS) $(RSYNC_EXCLUDES) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 dropbox_upload: publish
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
