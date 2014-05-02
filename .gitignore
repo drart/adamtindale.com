@@ -3,3 +3,4 @@ deploy/
 .DS_STORE
 .DS_Store
 .*.swp
+*.pyc
