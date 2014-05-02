@@ -1,6 +1,6 @@
 .. raw:: html
 
-    <h3><a href="#" id="past">Past Events</a></h3>
+    <h3 id="past" style="cursor: pointer; cursor: hand; text-decoration:underline;">Past Events</h3>
     <div id="pastevents">
 
 ..  Title Name Festival/conference name Place Date Link 

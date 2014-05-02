@@ -6,13 +6,12 @@ Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably 
 - <http://danielmiessler.com/study/git>  
 - <http://lesscss.org>  
 - <http://jinja.pocoo.org>  
-- <http://gist-it.appspot.com>
 - <http://www.cssplay.co.uk>
 
 ## TODO ##
 
-- Add some jquery to appropriate parts
-- Add flocking.js to 404 page
+- Better code embed in blog
+- Update projects  https://github.com/NUKnightLab/TimelineJS
 
 ## Favicon Code
 

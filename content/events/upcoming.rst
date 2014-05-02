@@ -1,6 +1,6 @@
 .. raw:: html
 
-    <h3><a href="#" id="upcoming">Upcoming Events</a></h3>
+    <h3 id="upcoming" style="cursor: pointer; cursor: hand; text-decoration:underline; ">Upcoming Events</h3>
     <div id="futureevents">
 
 | bart plemenga, Eldad Tsabary, and guests (including me)
@@ -26,4 +26,3 @@
 .. raw:: html
 
     </div>
-
