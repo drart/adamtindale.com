@@ -4,7 +4,14 @@
     <div id="pastevents">
 
 ..  Title Name Festival/conference name Place Date Link 
- 
+
+| bart plemenga, Eldad Tsabary, and guests (including me)
+| Yodel EA OH!
+| New Adventures in Sound Art
+| Toronto, ON, Canada
+| May 3, 2014
+| https://www.facebook.com/events/465044103597779/ 
+|
 | Flight by ARRAY3
 | Jim Olsen, Adam Tindale, and Katherine Fraser
 | Gallgery of Ablerta Media Art
