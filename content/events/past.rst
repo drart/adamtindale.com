@@ -5,13 +5,19 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
-| Adam Tindale
+| Brian Garbet, James O'Callaghan, and Adam Tindale
 | Coast x Coast
+| Canadian Music Centre
+| Toronto, ON, Canada
+| August 12, 2014
 | https://www.musiccentre.ca/node/122352
 | 
 | Woods by ARRAY3
 | Jim Olsen, Adam Tindale, and Katherine Fraser
 | Parkdale Video Showcase
+| Toronto, ON, Canada
+| August 8, 2014
+| http://parkdaleshowcase.ca/?page_id=368
 |
 | Adam Tindale
 | Research Rendezvous
