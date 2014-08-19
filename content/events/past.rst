@@ -5,6 +5,20 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Adam Tindale
+| Coast x Coast
+| https://www.musiccentre.ca/node/122352
+| 
+| Woods by ARRAY3
+| Jim Olsen, Adam Tindale, and Katherine Fraser
+| Parkdale Video Showcase
+|
+| Adam Tindale
+| Research Rendezvous
+| OCAD University
+| Toronto, ON, Canada
+| May 22, 2014
+|
 | bart plemenga, Eldad Tsabary, and guests (including me)
 | Yodel EA OH!
 | New Adventures in Sound Art
