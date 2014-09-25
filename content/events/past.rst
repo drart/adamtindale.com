@@ -5,6 +5,28 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Woods by ARRAY3
+| Jim Olsen, Adam Tindale, and Katherine Fraser
+| Filmideo 2014
+| Index Art Center
+| Newark, NJ, USA
+| September 26, 2014
+| http://www.indexartcenter.org/?page_id=62
+|
+| Group Show Curated by Mohammad Rezaei
+| POP Live
+| Quartiers POP
+| Montreal, QC, Canada
+| September 17, 2014 - September 21, 2014
+| http://popmontrealpoplife.tumblr.com/
+|
+| Adam Tindale
+| 8x8
+| HAVN (Hamilton Audio/Visual Node)
+| Hamilton, ON, Canada
+| August 26, 2014
+| https://www.facebook.com/events/359767947505776/
+|
 | Brian Garbet, James O'Callaghan, and Adam Tindale
 | Coast x Coast
 | Canadian Music Centre
