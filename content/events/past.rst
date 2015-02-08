@@ -5,6 +5,19 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Adam Tindale
+| Function Keys Conference
+| Centre3 for Print and Media Art 
+| Hamilton, ON, Canada
+| November 14-16, 2014 
+| http://functionkeys.ca/FunctionKeys2/
+|
+| Adam Tindale and Colin Labadie
+| The End of the Beginning
+| New Music Kingston
+| Kingston, ON, Canada
+| October 26, 2014
+|
 | Woods by ARRAY3
 | Jim Olsen, Adam Tindale, and Katherine Fraser
 | Filmideo 2014
