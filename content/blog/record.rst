@@ -22,6 +22,8 @@ performed either by the artist or by the listener.
 RECORD was premiere at High Performance Rodeo - MIDWAY 2011 in Calgary,
 AB, Canada.
 
-.. _RECORD: http://soundcloud.com/adamtindale/record
-.. _adamtindale: http://soundcloud.com/adamtindale
+RECORD: http://soundcloud.com/adamtindale/sets/record
 
+Soundcloud:  http://soundcloud.com/adamtindale
+
+Webpage: http://www.adamtindale.com/record

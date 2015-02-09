@@ -6,18 +6,10 @@ Current Projects
 ----------------
 
 - Duo with Colin Labadie : Colin Labadie (Electronic Guitar) + Adam Tindale (Electronic Percussion). 2014 - 
-- |colourdataprocessing| : Ryan Boatright, Jordan Tate, + Adam Tindale. (Installation) 2011 - 
-- `For Amplified Dancers + Laptop <http://www.youtube.com/watch?v=hHhkFQQl9CY>`_ : Jeannie Vandekerkhove (Dance + Choreography), Jodie Vandekerkhove (Dance), + Adam Tindale (Electronics). 2011
-- `Octophonic <http://soundcloud.com/adamtindale/octophonic-stereo-redux>`_ : Live Audio Performance Piece. 2011
-- `Record </record>`_ : Online EP. 2011
 - |array| : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 - 
 - |losslessprocessing| : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 
 - `Vector Rails </projects/vectorrails.html>`_ : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 - 
-
-
-.. |colourdataprocessing| raw:: html
-
-    <a href="http://colourdataprocessing.net" target="_blank">Colour Data Processing</a> 
+- `i send data live </projects/isdl.html>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004-
 
 .. |losslessprocessing| raw:: html
 
@@ -37,13 +29,20 @@ Research
 Past Projects
 -------------
 
+- `For Amplified Dancers + Laptop <http://www.youtube.com/watch?v=hHhkFQQl9CY>`_ : Jeannie Vandekerkhove (Dance + Choreography), Jodie Vandekerkhove (Dance), + Adam Tindale (Electronics). 2011
+- `Octophonic <http://soundcloud.com/adamtindale/octophonic-stereo-redux>`_ : Live Audio Performance Piece. 2011
+- |colourdataprocessing| : Ryan Boatright, Jordan Tate, + Adam Tindale. (Installation) 2011 
+- `Record </record>`_ : Online EP. 2011
 - |secretaxis| : Cultural Exchange via Audio Art. 2010
 - `ALE </ale>`_ : ACAD Laptop Ensemble. 2008-2011
 - `The Open Spaces Project </projects/past/openspaces.html>`_  : Daelik (Choreography), Paul Gazzola (Set Design + Dramaturge), + Adam Tindale (Audio + Video). 2009
 - `Duo with Chris Chafe </projects/chrischafe.html>`_  : Chris Chafe (Electronic Celletto) + Adam Tindale (Electronic Drums)  2009
-- `i send data live </projects/isdl.html>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004-2008
 - |trimpin| : Robot Turntables. 2005 
 - |smackon9000| : New Interface for Musical Expression Class Project. 2003
+
+.. |colourdataprocessing| raw:: html
+
+    <a href="http://colourdataprocessing.net" target="_blank">Colour Data Processing</a> 
 
 .. |secretaxis| raw:: html
 
