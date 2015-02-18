@@ -16,6 +16,7 @@
 | NUMUS: MIX
 | Waterloo, ON, Canada
 | April 17, 2015
+| http://numus.on.ca/14-15-season/vignettes-a-go-go/
 
 .. raw:: html
 
