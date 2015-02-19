@@ -66,6 +66,7 @@ MENUITEMS = (
         ('Home', ''),
         ('Bio/CV/Events', 'info'),
         ('Projects', 'projects'),
+        ('Research', 'research'),
         ('Code', 'code'),
         )
 DISPLAY_PAGES_ON_MENU = False
