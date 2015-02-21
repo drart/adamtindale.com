@@ -19,12 +19,6 @@ Current Projects
 
     <a href="http://a-r-r-a-y.com" target="_blank">ARRAY</a> 
 
-Research
---------
-
-- `E-Drumset </projects/research/edrumset.html>`_ 
-- `Acoustically Excited Physical Models </projects/research/acoustically-excited.html>`_
-- `Timbre-Recognition Based Instruments </projects/research/timbre-recognition.html>`_
 
 Past Projects
 -------------

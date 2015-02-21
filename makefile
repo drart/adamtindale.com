@@ -18,7 +18,8 @@ SSH_TARGET_DIR=adamtindale.com/
 
 RSYNCFLAGS=-avcz
 RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n
-RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  
+#RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  
+RSYNC_EXCLUDES=--exclude='.*'  
 OLD_RSYNC_FLAGS='-P -rvz'
 
 DROPBOX_DIR=~/Dropbox/Public/
