@@ -22,7 +22,7 @@ Read my Ph.D. dissertation on the E-Drumset `[.pdf] </media/files/thesis.pdf>`_
 Acoustically Excited Physical Models
 ------------------------------------
 
-Demo of acoustically excited physical models with `timbre recognition. </projects/research/timbre-recognition/>`_
+Demo of acoustically excited physical models with timbre recognition. 
 
 .. raw:: html
 

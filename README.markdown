@@ -11,7 +11,7 @@ Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably 
 ## TODO ##
 
 - Better code embed in blog
-- Update projects  https://github.com/NUKnightLab/TimelineJS
+- http://css-tricks.com/persistent-headers/ -- do this kind of thing with the footer
 
 ## Favicon Code
 
