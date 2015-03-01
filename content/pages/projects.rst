@@ -8,7 +8,7 @@ Current Projects
 - Duo with Colin Labadie : Colin Labadie (Electronic Guitar) + Adam Tindale (Electronic Percussion). 2014 - 
 - |array| : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 - 
 - |losslessprocessing| : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 
-- `Vector Rails </projects/vectorrails.html>`_ : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 - 
+- `Vector Rails </projects/vectorrails/>`_ : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 - 
 - `i send data live </projects/isdl.html>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004-
 
 .. |losslessprocessing| raw:: html
