@@ -9,7 +9,7 @@ Current Projects
 - |array| : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 - 
 - |losslessprocessing| : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 
 - `Vector Rails </projects/vectorrails/>`_ : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 - 
-- `i send data live </projects/isdl.html>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004-
+- `i send data live </projects/isenddatalive/>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004-
 
 .. |losslessprocessing| raw:: html
 
