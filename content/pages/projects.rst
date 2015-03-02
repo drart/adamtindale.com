@@ -30,7 +30,7 @@ Past Projects
 - |secretaxis| : Cultural Exchange via Audio Art. 2010
 - `ALE </ale>`_ : ACAD Laptop Ensemble. 2008-2011
 - `The Open Spaces Project </blog/documentation/open-spaces-project/>`_  : Daelik (Choreography), Paul Gazzola (Set Design + Dramaturge), + Adam Tindale (Audio + Video). 2009
-- `Duo with Chris Chafe </projects/chrischafe.html>`_  : Chris Chafe (Electronic Celletto) + Adam Tindale (Electronic Drums)  2009
+- `Duo with Chris Chafe </projects/chrischafe/>`_  : Chris Chafe (Electronic Celletto) + Adam Tindale (Electronic Drums)  2009
 - |trimpin| : Robot Turntables. 2005 
 - |smackon9000| : New Interface for Musical Expression Class Project. 2003
 
