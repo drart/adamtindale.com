@@ -118,7 +118,6 @@ WORKLINKS = (
 
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['neighbors', 'code_include']
-#PLUGINS = ['neighbors','sitemap']
 
 SITEMAP = {
         'format': 'xml',
