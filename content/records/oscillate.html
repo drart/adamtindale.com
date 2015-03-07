@@ -5,7 +5,7 @@
     <style>
         body { font-family: serif; font-style: italic; width: 100%; height: 100%; font-size: 25px; overflow: hidden; }
         html { 
-            background: url(/img/oscillate/background.jpg) no-repeat center center fixed; 
+            background: url(/img/oscillate/background1.jpg) no-repeat center center fixed; 
             font-size:10pt;
             font-family:Georgia,Serif;
         }
@@ -45,19 +45,34 @@
 
         /// ANIMATION BLOCK for lines and playhead
         var c=document.getElementById("animation");
+	var halfwidth = c.width/2;
+	var phase = 0;
         function draw()
         {
             //http://www.vectorlight.net/html5/tutorials/simple_animation.aspx
             var ctx=c.getContext("2d");
             ctx.clearRect(0,0,c.width,c.height); // http://jsperf.com/ctx-clearrect-vs-canvas-width-canvas-width/4
 
-            for (var i = 0; i < 25; i++)
-            {
-                ctx.beginPath();
-                ctx.moveTo(0,      Math.floor(c.height/2 + ( c.height/2) * Math.random()));
-                ctx.lineTo(c.width,Math.floor(c.height/2 + ( c.height/2) * Math.random()));
-                ctx.stroke();
-            }
+	    ctx.beginPath();
+	    ctx.moveTo(0,c.height/2);
+	    for (var i = 0 ; i < halfwidth ; i++)
+	    {
+		ctx.lineTo(i, c.height/2* Math.sin(Math.PI * 2 * (i/halfwidth) + phase) + c.height/2);	
+	    } 
+		ctx.stroke()
+	
+
+	    ctx.beginPath();
+	    ctx.moveTo(halfwidth,c.height/2);
+	    for (var i = halfwidth ; i < c.width; i++)
+	    {
+		ctx.lineTo(i, (i < phase/(Math.PI*2) * c.width) ? c.height-1: 1);	
+	    }
+		ctx.stroke()
+	
+	    phase += 0.3;
+            phase = (phase > Math.PI * 2) ? 0 : phase;
+		
         }
 
         function animate()  // http://creativejs.com/resources/requestanimationframe/
