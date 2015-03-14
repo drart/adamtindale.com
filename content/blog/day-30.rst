@@ -11,7 +11,7 @@ the screen. For each frame of audio a particle is moved from the middle
 screen. I was surprised how easy spectral flux was and how great it
 could look.
 
-This link was invaluable.
+`This link was invaluable. <http://apistudios.com/hosted/marzec/badlogic/wordpress/?cat=18>`_
 
 .. image:: /img/blog/creative-pact-2010/screen-0699.jpg
     :alt: Screenshot of software.

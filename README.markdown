@@ -11,7 +11,12 @@ Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably 
 ## TODO ##
 
 - Better code embed in blog
+    - Code Include plugin
+    - pelican gist plugin
+    - github activity plugin
 - http://css-tricks.com/persistent-headers/ -- do this kind of thing with the footer
+- check out ical plugin for managing events? 
+- check out pelican-youtube for a more consistent way embedding links
 
 ## Favicon Code
 
@@ -30,3 +35,4 @@ The favicon is made with Processing.
 
     // %> mv favicon.png favicon.ico
 
+<https://gist.github.com/drart/1344171>
