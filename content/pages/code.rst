@@ -7,6 +7,7 @@ You can find links to specific pieces of code below. If you'd like to get social
 iOS
 ---
 
+-  `Power-Bean <https://github.com/drart/Power-Bean>`_: an iOS app to control a Lightblue Bean to turn a PowerSwitch Tail II on and off. 
 -  `SynAppSender <https://github.com/drart/SynAppSender>`_: an app for collecting real-time responses from synaesthetes
 -  `C4-libpd <https://github.com/drart/C4-libpd>`_: a merge of libpd with C4
 
@@ -20,12 +21,17 @@ Processing
 -  Colour Data Processing 
     - `Project Link <http://www.colourdataprocessing.net>`_
     -  `Colour Data Processing <https://github.com/drart/Colour-Data-Processing>`_ (Code Link)
--  `Petcha Kutcha Presenter <https://gist.github.com/1226756>`_
--  `Website Favicon <https://gist.github.com/1344171>`_
+-  `Petcha Kutcha Presenter <https://gist.github.com/1226756>`_: a basic tool to present 20 images for 20 seconds each.
+-  `Website Favicon <https://gist.github.com/1344171>`_: why draw with anything besides code? 
 
 Visit `processing.org <http://www.processing.org>`_
 
 .. {# ## Max/MSP + Max4Live - artlib2 (coming soon!): a library of logic and DSP devices for Max4Live #}
+
+Javascript
+----------
+
+- `FlOrKestra <https://github.com/florkestra>`_: a laptop orchestra based on Flocking.js
 
 Pure Data
 ---------
@@ -37,7 +43,7 @@ Pure Data
 HTML
 ----
 
--  `This website <https://github.com/drart/adamtindale.com>`_:  Hyde, Processing.js, jQuery, Javascript, CSS3, oh my!
+-  `This website <https://github.com/drart/adamtindale.com>`_:  Pelican, mmenu, jQuery, Javascript, CSS3, oh my!
 
 Past Projects
 -------------
