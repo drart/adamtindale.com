@@ -10,6 +10,4 @@ Rolling
 
 --------------
 
-.. raw:: html
-
-    <script src="https://gist.github.com/drart/8461515.js"></script>
+[gist:id=8461515]

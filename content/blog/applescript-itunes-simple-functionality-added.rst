@@ -9,9 +9,7 @@ to stay hovering over iTunes for the end of the song. There isn't a
 button to do this but we do have Applescript. Here is the hard way to do
 it.
 
-.. raw:: html
-
-    <script src="https://gist.github.com/drart/8456341.js"></script>
+[gist:id=8456341]
 
 Thanks to `Doug's Applescript for iTunes reference for the reveal
 command.`_

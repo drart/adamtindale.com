@@ -23,9 +23,7 @@ http://www.emvergeoning.com/?p=1095
 .. image:: /img/blog/2010/08/export.gif
     :alt: animated gif 
 
-.. raw:: html
-
-    <script src="https://gist.github.com/drart/8461032.js"></script>
+[gist:id=8461032]
 
 
 
