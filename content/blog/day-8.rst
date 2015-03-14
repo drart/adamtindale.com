@@ -28,7 +28,10 @@ see what I see when it is running, or run the code yourself.
 
 
 .. image:: /img/blog/creative-pact-2010/screen-0707.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-5458.jpg
+    :alt: Screenshot of software.
 
 --------------
 

@@ -18,7 +18,10 @@ and then I played around with rotating boxes again. Look, it isn't black
 and white!
 
 .. image:: /img/blog/creative-pact-2010/screen-0294.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0965.jpg
+    :alt: Screenshot of software.
 
 --------------
 

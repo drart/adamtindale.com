@@ -13,7 +13,10 @@ It is made with OPENGL again so I have included the code below.
 
 
 .. image:: /img/blog/creative-pact-2010/screen-2463.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0785.jpg
+    :alt: Screenshot of software.
 
 --------------
 

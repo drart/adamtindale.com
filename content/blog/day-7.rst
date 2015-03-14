@@ -20,6 +20,8 @@ This is going to be the way of it until I get more efficient at my
 changing weeks.
 
 .. image:: /img/blog/creative-pact-2010/screen-0107.jpg
+    :alt: Screenshot of software.
+
 
 --------------
 

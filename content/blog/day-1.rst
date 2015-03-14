@@ -13,7 +13,10 @@ location of each plot. These changes aren't radical but they add some
 flavour. Enjoy!
 
 .. image:: /img/blog/creative-pact-2010/screen-0037.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0176.jpg
+    :alt: Screenshot of software.
 
 .. raw:: html
 

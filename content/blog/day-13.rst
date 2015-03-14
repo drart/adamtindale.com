@@ -19,7 +19,10 @@ behave like you expect. Thanks to the `javadocs`_ for Processing.
 I have linked code at the bottom.
 
 .. image:: /img/blog/creative-pact-2010/screen-0203.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0241.jpg
+    :alt: Screenshot of software.
 
 --------------
 

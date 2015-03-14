@@ -5,9 +5,9 @@ THEME = "mmenu-pelican"
 
 SITENAME = 'Adam Tindale'
 SITESUBTITLE = ''
-SITEURL = ''
+SITEURL = 'http://www.adamtindale.com'
 
-ARTICLE_DIR = 'blog'
+ARTICLE_PATHS = ['blog']
 ARTICLE_URL = 'blog/{category}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{category}/{slug}/index.html'
 
@@ -19,7 +19,7 @@ AUTHORS_SAVE_AS = False
 
 PDF_GENERATOR = False
 
-PAGE_DIR = 'pages'
+PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
@@ -116,7 +116,7 @@ WORKLINKS = (
    )
 
 
-PLUGIN_PATH = 'pelican-plugins'
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['neighbors', 'code_include']
 
 SITEMAP = {

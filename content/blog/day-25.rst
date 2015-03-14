@@ -17,7 +17,10 @@ can take spectral centroids and do something meaningful visually. Sounds
 like a research project!
 
 .. image:: /img/blog/creative-pact-2010/screen-1947.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-1164.jpg
+    :alt: Screenshot of software.
 
 --------------
 

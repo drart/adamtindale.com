@@ -24,7 +24,11 @@ eventually do a MINIM version of `sndpeek`_. Maybe tomorrow there will
 be text and waterfall plots... maybe.
 
 .. image:: /img/blog/creative-pact-2010/screen-0175.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0568.jpg
+    :alt: Screenshot of software.
+
 
 --------------
 

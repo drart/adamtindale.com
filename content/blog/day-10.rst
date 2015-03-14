@@ -21,6 +21,8 @@ Again, OPENGL so code will follow the image, now animated.
 
 
 .. image:: /img/blog/creative-pact-2010/day10.gif
+    :alt: Screenshot of software.
+
 
 --------------
 

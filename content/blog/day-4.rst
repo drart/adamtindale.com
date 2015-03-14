@@ -21,7 +21,10 @@ for Frank Bretschneider's EXP.
 `http://www.frankbretschneider.de/Web-Site/exp.html`_
 
 .. image:: /img/blog/creative-pact-2010/screen-0589.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-1116.jpg
+    :alt: Screenshot of software.
 
 --------------
 

@@ -16,7 +16,10 @@ for not having to write simple things over and over!
 
 
 .. image:: /img/blog/creative-pact-2010/screen-0025.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-2910.jpg
+    :alt: Screenshot of software.
 
 --------------
 

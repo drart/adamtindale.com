@@ -17,7 +17,10 @@ play with the log function and see if I can get something a little
 closer to what I think it should look like.
 
 .. image:: /img/blog/creative-pact-2010/screen-0090.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0841.jpg
+    :alt: Screenshot of software.
 
 --------------
 

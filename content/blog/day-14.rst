@@ -12,7 +12,10 @@ brightness and I rendered the circle with a crude particle system. I
 also added some Alva Noto like flashing for fun.
 
 .. image:: /img/blog/creative-pact-2010/screen-0963.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-1225.jpg
+    :alt: Screenshot of software.
 
 --------------
 

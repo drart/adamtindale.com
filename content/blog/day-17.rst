@@ -8,7 +8,11 @@ Today is a simple patch that does a spectral lissajous plot. Enjoy!
 
 
 .. image:: /img/blog/creative-pact-2010/screen-0117.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0218.jpg
+    :alt: Screenshot of software.
+
 
 --------------
 

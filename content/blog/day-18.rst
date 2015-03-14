@@ -18,8 +18,12 @@ key.
 
 I still have to look into waterfall plots and buffering. Maybe tomorrow.
 
-.. |image0| image:: /img/blog/creative-pact-2010/screen-0581.jpg
-.. |image1| image:: /img/blog/creative-pact-2010/screen-0786.jpg
+.. image:: /img/blog/creative-pact-2010/screen-0581.jpg
+    :alt: Screenshot of software.
+
+.. image:: /img/blog/creative-pact-2010/screen-0786.jpg
+    :alt: Screenshot of software.
+
 
 --------------
 

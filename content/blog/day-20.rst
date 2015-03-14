@@ -10,7 +10,10 @@ code. I played a little bit more with the camera in OPENGL. Who knows
 what tomorrow will bring.
 
 .. image:: /img/blog/creative-pact-2010/screen-0659.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0948.jpg 
+    :alt: Screenshot of software.
 
 --------------
 

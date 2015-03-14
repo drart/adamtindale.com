@@ -17,7 +17,10 @@ refocus.
 
 
 .. image:: /img/blog/creative-pact-2010/screen-0789.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-14122.jpg
+    :alt: Screenshot of software.
 
 .. raw:: html
 

@@ -23,7 +23,10 @@ draw vertical or horizontal lines, but who wants to do that?
 
 
 .. image:: /img/blog/creative-pact-2010/screen-0754.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-1271.jpg
+    :alt: Screenshot of software.
 
 --------------
 

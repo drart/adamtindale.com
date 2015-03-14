@@ -14,6 +14,8 @@ I have more time I will look further into the issue or post it on the
 forums but for now I just have a day to make something.
 
 .. image:: /img/blog/creative-pact-2010/glitch.gif
+    :alt: Screenshot of software.
+
 
 .. raw:: html
 

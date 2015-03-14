@@ -24,7 +24,10 @@ Also today I left in some comments in the code for things that I tried
 and abandoned. You can see a bit more into my process with these.
 
 .. image:: /img/blog/creative-pact-2010/screen-0611.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0969.jpg
+    :alt: Screenshot of software.
 
 --------------
 

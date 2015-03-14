@@ -14,7 +14,10 @@ could look.
 This link was invaluable.
 
 .. image:: /img/blog/creative-pact-2010/screen-0699.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-2402.jpg
+    :alt: Screenshot of software.
 
 
 --------------

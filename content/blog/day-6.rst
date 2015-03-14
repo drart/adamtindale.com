@@ -17,7 +17,10 @@ week will be shorter than the weekend ones. I think that is just how it
 goes.
 
 .. image:: /img/blog/creative-pact-2010/screen-0264.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0342.jpg
+    :alt: Screenshot of software.
 
 --------------
 

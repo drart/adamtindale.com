@@ -12,7 +12,10 @@ I think I am going to start looking at saving frames and doing waterfall
 like displays so you can see into the past. That should be fun.
 
 .. image:: /img/blog/creative-pact-2010/screen-0983.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-1529.jpg
+    :alt: Screenshot of software.
 
 --------------
 

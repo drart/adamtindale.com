@@ -15,7 +15,10 @@ one.
 
 
 .. image:: /img/blog/creative-pact-2010/screen-0152.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-2772.jpg
+    :alt: Screenshot of software.
 
 --------------
 

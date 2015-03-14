@@ -13,7 +13,10 @@ a bit tomorrow. I am anxious to try out the granulator and the
 bitcrusher.
 
 .. image:: /img/blog/creative-pact-2010/screen-0026.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-1305.jpg
+    :alt: Screenshot of software.
 
 
 --------------

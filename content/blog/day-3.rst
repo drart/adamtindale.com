@@ -20,7 +20,10 @@ It also has a display for the audio output. I would love to have access
 to the audio input too. More work to be done. I am learning a lot here.
 
 .. image:: /img/blog/creative-pact-2010/screen-0109.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0731.jpg
+    :alt: Screenshot of software.
 
 --------------
 

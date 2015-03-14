@@ -8,7 +8,10 @@ Got a little busy today so I made a quick sketch to see if I understood
 making shapes with OPENGL. I do!
 
 .. image:: /img/blog/creative-pact-2010/screen-0173.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0484.jpg
+    :alt: Screenshot of software.
 
 --------------
 

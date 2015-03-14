@@ -18,7 +18,10 @@ something interesting. Maybe once I sleep on it tomorrow will show me
 the answer.
 
 .. image:: /img/blog/creative-pact-2010/screen-0214.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-0146.jpg
+    :alt: Screenshot of software.
 
 --------------
 

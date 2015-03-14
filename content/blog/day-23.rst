@@ -13,7 +13,10 @@ shapes. That might be another day. For now I have a little reactive
 audio drawing tool that I can expand on in the future.
 
 .. image:: /img/blog/creative-pact-2010/screen-2262.jpg
+    :alt: Screenshot of software.
+
 .. image:: /img/blog/creative-pact-2010/screen-2262.jpg
+    :alt: Screenshot of software.
 
 --------------
 
