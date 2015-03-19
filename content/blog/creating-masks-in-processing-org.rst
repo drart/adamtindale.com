@@ -27,6 +27,8 @@ is just a red background.
 
 [gist:id=8419804]
 
+.. .. gist:: drart/8419804 ImageMask.pde  Java -- works but doesn't do the styling
+
 If you'd like to get fancy you can draw your image and mask offscreen
 and then send the result to the screen. Here is a little code snippet to
 get you started on your journey.
@@ -34,6 +36,7 @@ get you started on your journey.
 --------------
 
 [gist:id=8419817]
+
 
 .. _`http://blog.blprnt.com/`: http://blog.blprnt.com/
 .. _image(): http://processing.org/reference/image_.html
