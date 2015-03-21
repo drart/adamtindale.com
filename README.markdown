@@ -35,8 +35,8 @@ The favicon is made with Processing.
     ellipse(width/2, height/2, width*0.6, height*0.6);
     save("favicon.png");
 ``` 
-``` bash
-    // %> mv favicon.png favicon.ico
+``` shell 
+     %> mv favicon.png favicon.ico
 ```
 
 <https://gist.github.com/drart/1344171>
