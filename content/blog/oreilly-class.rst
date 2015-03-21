@@ -16,6 +16,4 @@ I thought would be important to start.
 I think I may also start a template sketch so I can get straight to my
 idea. I'll be sure to put it up if I get to it.
 
-.. raw:: html
-
-    <script src="https://gist.github.com/drart/8461410.js"></script>
+[gist:id=8461410]

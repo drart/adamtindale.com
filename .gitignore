@@ -3,3 +3,5 @@ output/
 .DS_Store
 .*.swp
 *.pyc
+cache/
+fontconfig/

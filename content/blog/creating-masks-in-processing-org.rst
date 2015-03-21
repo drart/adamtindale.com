@@ -25,10 +25,9 @@ is just a red background.
 
 --------------
 
-.. raw:: html
+[gist:id=8419804]
 
-    <script src="https://gist.github.com/drart/8419804.js"></script>
-
+.. .. gist:: drart/8419804 ImageMask.pde  Java -- works but doesn't do the styling
 
 If you'd like to get fancy you can draw your image and mask offscreen
 and then send the result to the screen. Here is a little code snippet to
@@ -36,9 +35,8 @@ get you started on your journey.
 
 --------------
 
-.. raw:: html
+[gist:id=8419817]
 
-    <script src="https://gist.github.com/drart/8419817.js"></script>
 
 .. _`http://blog.blprnt.com/`: http://blog.blprnt.com/
 .. _image(): http://processing.org/reference/image_.html
