@@ -5,6 +5,13 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Opening Up the Space III: It's Really-Like Music
+| Robert Gill Theatre, Centre for Drama Theatre & Performance Studies
+| University of Toronto
+| Toronto, ON, Canada
+| March 27, 2015
+| `<http://www.cesareschotzko.com/uploads/1/7/8/6/17863507/opening_up_the_space_series_flyer_.pdf>`_
+|
 | Adam Tindale
 | Function Keys Conference
 | Centre3 for Print and Media Art 
