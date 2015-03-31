@@ -128,3 +128,5 @@ SITEMAP = {
             }
         }
 
+
+LOAD_CONTENT_CACHE = False
