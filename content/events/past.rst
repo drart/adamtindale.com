@@ -5,6 +5,13 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Adam Tindale and Colin Labadie
+| The End of the Beginning
+| NUMUS: MIX
+| Waterloo, ON, Canada
+| April 17, 2015
+| http://numus.on.ca/14-15-season/vignettes-a-go-go/
+|
 | Opening Up the Space III: It's Really-Like Music
 | Robert Gill Theatre, Centre for Drama Theatre & Performance Studies
 | University of Toronto
