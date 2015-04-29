@@ -26,3 +26,6 @@ Video
 
     <blockquote class="twitter-tweet" lang="en"><p>Check out the final concert in the <a href="https://twitter.com/hashtag/MIX?src=hash">#MIX</a> series this Friday, featuring <a href="https://twitter.com/Colin_Labadie">@Colin_Labadie</a>, <a href="https://twitter.com/adamtindale">@adamtindale</a> &amp; <a href="https://twitter.com/KasiaCzarski">@KasiaCzarski</a>: <a href="http://t.co/hXUkYaIcJn">http://t.co/hXUkYaIcJn</a></p>&mdash; NUMUS Concerts (@NUMUSConcerts) <a href="https://twitter.com/NUMUSConcerts/status/588084137304711168">April 14, 2015</a></blockquote>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    <blockquote class="twitter-tweet" lang="en"><p>Show starting now at <a href="https://twitter.com/BFactoryarts">@BFactoryarts</a>! Vignettes-a-go-go featuring <a href="https://twitter.com/Colin_Labadie">@Colin_Labadie</a>, <a href="https://twitter.com/adamtindale">@adamtindale</a> &amp; <a href="https://twitter.com/KasiaCzarski">@KasiaCzarski</a>! <a href="http://t.co/jGPSaY918o">pic.twitter.com/jGPSaY918o</a></p>&mdash; Grand Social (@grand_social) <a href="https://twitter.com/grand_social/status/589222500984303616">April 18, 2015</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
