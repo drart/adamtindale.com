@@ -4,6 +4,12 @@
     <div id="futureevents">
 
 | Adam Tindale 
+| Oscillate 
+| Toronto International Electroacoustic Symposium (TIES)
+| Toronto, ON, Canada
+| August, 2015
+|
+| Adam Tindale 
 | Cube
 | Nuit Blanche
 | Toronto, ON, Canada
