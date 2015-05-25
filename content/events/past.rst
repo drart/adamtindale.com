@@ -5,6 +5,13 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Rob Cruickshank, Dafydd Hughes, and Adam Tindale
+| New Music, New Audiences
+| Canadian Music Centre
+| Toronto, ON, Canada
+| May 24, 2015
+| https://www.musiccentre.ca/node/131290
+|
 | Adam Tindale and Colin Labadie
 | The End of the Beginning
 | NUMUS: MIX
