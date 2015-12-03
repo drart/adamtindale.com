@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>tubular, a YouTube Background Player jQuery Plugin | Sean McCambridge Design</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" type="image/png" href="/media/layout/favicon.png" />
+
+	<link href="css/screen.css" rel="stylesheet" type="text/css" /> 
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
+        <script type="text/javascript">
+		$('document').ready(function() {
+			var options = { videoId: 'JYpzxHInlSM', mute: false, repeat: false,  };
+			$('#wrapper').tubular(options);
+
+			$(document).bind('click', function(e){
+				$('#wrapper').toggle();
+			});
+			$('a').bind('click', function(e){
+				e.stopPropagation();
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div id="wrapper" class="clearfix">
+	<div id="main">
+		<a href="http://www.adamtindale.com"><img src="media/icon_noshadow.png" alt="Tubular logo" id="logo" /></a>
+		<div class="black-50">
+<p>Sphere is an audio/visual performance inspired by the shape of the sphere. In music and philosophy there is a long tradition of listening to the music of the spheres. Generally, this concept refers to the planets and the heavens, and with so many millenium of thought and reverence it is hard to separate the celestial wonder from the geometric form.  </p>
+
+<p>Sphere is an attempt to reboot the discussion of the sphere as a musical object. The visual and audio material are based upon the literal and figurative forms of spheres and spherical geometric functions. Modern glitch aesthetics and hacked buffers interlace pure representaional forms contained within the sphere. The form of the sphere is slowly shown to the viewer over the course of the performance and moves through intermediate stages of line and geometric forms reminiscent of contemporary information visualization techniques.</p>
+
+<p>The performance utilizes a Novation Launchpad controller; a LED matrix controller in the style of the Monome. The controller provides dynamic control over the audio and video to expose different material and relationships throughout the performance.</p>
+
+<p>Sphere was premiered at mono.mono//stereo on April 22, 2010 at the EMMEDIA artist run centre in Calgary, Alberta.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
