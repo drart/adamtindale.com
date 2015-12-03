@@ -5,6 +5,20 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Jessica Thompson, Dafydd Hughes, and Adam Tindale
+| New Music, New Audiences
+| Palmerston Library
+| Toronto, ON, Canada
+| November 10, 2015
+| `<https://www.musiccentre.ca/sites/www.musiccentre.ca/files/NM101_media_release_2015.pdf>`_
+|
+| Adam Tindale 
+| Oscillate 
+| Toronto International Electroacoustic Symposium (TIES)
+| Toronto, ON, Canada
+| August 19-22, 2015
+| `<http://naisa.ca/symposia/toronto-electroacoustic-symposium/symposium-overview/?edition=2015>`_
+|
 | Rob Cruickshank, Dafydd Hughes, and Adam Tindale
 | New Music, New Audiences
 | Canadian Music Centre
@@ -25,6 +39,12 @@
 | Toronto, ON, Canada
 | March 27, 2015
 | `<http://www.cesareschotzko.com/uploads/1/7/8/6/17863507/opening_up_the_space_series_flyer_.pdf>`_
+|
+| Dafydd Hughes, Matthew Fava, and Adam Tindale
+| New Music, New Audiences
+| Canadian Music Centre
+| Toronto, ON, Canada
+| March 21, 2015
 |
 | Adam Tindale
 | Function Keys Conference

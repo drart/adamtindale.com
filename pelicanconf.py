@@ -111,6 +111,7 @@ BLOGTITLE = 'Adam\'s Blog'
 BLOGDIR = 'blog' 
 WORKTITLE = 'PIECES'
 WORKLINKS = (
+        ('OSCILLATE (2015)', 'http://www.adamtindale.com/oscillate'), 
         ('SIMPLE (2013)', 'http://www.adamtindale.com/simple'), 
         ('RECORD (2011)', 'http://www.adamtindale.com/record'), 
         ('Sphere (2010)', 'http://www.adamtindale.com/sphere'),
