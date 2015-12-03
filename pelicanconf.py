@@ -79,7 +79,7 @@ STATIC_PATHS = [
         'js/flocking-all.min.js',
         'missing.html',
         'records/record.html',
-        'eecords/simple.html',
+        'records/simple.html',
         'records/oscillate.html',
         'flocking/template.html',
         'flocking/waveshapetest.html',
