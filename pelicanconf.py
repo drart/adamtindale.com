@@ -81,6 +81,7 @@ STATIC_PATHS = [
         'records/record.html',
         'records/simple.html',
         'records/oscillate.html',
+        'records/sphere.html',
         'flocking/template.html',
         'flocking/waveshapetest.html',
         ]
@@ -93,6 +94,7 @@ EXTRA_PATH_METADATA = {
         'records/record.html' : {'path': 'record/index.html'}, 
         'records/simple.html' : {'path': 'simple/index.html'}, 
         'records/oscillate.html' : {'path': 'oscillate/index.html'}, 
+        'records/sphere.html' : {'path': 'sphere/index.html'}, 
         }
 
 GITHUB_URL = 'https://github.com/drart/'

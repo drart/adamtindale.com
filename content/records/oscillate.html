@@ -4,33 +4,32 @@
     <title>RECORD</title>
     <style>
         body { font-family: serif; font-style: italic; width: 100%; height: 100%; font-size: 25px; overflow: hidden; }
-        html { 
-            background: url(/img/oscillate/background1.jpg) no-repeat center center fixed; 
-            font-size:10pt;
-            font-family:Georgia,Serif;
-        }
-        a {
-            text-decoration:none;
-            color:black;
-        }
-        div{
-            text-align:right;
-            position:fixed;
-            bottom:10px;
-            right: 10px;
-        }
+        html { font-family:Georgia,Serif; }
+        a { text-decoration:none; color:black; }
+        div{ text-align:right; position:fixed; bottom:10px; right: 10px; }
         iframe{border:0;margin:0;}
         #animation{ position:fixed; top:40%;  left:0; width:100%; height:100px; }
+        #waveform{position:fixed; top:0; left:0;width:100%;height:18px}
+        #waveformanimation{position:fixed; top:0; left:0;width:100%;height:18px}
     </style>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
 </head>
 <body>
     <canvas id="animation"></canvas>
-    <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/160823599%3Fsecret_token%3Ds-EH9od&amp;color=777777&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>
+    <canvas id="waveformanimation"></canvas>
+    <img id="waveform" src="/img/oscillate/oscillatewaveform.png">
     <div>
         <a href="https://soundcloud.com/adamtindale/sets/oscillate">OSCILLATE</a> <br>
         <a href="http://www.adamtindale.com">Adam Tindale</a> <br>
     </div>
     <script>
+            var trackid = "/tracks/160823599";
+            var trackduration;
+            var mysound = new Audio("http://api.soundcloud.com/tracks/160823599/stream?client_id=c202b469a633a7a5b15c9e10b5272b78");
+            mysound.addEventListener("canplay", function(){
+                this.play(); 
+                window.requestAnimationFrame(draw);
+            });
         /*
         int halfwidth = width/2;
 
@@ -45,8 +44,9 @@
 
         /// ANIMATION BLOCK for lines and playhead
         var c=document.getElementById("animation");
-	var halfwidth = c.width/2;
-	var phase = 0;
+        var w=document.getElementById("waveformanimation");
+        var halfwidth = c.width/2;
+        var phase = 0;
         function draw()
         {
             //http://www.vectorlight.net/html5/tutorials/simple_animation.aspx
@@ -61,7 +61,6 @@
             } 
             ctx.stroke()
         
-
             ctx.beginPath();
             ctx.moveTo(halfwidth,c.height/2);
             for (var i = halfwidth ; i < c.width; i++)
@@ -72,22 +71,15 @@
         
             phase += 0.3;
             phase = (phase > Math.PI * 2) ? 0 : phase;
-		
+            
+            /// waveform animation
+            var wctx=w.getContext("2d");
+            wctx.fill= "#646464";
+            wctx.fillRect(0,0, mysound.currentTime/mysound.duration * c.width, w.height);
+
+            window.requestAnimationFrame(draw);
         }
 
-        function animate()  // http://creativejs.com/resources/requestanimationframe/
-        {
-            reqAnimFrame = window.mozRequestAnimationFrame    ||
-            window.webkitRequestAnimationFrame ||
-            window.msRequestAnimationFrame     ||
-            window.oRequestAnimationFrame;   
-            setTimeout(function(){
-                reqAnimFrame(animate);
-            }, 1000 / 30);
-
-            draw();
-        }
-        animate();
     </script>
     <script>
         var _gaq = [['_setAccount', 'UA-18509679-1'], ['_trackPageview']];
