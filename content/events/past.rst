@@ -5,12 +5,26 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Unorchestrated Structure for Stings with Soloist 
+| Adam Tindale with Kingston Community Strings
+| St. Andrew's Church
+| Kingston, ON, Canada
+| February 19, 2016
+| `<http://kingstoncommunitystrings.org/>`_
+|
 | Jessica Thompson, Dafydd Hughes, and Adam Tindale
 | New Music, New Audiences
 | Palmerston Library
 | Toronto, ON, Canada
 | November 10, 2015
 | `<https://www.musiccentre.ca/sites/www.musiccentre.ca/files/NM101_media_release_2015.pdf>`_
+|
+| Adam Tindale
+| Improvisation as a Method for Investigating Digital Musical Interfaces
+| ProprioMedia
+| Toronto, ON, Canada
+| October 23, 2015
+| https://propriomedia.wordpress.com/23-october-2015/
 |
 | Adam Tindale 
 | Oscillate 
