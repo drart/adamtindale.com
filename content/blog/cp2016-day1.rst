@@ -1,0 +1,16 @@
+Day 1
+#####
+:date: 2016-05-01 04:32
+:author: Admin
+:category: Creative Pact 2016
+
+I'm doing another Creative Pact! This May I will create a new thing every day and put up on this blog. I am going to work with 3 things that I like: `flocking.js <http://www.flockingjs.org>`_, `MYO <https://www.myo.com/>`_, and `C4 <http://www.c4ios.com>`_.  Hopefully by the end of the month I will be able to combine all of them masterfully. 
+
+My first work for creative pact 2016 is a failure, in the sense that it doesn't yet work. I tried to create a C4 app with a UIWebView inside of it that loads flocking. I started by following a `tutorial <http://sourcefreeze.com/uiwebview-example-using-swift-in-ios/>`_ to get UIWebview to load a webpage and then added jquery. OK. So far so good. 
+
+The next step was to load flocking. I added this to the HTML page and I got some messages on the console (frameSizeChanged = 4096). Great. Then I remembered that Apple prevents audio from being loaded in webpages without some sort of user action. So, I looked through the web again and found `the trick <https://www.dforge.net/2013/02/18/uiwebview-muted-sound-in-ios6/>`_. Hooray, I thought. No sound. I tried doing a body click with jQuery to trigger the flock.play() but that didn't work. So, I tried loading a sound file, which also didn't work. Can flocking play in a UIWebView? Maybe, but not by me today. Tomorrow is another day. 
+
+.. raw:: html
+
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY1/UIWebViewFlock/WorkSpace.swift"></script>
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY1/UIWebViewFlock/home.html"></script>

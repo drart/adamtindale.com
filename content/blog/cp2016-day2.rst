@@ -1,0 +1,28 @@
+Day 2
+#####
+:date: 2016-05-02 20:22
+:author: Admin
+:category: Creative Pact 2016
+
+Code. Fail. Stop. Sleep. Repeat. 
+
+Sometimes this works. But only if you insert share somewhere in the loop. Yesterday's sketch was great to get my coding chops resurected but didn't yield that much useful code for the world. After posting to the flocking mailing list, Colin reminded me of the recent iOS bug and promptly `fixed it <https://github.com/colinbdclark/Flocking/issues/173>`_. Amazing. 
+
+So, I took yesterday's code and stripped back a few parts and made a simple on and off button with some C4 animations. I love the way C4 morphs between shapes. I made a simple block of text be the start and morph to a stop button. The flocking sketch is still simple, but it is a start to something wonderful. I'm going to stop with this small victory. 
+
+.. image:: /img/blog/creative-pact-2016/8.04.46.png
+    :alt: Screenshot of software.
+
+.. image:: /img/blog/creative-pact-2016/8.05.08.png
+    :alt: Screenshot of software.
+
+.. image:: /img/blog/creative-pact-2016/8.05.16.png
+    :alt: Screenshot of software.
+
+.. image:: /img/blog/creative-pact-2016/8.05.21.png
+    :alt: Screenshot of software.
+
+.. raw:: html
+
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY2/DAY2/WorkSpace.swift"></script>
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY2/DAY2/home.html"></script>

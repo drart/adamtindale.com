@@ -5,6 +5,13 @@
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| ARRAY
+| Adam Tindale and Katherine Fraser
+| in the soil arts festival
+| St. Catherine's, ON, Canada
+| April 29, 2016
+| `<http://www.inthesoil.on.ca/>`_
+|
 | Unorchestrated Structure for Stings with Soloist 
 | Adam Tindale with Kingston Community Strings
 | St. Andrew's Church
