@@ -1,0 +1,12 @@
+Day 4
+#####
+:date: 2016-05-04 22:32
+:author: Admin
+:category: Creative Pact 2016
+
+A simple one today, but importantly a variant of the flocking sketch. This is a stereo envelope that can be modulated with a single slider. Enjoy.
+
+.. raw:: html
+
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY4/DAY4/WorkSpace.swift"></script>
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY4/DAY4/home.html"></script>

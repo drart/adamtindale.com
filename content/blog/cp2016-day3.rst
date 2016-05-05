@@ -1,0 +1,20 @@
+Day 3
+#####
+:date: 2016-05-03 20:25
+:author: Admin
+:category: Creative Pact 2016
+
+Today I made a simple sketch using `UIWebView.stringByEvaluatingJavaScriptFromString(string:string) <https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIWebView_Class/#//apple_ref/occ/instm/UIWebView/stringByEvaluatingJavaScriptFromString:>`_ to send UISlider values from C4 to Flocking. It worked! There is simple synth that has a frequency and amplitude control and I used the flock.ugen.scope in order to display the output in the UIWebView. A few simple tricks together makes for a great demo. 
+
+Next trick will be to start to make something that sounds interesting. I'm starting to get confident enough to attempt it. 
+
+.. image:: /img/blog/creative-pact-2016/8.03.08.png
+    :alt: Screenshot of software.
+
+.. image:: /img/blog/creative-pact-2016/8.03.14.png
+    :alt: Screenshot of software.
+
+.. raw:: html
+
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY3/DAY3/WorkSpace.swift"></script>
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY3/DAY3/home.html"></script>
