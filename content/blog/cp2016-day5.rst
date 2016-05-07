@@ -1,0 +1,16 @@
+
+Day 5
+#####
+:date: 2016-05-05 04:32
+:author: Admin
+:category: Creative Pact 2016
+
+Today was a tooling day. I've been building the apps in the simulator but what about launching it on actual hardware. So, because I am running 9.3 on my phone I had to finally upgrade to 10.11. Then it was updating XCode to the latest version and reinstalling C4. Fun times. The result was great to be able to walk around with the results on my phone. Hoorah!
+
+To make things more fun I checked out Dringend, an app that connects to your mac and lets you code on your device and then launch the result on your device. No more plugging in the phone just to upload. Even better I can do a bit of hacking on the go. Awesome. Just awesome. I had a bit of a problem getting started and emailed the developer who had me up and running in less than an hour. Amazing.
+
+- `Dringend <http://dringend.cc/>`_
+- OSX 10.11
+
+.. image:: /img/blog/creative-pact-2016/2.00.44.png
+    :alt: A screenshot of software 

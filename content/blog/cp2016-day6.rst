@@ -6,6 +6,10 @@ Day 6
 
 Another simple test today. A button. Are buttons in iOS really this bad? Is there no UIControlAction that deals with touch releases being both inside and outside of a button? Odd. 
 
+
+.. image:: /img/blog/creative-pact-2016/9.51.02.png
+    :alt: Screenshot of software.
+
 .. raw:: html
 
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY6/DAY6/WorkSpace.swift"></script>
