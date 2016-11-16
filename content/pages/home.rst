@@ -17,7 +17,3 @@ Adam Tindale
 
 
 .. include:: ../events/upcoming.rst
-
-.. raw:: html
-
-    <script> $("#futureevents").hide() </script>

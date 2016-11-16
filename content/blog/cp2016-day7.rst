@@ -1,0 +1,15 @@
+Day 7
+#####
+:date: 2016-05-07 21:52
+:author: Admin
+:category: Creative Pact 2016
+:status: draft
+
+.. image:: /img/blog/creative-pact-2016/9.51.02.png
+    :alt: Screenshot of software.
+
+A simple test with the MYO and C4ios.
+
+.. raw:: html
+    
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY7/DAY7/WorkSpace.swift"></script>

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 THEME = "mmenu-pelican"
+#THEME = "simple-animation"
 
 SITENAME = 'Adam Tindale'
 SITESUBTITLE = ''
@@ -121,7 +122,10 @@ WORKLINKS = (
 
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['neighbors', 'code_include', 'pelican_gist', 'gist_directive']
+#PLUGINS = ['neighbors', 'code_include', 'pelican_gist', 'gist_directive', 'pelican_git']
+PLUGINS = ['neighbors', 'code_include',  'gist_directive']
+
+GIT_CACHE_ENABLED = True
 
 SITEMAP = {
         'format': 'xml',
