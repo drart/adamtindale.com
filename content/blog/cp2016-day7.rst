@@ -10,6 +10,8 @@ Day 7
 
 A simple test with the MYO and C4ios.
 
+.. github:: drart CREATIVEPACT2016/master/DAY7/DAY7/WorkSpace.swift
+
 .. raw:: html
     
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT2016/blob/master/DAY7/DAY7/WorkSpace.swift"></script>
