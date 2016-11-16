@@ -31,11 +31,6 @@ I have linked code at the bottom.
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY13/DAY13.pde"></script>
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY13/StackBlur.pde"></script>
 
-Code here:
-
-`http://www.adamtindale.com/code/processing/creativepact2010/DAY13/`_
-
 .. _quasimondo: http://incubator.quasimondo.com/processing/stackblur.pde
 .. _javadocs: http://processing.googlecode.com/svn/trunk/processing/build/javadoc/core/index.html
-.. _`http://www.adamtindale.com/code/processing/creativepact2010/DAY13/`: http://www.adamtindale.com/code/processing/creativepact2010/DAY13/
 

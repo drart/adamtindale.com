@@ -28,16 +28,10 @@ for Frank Bretschneider's EXP.
 
 --------------
 
-Today's Code:
-
 .. raw:: html
 
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY4/DAY4.pde"></script>
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY4/Swap.pde"></script>
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY4/DrawWave.pde"></script>
 
-`http://www.adamtindale.com/code/processing/creativepact2010/DAY4/`_
-
 .. _`http://www.frankbretschneider.de/Web-Site/exp.html`: http://www.frankbretschneider.de/Web-Site/exp.html
-.. _`http://www.adamtindale.com/code/processing/creativepact2010/DAY4/`: http://www.adamtindale.com/code/processing/creativepact2010/DAY4/
-

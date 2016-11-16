@@ -29,20 +29,14 @@ be text and waterfall plots... maybe.
 .. image:: /img/blog/creative-pact-2010/screen-0568.jpg
     :alt: Screenshot of software.
 
-
 --------------
 
 .. raw:: html
 
-    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY5/DAY5.pde></script>    
-    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY5/SPECTRAL.pde></script>    
-    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY5/TIME.pde></script>    
-
-Today's code:
-
-`http://www.adamtindale.com/code/processing/creativepact2010/DAY5/`_
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY5/DAY5.pde"></script>    
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY5/SPECTRAL.pde"></script>    
+    <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY5/TIME.pde"></script>    
 
 .. _jAudio: http://jmir.sourceforge.net/jAudio.html
 .. _sndpeek: http://soundlab.cs.princeton.edu/software/sndpeek/
-.. _`http://www.adamtindale.com/code/processing/creativepact2010/DAY5/`: http://www.adamtindale.com/code/processing/creativepact2010/DAY5/
 

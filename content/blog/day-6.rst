@@ -30,8 +30,5 @@ Today's Code:
 
     <script src="http://gist-it.appspot.com/github/drart/CREATIVEPACT/blob/master/DAY6/DAY6.pde"></script>
 
-`www.adamtindale.com/code/processing/creativepact2010/DAY6`_
-
 .. _The Wire: http://www.imdb.com/title/tt0306414/
-.. _www.adamtindale.com/code/processing/creativepact2010/DAY6: http://www.adamtindale.com/code/processing/creativepact2010/DAY6
 
