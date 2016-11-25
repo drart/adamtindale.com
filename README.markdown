@@ -10,14 +10,11 @@ Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably 
 
 ## TODO ##
 
-- Better code embed in blog
-    - Code Include plugin (pelican-gist vs gist-directive) investigate style options
-    - ~~pelican gist plugin~~
-    - ~~github activity plugin instead of javascript method?~~ (was a bad idea)
-    - ~~maybe add code as submodules?~~ (bad idea)
-- ~~http://css-tricks.com/persistent-headers/ -- do this kind of thing with the footer~~ (bad idea)
-- ~~check out ical or events plugin for managing events?~~ (bad idea)
-- ~~check out pelican-youtube for a more consistent way embedding links~~ (not configurable globally, doesn't help)
+- Better code embed in blog (migrate from gist-it)
+    -  gist-directive. investigate style options
+- migrate to simple-animation theme
+- better navigation and project listing
+- better listing to experiments (flocking directory?)
 
 ## Favicon Code
 

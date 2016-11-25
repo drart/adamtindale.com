@@ -7,24 +7,20 @@ You can find links to specific pieces of code below. If you'd like to get social
 iOS
 ---
 
--  `Power-Bean <https://github.com/drart/Power-Bean>`_: an iOS app to control a Lightblue Bean to turn a PowerSwitch Tail II on and off. 
+-  `Power-Bean <https://github.com/drart/Power-Bean>`_: an iOS app to control a Lightblue Bean to turn a PowerSwitch Tail II on and off
 -  `SynAppSender <https://github.com/drart/SynAppSender>`_: an app for collecting real-time responses from synaesthetes
--  `C4-libpd <https://github.com/drart/C4-libpd>`_: a merge of libpd with C4
-
-Visit `www.c4ios.com <http://www.c4ios.com/>`_
+-  `C4-libpd <https://github.com/drart/C4-libpd>`_: a merge of libpd with `C4 <http://www.c4ios.com/>`_ (deprecated)
 
 Processing
 ----------
 
 -  `Synaesthesia Server <https://github.com/drart/Synaesthesia2013>`_: a server application for SynAppSender
--  `Lossless Processing <http://www.losslessprocessing.tumblr.com>`_ (Project Link - code soon!)
--  Colour Data Processing 
-    - `Project Link <http://www.colourdataprocessing.net>`_
-    -  `Colour Data Processing <https://github.com/drart/Colour-Data-Processing>`_ (Code Link)
--  `Petcha Kutcha Presenter <https://gist.github.com/1226756>`_: a basic tool to present 20 images for 20 seconds each.
+-  `Lossless Processing <http://www.losslessprocessing.tumblr.com>`_ : a collaboration with Joran Tate that started with a question about reordering pixels in an image
+-  `Colour Data Processing <http://www.colourdataprocessing.net>`_  : installation exploring colour representation. `code <https://github.com/drart/Colour-Data-Processing>`_ 
+-  `Petcha Kutcha Presenter <https://gist.github.com/1226756>`_: a basic tool to present 20 images for 20 seconds each
 -  `Website Favicon <https://gist.github.com/1344171>`_: why draw with anything besides code? 
 
-Visit `processing.org <http://www.processing.org>`_
+.. Visit `processing.org <http://www.processing.org>`_
 
 .. {# ## Max/MSP + Max4Live - artlib2 (coming soon!): a library of logic and DSP devices for Max4Live #}
 

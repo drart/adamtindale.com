@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-THEME = "mmenu-pelican"
-#THEME = "simple-animation"
+#THEME = "mmenu-pelican"
+THEME = "simple-animation"
 
 SITENAME = 'Adam Tindale'
 SITESUBTITLE = ''
@@ -40,6 +40,8 @@ TIMEZONE = 'America/Toronto'
 # http://stackful-dev.com/static-site-jinja-pelican-shared-templates.html
 
 DEFAULT_LANG = 'en'
+
+DEFAULT_DATE_FORMAT = '%A %B %d, %Y'
 
 # Blogroll
 # LINKS =  ('Pelican', 'http://docs.notmyidea.org/alexis/pelican/')
