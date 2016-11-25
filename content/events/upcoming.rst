@@ -7,3 +7,7 @@
 .. raw:: html
 
     </div>
+
+.. raw:: html
+
+    <script>if (document.getElementById('upcoming').children.length === 0 ) document.getElementById('upcoming').hidden = true;</script>

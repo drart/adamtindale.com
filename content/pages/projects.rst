@@ -7,9 +7,8 @@ Current Projects
 
 - `Duo with Colin Labadie </projects/colinlabadie/>`_ : Colin Labadie (Electronic Guitar) + Adam Tindale (Electronic Percussion). 2014 - 
 - |array| : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 - 
-- |losslessprocessing| : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 
 - `Vector Rails </projects/vectorrails/>`_ : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 - 
-- `i send data live </projects/isenddatalive/>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004-
+- `i send data live </projects/isenddatalive/>`_ : Robin Davies (Laptop) + Adam Tindale (Electronic Drums)  2004 -
 
 .. |losslessprocessing| raw:: html
 
@@ -19,6 +18,14 @@ Current Projects
 
     <a href="http://a-r-r-a-y.com" target="_blank">ARRAY</a> 
 
+Online Pieces
+-------------
+
+
+- `OSCILLATE </oscillate>`_ : 2015
+- `SIMPLE </simple>`_ : 2013
+- `RECORD </record>`_  : 2011
+- `SPHERE </sphere>`_  : 2010
 
 Past Projects
 -------------
@@ -27,8 +34,9 @@ Past Projects
 - `Octophonic <http://soundcloud.com/adamtindale/octophonic-stereo-redux>`_ : Live Audio Performance Piece. 2011
 - |colourdataprocessing| : Ryan Boatright, Jordan Tate, + Adam Tindale. (Installation) 2011 
 - `Record </record>`_ : Online EP. 2011
+- |losslessprocessing| : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 2011 
 - |secretaxis| : Cultural Exchange via Audio Art. 2010
-- `ALE </ale>`_ : ACAD Laptop Ensemble. 2008-2011
+- `ALE </ale>`_ : ACAD Laptop Ensemble. 2008 - 2011
 - `The Open Spaces Project </blog/documentation/open-spaces-project/>`_  : Daelik (Choreography), Paul Gazzola (Set Design + Dramaturge), + Adam Tindale (Audio + Video). 2009
 - `Duo with Chris Chafe </projects/chrischafe/>`_  : Chris Chafe (Electronic Celletto) + Adam Tindale (Electronic Drums)  2009
 - |trimpin| : Robot Turntables. 2005 
