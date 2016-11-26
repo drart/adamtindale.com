@@ -11,7 +11,7 @@ A cybernetic audience-controlled, audio-visual performance piece. A tribute to B
 
 Performed by `David Schotzko <http://davidschotzko.com/>`_, `Richard Windeyer <http://richardwindeyer.com/>`_ , and `Adam Tindale <http://www.adamtindale.com>`_ on March 27, 2015 at the Gil Theatre in Toronto, Canada as part of the `Opening Up the Space Festival. </media/files/opening_up_the_space_series_flyer_.pdf>`_
 
-`Read Richard's blog on the performance.<https://richardwindeyer.com/2015/08/01/punchcard-rewind/>`_ 
+`Read Richard's blog on the performance. <https://richardwindeyer.com/2015/08/01/punchcard-rewind/>`_ 
 
 Code
 ----

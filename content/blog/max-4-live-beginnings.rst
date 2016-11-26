@@ -15,6 +15,4 @@ send levels and links that to a GUI control in the patch. It is a good
 starting point if you are new and it helped me clarify a lot of things
 by going through the exercise. Enjoy.
 
-`http://www.adamtindale.com/site/index.php?/software/max-4-live/`_
-
-.. _`http://www.adamtindale.com/site/index.php?/software/max-4-live/`: http://www.adamtindale.com/site/index.php?/software/max-4-live/
+https://gist.github.com/drart/12a76ce5f5d66e434aa1a09d026f98b8
