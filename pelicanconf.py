@@ -114,6 +114,8 @@ SOCIAL = (
 # theme variables
 BLOGTITLE = 'Adam\'s Blog' 
 BLOGDIR = 'blog' 
+RECENT_BLOG = True
+
 WORKTITLE = 'PIECES'
 WORKLINKS = (
         ('OSCILLATE (2015)', 'http://www.adamtindale.com/oscillate'), 

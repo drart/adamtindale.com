@@ -1,8 +1,8 @@
 Tt by Udo Kasemets
 ##################
 :description: Documentation and Process for tT
-:url: kasemets/index.html                                                  
-:save_as: kasemets/index.html                                             
+:url: projects/kasemets/index.html                                                  
+:save_as: projects/kasemets/index.html                                             
 
 T\ :sup:`t` \  by Udo Kasemets
 ==============================
@@ -23,8 +23,9 @@ Video
 
 .. raw:: html
 
+    <div class="videoWrapper">
     <iframe src="https://player.vimeo.com/video/123753024" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/123753024">Performance of Udo Kasemets&#039; 1969 audience-controlled cybernetic, audiovisual performance piece &#039;Tt - Tribute&#039;</a> from <a href="https://vimeo.com/user981045">richard windeyer</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
+                </div>
 
 Images
 ------
