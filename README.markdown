@@ -15,6 +15,10 @@ Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably 
 - migrate to simple-animation theme
 - better navigation and project listing
 - better listing to experiments (flocking directory?)
+- https://github.com/lepture/github-cards
+- pelican-page-hierarchy
+- auto-page plugin?
+- page-order plugin
 
 ## Favicon Code
 
