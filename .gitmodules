@@ -1,9 +1,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins/
-[submodule "mmenu-pelican"]
-	path = mmenu-pelican
-	url = https://github.com/drart/mmenu-pelican
 [submodule "simple-animation"]
 	path = simple-animation
 	url = https://github.com/drart/pelican-simple-animation.git
