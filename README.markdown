@@ -1,6 +1,8 @@
-# My Website Redesign 2014
+# My Website Redesign 2014 - Now
 
-Built with pelican, html5, css, javascript, vim, bash, jquery, git and probably some other tools.
+My website is built with a makefile. Isn't yours?
+
+Built with pelican, html5, css, javascript, vim, bash, rsync, jquery, git and probably some other tools.
 
 ## Inspiration/Attributions
 - <http://danielmiessler.com/study/git>  
