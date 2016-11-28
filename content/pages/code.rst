@@ -27,6 +27,7 @@ Processing
 Javascript
 ----------
 
+- `BEEP </beep>`_: an online demo of simple sounds with a web interface and animation
 - `FlOrKestra <https://github.com/florkestra>`_: a laptop orchestra based on Flocking.js
 
 Pure Data

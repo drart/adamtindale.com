@@ -17,6 +17,7 @@ Current Projects
 Online Pieces
 -------------
 
+- `BEEP </beep>`_ : 2015 
 - `OSCILLATE </oscillate>`_ : 2015
 - `SIMPLE </simple>`_ : 2013
 - `RECORD </record>`_  : 2011
