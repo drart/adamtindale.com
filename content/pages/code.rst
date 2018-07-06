@@ -54,6 +54,7 @@ Github Activity
 .. raw:: html
 
     <ul id="activity" style="list-style-type: none;"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/0.11.4/jquery.timeago.js"></script>
     <script>!$.fn.timeago && document.write(unescape('%3Cscript src="/js/jquery.timeago.js"%3E%3C/script%3E'))</script>
     <script type="text/javascript" src="/theme/js/jquery.github-activity.js"></script>

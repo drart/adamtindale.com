@@ -80,6 +80,8 @@ STATIC_PATHS = [
         'js/jquery.timeago.js',
         'js/jquery.knob.js',
         'js/flocking-all.min.js',
+        'js/prism.js',
+        'css/prism.css',
         'missing.html',
         'records/record.html',
         'records/simple.html',
@@ -93,6 +95,8 @@ EXTRA_PATH_METADATA = {
         'js/jquery.github-activity.js' : {'path': 'theme/js/jquery.github-activity.js'},
         'js/jquery.knob.js' : {'path': 'theme/js/jquery.knob.js'},
         'js/jquery.timeago.js' : {'path': 'theme/js/jquery.timeago.js'},
+        'js/prism.js' : {'path': 'theme/js/prism.js'},
+        'css/prism.js' : {'path': 'theme/css/prism.css'},
         'js/flocking-all.min.js' : {'path': 'theme/js/flocking-all.min.js'},
         'records/record.html' : {'path': 'record/index.html'}, 
         'records/simple.html' : {'path': 'simple/index.html'}, 
@@ -103,7 +107,7 @@ EXTRA_PATH_METADATA = {
 GITHUB_URL = 'https://github.com/drart/'
 
 SOCIAL = (
-    ('twitter', 'http://twitter.com/adamtindale'),
+    #('twitter', 'http://twitter.com/adamtindale'),
     ('github', 'https://github.com/drart/adamtindale.com'),
     ('email', '&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#97;&#109;&#64;&#97;&#100;&#97;&#109;&#116;&#105;&#110;&#100;&#97;&#108;&#101;&#46;&#99;&#111;&#109;'),
     ('stackoverflow', 'http://stackoverflow.com/users/1945902/adam-tindale'),
@@ -116,8 +120,9 @@ BLOGTITLE = 'Adam\'s Blog'
 BLOGDIR = 'blog' 
 RECENT_BLOG = True
 
-WORKTITLE = 'PIECES'
+WORKTITLE = 'Online Pieces'
 WORKLINKS = (
+        ('Slide (2017)', 'http://www.adamtindale.com/slide'), 
         ('OSCILLATE (2015)', 'http://www.adamtindale.com/oscillate'), 
         ('SIMPLE (2013)', 'http://www.adamtindale.com/simple'), 
         ('RECORD (2011)', 'http://www.adamtindale.com/record'), 

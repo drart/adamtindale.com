@@ -35,3 +35,5 @@ Here is an example I whipped up of a basic two handed myo.js that sends OSC mess
 .. raw:: html
 
     <script src="http://gist-it.appspot.com/github/drart/myo-nodejs-demos/blob/master/doublemyo.js"></script>
+
+    <script src="/theme/js/prism.js"></script>

@@ -43,3 +43,14 @@ The favicon is made with Processing.
 ```
 
 <https://gist.github.com/drart/1344171>
+
+
+## Notes to self
+
+- installing virtualenv
+``` shell 
+    %> virtualenv venv
+    %> source venv/bin/activate
+    %> pip install pelican markdown
+    %> deactivate 
+```
