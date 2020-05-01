@@ -1,10 +1,43 @@
 .. raw:: html
 
-    <h3 id="past" style="cursor: pointer; cursor: hand; text-decoration:underline;">Past Events</h3>
+    <h4 id="past" style="text-decoration:underline;">Past Events</h4>
     <div id="pastevents">
 
 ..  Title Name Festival/conference name Place Date Link 
 
+| Adam Tindale and Angus Tarnawsky
+| International Computer Music Conference (ICMC) and The New York City Electronic Music Festival (NYCEMF)
+| Fridman Gallery
+| June 17, 2019
+| New York, NY, USA
+| `<https://nycemf.org/list-of-accepted-works/>`_
+|
+| Adam Tindale and Angus Tarnawsky
+| improv@CIRMMT
+| Montreal, QC, Canada
+| April 25, 2019
+| `<https://www.facebook.com/events/305546583384156/>`_
+| `<http://www.cirmmt.org/activities/special/improv_march2019>`_
+|
+| Adam Tindale and Angus Tarnawsky
+| Music in New Technologies (MINT)
+| Halifax, NS, Canada
+| November 17, 2018
+| `<https://vimeo.com/303629712>`_
+|
+| Adam Tindale and Angus Tarnawsky
+| Rituals and Spaces - Lecture/Performance
+| Music in New Technologies (MINT)
+| Halifax, NS, Canada
+| November 17, 2018
+| `<https://www.facebook.com/hfxmint/>`_
+|
+| Afaq Ahmed Karadia and Adam Tindale
+| Vector Festival
+| Toronto, ON, Canada
+| July 13, 2018
+| `<https://www.facebook.com/events/196887827808675/>`_
+|
 | ARRAY
 | Adam Tindale and Katherine Fraser
 | in the soil arts festival
@@ -72,7 +105,7 @@
 | Centre3 for Print and Media Art 
 | Hamilton, ON, Canada
 | November 14-16, 2014 
-| http://functionkeys.ca/FunctionKeys2/
+| http://functionkeys.ca/2014/
 |
 | Adam Tindale and Colin Labadie
 | The End of the Beginning
@@ -131,7 +164,7 @@
 |
 | Flight by ARRAY3
 | Jim Olsen, Adam Tindale, and Katherine Fraser
-| Gallgery of Ablerta Media Art
+| Gallery of Alberta Media Art
 | Calgary, AB, Canada
 | January 30, 2014 – April 29, 2014
 | http://www.epcorcentre.org/WhatsOn/ShowDetails.aspx?show_id=4F31CD9E-9CDC-4BCB-9FB1-DFE0E75376B5

@@ -44,10 +44,9 @@ The favicon is made with Processing.
 
 <https://gist.github.com/drart/1344171>
 
-
 ## Notes to self
 
-- installing virtualenv
+- installing virtualenv <https://stackoverflow.com/questions/26508606/error-using-pelican-quickstart-no-module-named-html-parser/35472706#35472706>
 ``` shell 
     %> virtualenv venv
     %> source venv/bin/activate

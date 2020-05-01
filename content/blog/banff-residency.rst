@@ -16,15 +16,21 @@ a black animated gif with various degrees of black. I did this because
 Cage discovered that you can't ever experience silence, there is always
 some noise and jitter.
 
-http://www.emvergeoning.com/?p=1095
-
 --------------
 
 .. image:: /img/blog/2010/08/export.gif
     :alt: animated gif 
 
-[gist:id=8461032]
+.. gist:: drart/8461032 Banff433.pde
 
+.. raw:: html -- terrible hack for now
 
+    <script src="/theme/js/prism.js"></script>
 
+    <script>
+    let codes = document.getElementsByTagName("pre");
+    for( let i = 0; i < codes.length; i++){
+        codes[i].innerHTML = Prism.highlight(codes[i].innerText, Prism.languages.processing);
+    }
+    </script>
 

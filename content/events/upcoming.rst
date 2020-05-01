@@ -12,12 +12,6 @@
 .. | April 29, 2016
 .. | `<http://www.inthesoil.on.ca/>`_
 
-| Afaq Ahmed Karadia and Adam Tindale
-| Vector Festival
-| Toronto, ON, Canada
-| July 13, 2018
-| `<https://www.facebook.com/events/196887827808675/>`_
-
 
 .. raw:: html
 

@@ -10,4 +10,16 @@ Rolling
 
 --------------
 
-[gist:id=8461515]
+.. gist:: drart/8461515 Rolling.pde processing
+
+
+.. raw:: html -- terrible hack for now
+
+    <script src="/theme/js/prism.js"></script>
+
+    <script>
+    let codes = document.getElementsByTagName("pre");
+    for( let i = 0; i < codes.length; i++){
+        codes[i].innerHTML = Prism.highlight(codes[i].innerText, Prism.languages.processing);
+    }
+    </script>

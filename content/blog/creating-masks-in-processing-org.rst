@@ -25,9 +25,7 @@ is just a red background.
 
 --------------
 
-[gist:id=8419804]
-
-.. .. gist:: drart/8419804 ImageMask.pde  Java -- works but doesn't do the styling
+.. gist:: drart/8419804 ImageMask.pde  Java -- works but doesn't do the styling
 
 If you'd like to get fancy you can draw your image and mask offscreen
 and then send the result to the screen. Here is a little code snippet to
@@ -35,9 +33,20 @@ get you started on your journey.
 
 --------------
 
-[gist:id=8419817]
-
+.. gist:: drart/8419817 OffscreenMask.pde  Java -- works but doesn't do the styling
 
 .. _`http://blog.blprnt.com/`: http://blog.blprnt.com/
 .. _image(): http://processing.org/reference/image_.html
 .. _blend(): http://processing.org/reference/blend_.html
+
+
+.. raw:: html -- terrible hack for now
+
+    <script src="/theme/js/prism.js"></script>
+
+    <script>
+    let codes = document.getElementsByTagName("pre");
+    for( let i = 0; i < codes.length; i++){
+        codes[i].innerHTML = Prism.highlight(codes[i].innerText, Prism.languages.processing);
+    }
+    </script>

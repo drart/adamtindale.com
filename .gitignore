@@ -6,3 +6,4 @@ output/
 .gists/
 cache/
 fontconfig/
+venv/
