@@ -2,7 +2,7 @@
 
 My website is built with a makefile. Isn't yours?
 
-Built with pelican, html5, css, javascript, vim, bash, rsync, jquery, git and probably some other tools.
+Built with hexo.js, html5, css, javascript, vim, bash, rsync, jquery, git and probably some other tools.
 
 ## Inspiration/Attributions
 - <http://danielmiessler.com/study/git>  
@@ -18,9 +18,6 @@ Built with pelican, html5, css, javascript, vim, bash, rsync, jquery, git and pr
 - better navigation and project listing
 - better listing to experiments (flocking directory?)
 - https://github.com/lepture/github-cards
-- pelican-page-hierarchy
-- auto-page plugin?
-- page-order plugin
 
 ## Favicon Code
 
@@ -43,13 +40,3 @@ The favicon is made with Processing.
 ```
 
 <https://gist.github.com/drart/1344171>
-
-## Notes to self
-
-- installing virtualenv <https://stackoverflow.com/questions/26508606/error-using-pelican-quickstart-no-module-named-html-parser/35472706#35472706>
-``` shell 
-    %> virtualenv venv
-    %> source venv/bin/activate
-    %> pip install pelican markdown
-    %> deactivate 
-```
