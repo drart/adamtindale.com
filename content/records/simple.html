@@ -113,9 +113,6 @@
             //     ctx.fillRect(0, 0, (this.currentTime/this.duration)*c.width, 140);   
 			// });
 			track.addEventListener('ended', function(){
-				//let progressbar = this.parentElement.lastElementChild;
-				//progressbar.style.display = "none";
-
 				let nextTrack;
 				let nextDiv = this.parentElement.nextElementSibling;
 				if ( nextDiv ){
@@ -125,15 +122,13 @@
 				}
 				if( nextTrack ){
                     currenttrack = nextTrack;
-                    // set time to 0? 
+                    nextTrack.currentTime = 0;
 					nextTrack.play();
 				}else{
 					console.log('All done. Thanks for listening!');
 				}
 			});
 			track.addEventListener('timeupdate', function(){
-				//let progressbar = this.parentElement.lastElementChild;
-				//progressbar.value = this.currentTime;
                 var c = document.getElementById("tracker");
                 var ctx = c.getContext("2d");
                 ctx.clearRect(0,0,c.width,c.height);
