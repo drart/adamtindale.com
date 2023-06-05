@@ -1,0 +1,96 @@
+html,body { padding: 0; margin: 0; }
+body { font-family: 'PT Sans', Arial, Helvetica, sans-serif; color: #000; font-size: 90%;}
+
+a { text-decoration: none; color: #999; }
+a:active { text-decoration: none; }
+a:visited { text-decoration: none;  color : #999; }
+a:hover { text-decoration: underline; }
+footer { position: fixed; bottom: 3px; right: 30px; color: #999; font-size: 9px; }
+img { max-width: 100%; margin: 10px auto; display:block;}
+
+#content { margin: 90px auto; max-width:600px; border-right:1px dotted #ccc; border-left:1px dotted #ccc; padding: 30px ; min-height:420px; }
+#myCanvas { position:fixed; top:0; left:0; z-index: -1; opacity:0; transition: opacity 10s linear;}
+.paginator { width:100%; background: #eee; padding: 10px 0; border-radius:5px; text-align: center; }
+.published { width:100%; font-style: italic; text-align: right; padding:10px 0; color: #aaa; }
+/* look for this */
+#blogname{ pointer-events: none; width:100%; text-align: center; font-size: 28px; color: #333; position:absolute;top :32px; line-height:40px;font-weight:bold;}
+#socialtext { width:100%; margin: 10px auto; height: 30px}
+#social{text-align: center; margin-top: 30px;}
+.social {border:0; border-radius:0; box-sizing:border-box; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease;}
+.social:hover {background:#888; border-radius:50%;}
+.social img { display:inline;}
+.title{ background: #eee; padding: 20px; font-family: Times, Serif; border-radius:5px; border: 1px #ccc solid; color: #000}
+.title a {color: #000}
+.videoWrapper { margin: 10px auto; position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
+.videoWrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: auto ; /*set to auto?*/
+    transition: 0.3s;
+}
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay .label {
+    color: #eee;
+}
+.overlay ul{
+    list-style-type: none;
+}
+.overlay hr{
+    width: 50%;
+    border-top: 4px dotted #aaa;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 18px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+    #content { margin: 90px auto; }
+}
+
+#menu-icon {position: fixed; top: 30px; left: 30px; font-size: 30px; cursor: pointer;}
+#menu-categories li { font-size: 20px }
+
+/* 
+#header { padding: 0 50px; background: #333; opacity: 0.8; -moz-opacity: 0.8; filter:alpha(opacity=80);  font-size: 16px; font-weight: bold; color: #fff; line-height: 40px; height: 40px; padding: 0 50px; }
+#menu { position:fixed; top:0; left: 0; width: 100%; background: #aaa;}
+#menu-categories { hidden: true; } // don't understand why this doesn't work
+.menu-category { hidden: true; }
+#activity li { font-style: italic; margin: 5px  auto;  list-style-type: none;} //not sure this is used
+#menu-categories ul { list-style-type: disc ; padding-left:0;}
+#menu-categories li { list-style-type: disc ; padding-left:0;}
+*/
