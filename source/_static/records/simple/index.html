@@ -16,38 +16,157 @@
             text-decoration:none;
             color:black;
         }
-        div{
+        main{
             text-align:right;
             position:fixed;
             bottom:10px;
             right: 10px;
         }
+        .trackprogress{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 70px;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        img {
+            -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+            user-drag: none;
+        }
+
+        .track{
+            cursor: ne-resize;
+        }
+        /*
+        set track hover to be cursor: ne-resize; 
+        */
     </style>
 </head>
-<body>
-    <iframe width="100%" height="18" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/3678644%3Fsecret_token%3Ds-EH9od&amp;color=575554&amp;inverse=true&amp;auto_play=true&amp;show_user=true&amp;show_playcount=false&amp;"></iframe>
+    <canvas id="tracker" class="trackprogress"></canvas>
+    <img id="trackimg" class="trackprogress" src="simple1.png">
+    <main>
+        <div class="tracklisting">
+            <div>Simple</div>
+            <div class="track" data-img="simple1.png">
+                <audio autoplay="autoplay">
+                    <source src="SIMPLE_1.wav" type="audio/wav">
+                </audio>
+                1. 5:12
+            </div>
 
-<!--NO LONGER WORKS but the above isn't quite right
-    <object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3678644&amp;color=575554&amp;auto_play=true&amp;player_type=tiny&amp;show_playcount=false&amp;font=Georgia"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F3678644&amp;color=575554&amp;auto_play=true&amp;player_type=tiny&amp;show_playcount=false&amp;font=Georgia"></embed></object> 
--->
-   
- <div>
-        <a href="https://soundcloud.com/adamtindale/sets/simple">Simple</a> <br>
-        1 - 5:12<br>
-        2 - 8:45<br>
-        3 - 7:21<br>
-        4 - 7:43<br><br>
-        <a href="http://www.adamtindale.com">Adam Tindale</a> <br>
-    </div>
-    <script>
-        var _gaq = [['_setAccount', 'UA-18509679-1'], ['_trackPageview']];
-        (function(d, t) {
-            var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-            g.async = true;
-            g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g, s);
-        })(document, 'script');
-    </script>
+            <div class="track" data-img="simple2.png">
+                <audio>
+                    <source src="SIMPLE_2.wav" type="audio/wav">
+                </audio>
+                2. 8:45
+            </div>
+
+            <div class="track" data-img="simple3.png">
+                <audio>
+                    <source src="SIMPLE_3.wav" type="audio/wav">
+                </audio>
+                3. 7:21
+            </div>
+
+            <div class="track" data-img="simple4.png">
+                <audio>
+                    <source src="SIMPLE_4.wav" type="audio/wav">
+                </audio>
+                4. 7:43
+            </div>
+
+            <a href="http://www.adamtindale.com">Adam Tindale</a> <br>
+
+            <!-- total time -->
+
+        </div>
+    </main>
+
+	<script>
+		let tracks = document.getElementsByTagName('audio');
+        let currenttrack = tracks[0];
+
+		for (track of tracks ){
+			// track.addEventListener('playing', function(){
+            //     var c = document.getElementById("tracker");
+            //     var ctx = c.getContext("2d");
+            //     var my_gradient = ctx.createLinearGradient(0, 0, 0, 100);
+            //     my_gradient.addColorStop(0, "orange");
+            //     my_gradient.addColorStop(1, "white");
+            //     ctx.fillStyle = my_gradient;
+            //     ctx.fillRect(0, 0, 200, 70);   
+            //     //ctx.drawImage(trackImg, 0,0,1920,70,0,0,c.width,c.height);
+			// });
+			// track.addEventListener('pause', function(){
+            //     var c = document.getElementById("tracker");
+            //     var ctx = c.getContext("2d");
+            //     ctx.clearRect(0,0,c.width,c.height);
+            //     var my_gradient = ctx.createLinearGradient(0, 0, 0, 180);
+            //     my_gradient.addColorStop(0, "black");
+            //     my_gradient.addColorStop(1, "white");
+            //     ctx.fillStyle = my_gradient;
+            //     ctx.fillRect(0, 0, (this.currentTime/this.duration)*c.width, 140);   
+			// });
+			track.addEventListener('ended', function(){
+				let nextTrack;
+				let nextDiv = this.parentElement.nextElementSibling;
+				if ( nextDiv ){
+					nextTrack = this.parentElement.nextElementSibling.firstElementChild;
+                    var myimg = document.getElementById("trackimg");
+                    myimg.src = nextDiv.dataset.img;
+				}
+				if( nextTrack ){
+                    currenttrack = nextTrack;
+                    nextTrack.currentTime = 0;
+					nextTrack.play();
+				}else{
+					console.log('All done. Thanks for listening!');
+				}
+			});
+			track.addEventListener('timeupdate', function(){
+                var c = document.getElementById("tracker");
+                var ctx = c.getContext("2d");
+                ctx.clearRect(0,0,c.width,c.height);
+                var my_gradient = ctx.createLinearGradient(0, 0, 0, 180);
+                my_gradient.addColorStop(0, "black");
+                my_gradient.addColorStop(1, "white");
+                ctx.fillStyle = my_gradient;
+                ctx.fillRect(0, 0, (this.currentTime/this.duration)*c.width, 140);  
+ 			});
+			track.parentElement.addEventListener('click', function(){
+				for (track of tracks){
+					if ( this.firstElementChild === track ){
+                        currenttrack = track;
+                        var myimg = document.getElementById("trackimg");
+                        myimg.src = this.dataset.img;
+						if ( this.firstElementChild.paused ){
+							this.firstElementChild.play();	
+						}else{
+							this.firstElementChild.pause();
+						}
+					}else{
+						track.pause();
+					}
+				}
+			});
+		}
+
+        document.getElementById("trackimg").addEventListener('click', function(e){
+            currenttrack.currentTime = (e.x / this.width ) * currenttrack.duration;
+        });
+
+        document.getElementById("trackimg").addEventListener('drag', function(e){
+            currenttrack.currentTime = (e.x / this.width ) * currenttrack.duration;
+        });
+
+        // keyboard space bar start/stop
+        // set style of track playing
+
+	</script>
 </body>
 </html>
