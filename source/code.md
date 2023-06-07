@@ -1,7 +1,6 @@
 ---
-slug: |
-  code
 title: Code
+permalink: code/index.html
 ---
 
 You can find links to specific pieces of code below. If you\'d like to

@@ -1,11 +1,8 @@
 ---
 description: |
   Documentation and Process for tT
-save_as: |
-  projects/kasemets/index.html
 title: Tt by Udo Kasemets
-url: |
-  projects/kasemets/index.html
+permalink:  projects/kasemets/index.html
 ---
 
 # T^t^ by Udo Kasemets {#tt-by-udo-kasemets-1}

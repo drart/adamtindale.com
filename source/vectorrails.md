@@ -1,9 +1,6 @@
 ---
-save_as: |
-  projects/vectorrails/index.html
 title: Vector Rails
-url: |
-  projects/vectorrails/index.html
+permalink:  projects/vectorrails/index.html
 ---
 
 # Vector Rails {#vector-rails-1}

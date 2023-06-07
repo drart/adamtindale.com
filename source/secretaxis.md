@@ -1,9 +1,6 @@
 ---
-save_as: |
-  projects/secretaxis/index.html
 title: Secret Axis
-url: |
-  projects/secretaxis/index.html
+permalink:  projects/secretaxis/index.html
 ---
 
 # Secret Axis {#secret-axis-1}

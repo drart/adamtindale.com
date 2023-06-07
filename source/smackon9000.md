@@ -1,11 +1,8 @@
 ---
 description: |
   Wacom Tablet Instrument
-save_as: |
-  projects/smackon9000/index.html
 title: Smackon 9000
-url: |
-  projects/smackon9000/index.html
+permalink:  projects/smackon9000/index.html
 ---
 
 # Smackon 9000 {#smackon-9000-1}

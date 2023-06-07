@@ -1,9 +1,6 @@
 ---
-save_as: |
-  index.html
-slug: |
-  index.html
 title: Home
+permalink: index.html
 ---
 
 # Adam Tindale

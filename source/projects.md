@@ -1,7 +1,6 @@
 ---
-slug: |
-  projects
 title: Projects
+permalink: projects/index.html
 ---
 
 [WARNING] Reference not found for 'Key "array"' at projects.rst_chunk line 1 column 8

@@ -1,7 +1,6 @@
 ---
-slug: |
-  info
 title: Bio/CV/Events
+permalink: info/index.html
 ---
 
 [![image](/img/adamtindalethumb.jpg)](/img/adamtindale.jpg)

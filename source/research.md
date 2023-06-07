@@ -1,7 +1,6 @@
 ---
-slug: |
-  research
 title: Research
+permalink: research/index.html
 ---
 
 # E-Drumset

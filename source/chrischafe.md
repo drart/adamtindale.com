@@ -1,9 +1,6 @@
 ---
-save_as: |
-  projects/chrischafe/index.html
 title: Chris Chafe + Adam Tindale Duo
-url: |
-  projects/chrischafe/index.html
+permalink: projects/chrischafe/index.html
 ---
 
 # Chris Chafe + Adam Tindale Duo {#chris-chafe-adam-tindale-duo-1}

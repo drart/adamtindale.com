@@ -1,9 +1,6 @@
 ---
-save_as: |
-  projects/colinlabadie/index.html
 title: Colin Labadie+ Adam Tindale Duo
-url: |
-  projects/colinlabadie/index.html
+permalink:  projects/colinlabadie/index.html
 ---
 
 # Colin Labadie + Adam Tindale Duo {#colin-labadie-adam-tindale-duo-1}

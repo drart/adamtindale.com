@@ -1,9 +1,6 @@
 ---
-save_as: |
-  projects/isenddatalive/index.html
 title: i send data live
-url: |
-  projects/isenddatalive/index.html
+permalink: projects/isenddatalive/index.html
 ---
 
 # i send data live {#i-send-data-live-1}

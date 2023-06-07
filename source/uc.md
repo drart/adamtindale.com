@@ -1,11 +1,8 @@
 ---
+title: Processing Workshop
 description: |
   Processing workshop for the University of Cincinnati
-save_as: |
-  uc/index.html
-title: Processing Workshop
-url: |
-  uc/index.html
+permalink:  uc/index.html
 ---
 
 # Reference Books and Websites

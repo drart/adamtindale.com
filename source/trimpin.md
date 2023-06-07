@@ -1,11 +1,7 @@
 ---
-description: |
-  Demo performance with Trimpin\'s MIDI Turntables
-save_as: |
-  projects/trimpin/index.html
 title: Trimpin\'s Turntables
-url: |
-  projects/tripmin/index.html
+description:  Demo performance with Trimpin\'s MIDI Turntables
+permalink: projects/tripmin/index.html
 ---
 
 # Trimpin\'s Turntables {#trimpins-turntables-1}
