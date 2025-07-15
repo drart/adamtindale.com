@@ -1,0 +1,24 @@
+<%# Categories Index Page Template %>
+
+<h1>Blog Categories</h1>
+
+<% site.categories.forEach(function(category) { %>
+    <div style="margin-bottom: 20px;">
+        <h2><a href="<%- url_for(category.path) %>"><%- category.name %></a></h2>
+        <p><%- category.posts.length %> <%= category.posts.length === 1 ? 'post' : 'posts' %></p>
+        
+        <% if (category.posts.length > 0) { %>
+        <ul>
+            <% category.posts.slice(0, 5).forEach(function(post) { %>
+            <li>
+                <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+                <span style="color: #666;"> - <%- date(post.date, 'MMM DD, YYYY') %></span>
+            </li>
+            <% }); %>
+            <% if (category.posts.length > 5) { %>
+            <li><a href="<%- url_for(category.path) %>">... and <%- category.posts.length - 5 %> more</a></li>
+            <% } %>
+        </ul>
+        <% } %>
+    </div>
+<% }); %>

@@ -101,7 +101,7 @@
     
     <footer>Powered by <a href="https://hexo.io/">Hexo</a></footer>
 
-    <% if (is_post() || is_archive() || is_category() || is_tag()) { %>
+    <% if (is_post() || is_archive() || is_category() || is_tag() || (is_home() && page.posts && page.posts.length > 0)) { %>
     <%- js('js/prism.js') %>
     <% } %>
 </body>
