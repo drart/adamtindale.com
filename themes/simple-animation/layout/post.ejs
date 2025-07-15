@@ -1,2 +1,27 @@
 
-<%- page.content %>
+<%# Single Blog Post Template %>
+
+<h1 class="title">
+    <a href="<%- url_for(page.path) %>"><%- page.title %></a>
+</h1>
+<div class="published">
+    <%- date(page.date, 'dddd MMMM DD, YYYY') %><br />
+    <% if (page.categories && page.categories.length) { %>
+    Category: <a href="<%- url_for(page.categories.data[0].path) %>"><%- page.categories.data[0].name %></a>
+    <% } %>
+</div>
+<div class="entry-content"><%- page.content %></div>
+
+<%# Previous/Next Post Navigation %>
+<% if (page.prev || page.next) { %>
+<hr style="margin:30px">
+<p class="paginator">
+    <% if (page.prev) { %>
+        <a href="<%- url_for(page.prev.path) %>">&larr;&nbsp;&nbsp;&nbsp;newer</a>
+        ::
+    <% } %>
+    <% if (page.next) { %>
+    <a href="<%- url_for(page.next.path) %>">older&nbsp;&nbsp;&nbsp;&rarr;</a>
+    <% } %>
+</p>
+<% } %>

@@ -1,0 +1,32 @@
+<%# Tag/Archive Page Template %>
+
+<% page.posts.forEach(function(post) { %>
+    <h1 class="title">
+        <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+    </h1>
+    <div class="published">
+        <%- date(post.date, 'dddd MMMM DD, YYYY') %><br />
+        <% if (post.categories && post.categories.length) { %>
+        Category: <a href="<%- url_for(post.categories.data[0].path) %>"><%- post.categories.data[0].name %></a>
+        <% } %>
+    </div>
+    <div class="entry-content"><%- post.excerpt %></div>
+<% }); %>
+
+<%# Pagination %>
+<% if (page.total > 1) { %>
+<hr style="margin:30px">
+<p class="paginator">
+    <% if (page.prev) { %>
+        <% if (page.prev === 1) { %>
+        <a href="<%- url_for(page.base) %>">&larr;&nbsp;&nbsp;&nbsp;newer</a>
+        <% } else { %>
+        <a href="<%- url_for(page.base + 'page/' + page.prev + '/') %>">&larr;&nbsp;&nbsp;&nbsp;newer</a>
+        <% } %>
+        ::
+    <% } %>
+    <% if (page.next) { %>
+    <a href="<%- url_for(page.base + 'page/' + page.next + '/') %>">older&nbsp;&nbsp;&nbsp;&rarr;</a>
+    <% } %>
+</p>
+<% } %>

@@ -1,0 +1,37 @@
+# Simple Animation Theme Configuration
+
+# Theme Settings
+blog_title: Blog
+css_file: main.css
+display_pages_on_menu: false
+recent_blog: true
+
+# Navigation Menu
+menu:
+  Home: /
+  "Bio/CV/Events": /info/
+  Projects: /projects/
+  Research: /research/
+  Code: /code/
+
+# Work Links (Portfolio)
+work_title: Online Pieces
+work_links:
+  "Slide (2017)": "http://www.adamtindale.com/slide"
+  "OSCILLATE (2015)": "http://www.adamtindale.com/oscillate"
+  "SIMPLE (2013)": "http://www.adamtindale.com/simple"
+  "RECORD (2011)": "http://www.adamtindale.com/record"
+  "Sphere (2010)": "http://www.adamtindale.com/sphere"
+
+# Social Links
+social:
+  github: https://github.com/drart/adamtindale.com
+  email: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#97;&#109;&#64;&#97;&#100;&#97;&#109;&#116;&#105;&#110;&#100;&#97;&#108;&#101;&#46;&#99;&#111;&#109;"
+  stackoverflow: http://stackoverflow.com/users/1945902/adam-tindale
+  soundcloud: https://soundcloud.com/adamtindale
+  googlescholar: http://scholar.google.ca/citations?user=cy820NIAAAAJ&hl=en
+
+# Analytics
+google_analytics: 
+  # Add your Google Analytics tracking ID if needed
+  # UA-XXXXXXXX-X

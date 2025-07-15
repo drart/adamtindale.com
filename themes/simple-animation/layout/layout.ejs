@@ -1,13 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-        <title><%- page.title %></title>
+<head>
+    <title><% if (page.title) { %><%- page.title %> | <%- config.title %><% } else { %><%- config.title %><% } %></title>
+    <meta name="author" content="<%- config.author %>" />
+    <meta charset="utf-8" />
+    
+    <%# CSS %>
+    <%- css('css/' + (theme.css_file || 'main.css')) %>
+    <% if (is_post()) { %>
+    <%- css('css/blog.css') %>
+    <%- css('css/prism.css') %>
+    <% } %>
+    
+    <%# RSS Feed %>
+    <% if (config.feed && config.feed.path) { %>
+    <link href="<%- config.url %>/<%- config.feed.path %>" type="application/atom+xml" rel="alternate" title="<%- config.title %> ATOM Feed" />
+    <% } %>
+</head>
 
-        <%- js('js/menu.js') %>
-	</head>
-	<body>
+<body>
+    <%# Title Block for Blog Pages %>
+    <% if (is_home() || is_archive() || is_category() || is_tag()) { %>
+    <div id="blogname"><%- theme.blog_title || config.title %> <% if (config.subtitle) { %><strong><%- config.subtitle %></strong><% } %></div>
+    <% } %>
+    
+    <%# Hamburger Menu %>
+    <div id="menu-icon" onclick="openNav()">&#9776;</div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul id="menumenu">
+                <%# Menu Items %>
+                <% if (theme.menu) { %>
+                    <% for (var name in theme.menu) { %>
+                    <li><a href="<%- url_for(theme.menu[name]) %>"><%- name %></a></li>
+                    <% } %>
+                    <hr>
+                <% } %>
+
+                <%# Pages %>
+                <% if (theme.display_pages_on_menu !== false) { %>
+                <li>PAGES</li>
+                <% site.pages.forEach(function(page) { %>
+                    <% if (page.title && page.path !== 'index.html') { %>
+                    <li><a href="<%- url_for(page.path) %>"><%- page.title %></a></li>
+                    <% } %>
+                <% }); %>
+                <hr>
+                <% } %>
+
+                <%# Work Links %>
+                <% if (theme.work_links && Object.keys(theme.work_links).length > 0) { %>
+                <li class="label"><%- theme.work_title || 'Work' %></li>
+                <% for (var name in theme.work_links) { %>
+                <li><a href="<%- theme.work_links[name] %>"><%- name %></a></li>
+                <% } %>
+                <hr>
+                <% } %>
+
+                <%# Blog Categories %>
+                <% if (site.categories.length > 0) { %>
+                <li id="blogtitle"><a href="<%- url_for(config.archive_dir || 'blog') %>"><%- theme.blog_title || 'Blog' %></a></li>
+                <hr>
+                <ul id="menu-categories">
+                    <%# Recent Posts %>
+                    <% if (theme.recent_blog !== false) { %>
+                    <li class="menu-category"><a href="<%- url_for(config.archive_dir || 'blog') %>">Recent Posts</a>
+                    <ul class="menu-category" id="recent-posts">
+                        <% site.posts.sort('date', -1).limit(5).forEach(function(post) { %>
+                        <li><a href="<%- url_for(post.path) %>"><%- post.title %></a></li>
+                        <% }); %>
+                    </ul>
+                    </li>
+                    <% } %>
+
+                    <%# Categories %>
+                    <% site.categories.forEach(function(category) { %>
+                    <li class="menu-category"><a href="<%- url_for(category.path) %>"><%- category.name %></a>
+                    <ul>
+                        <% category.posts.forEach(function(post) { %>
+                        <li><a href="<%- url_for(post.path) %>"><%- post.title %></a></li>
+                        <% }); %>
+                    </ul>
+                    </li>
+                    <% }); %>
+                </ul>
+                <% } %>
+            </ul>
+        </div>
+    </div>
+
+    <%- js('js/menu.js') %>
+    
+    <div id="content">
         <%- body %>
-        <%- js('js/anim.js') %>
-	</body>
+        
+        <%# Social Links %>
+        <%- partial('_partial/social') %>
+    </div>
+    
+    <footer>Powered by <a href="https://hexo.io/">Hexo</a></footer>
+
+    <%# Analytics %>
+    <%- partial('_partial/analytics') %>
+    
+    <% if (is_post()) { %>
+    <%- js('js/prism.js') %>
+    <% } %>
+</body>
 </html>
