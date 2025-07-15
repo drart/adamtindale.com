@@ -1,0 +1,27 @@
+---
+title: Applescript + iTunes = Simple Functionality Added
+date: 2011-04-10 14:39
+author: Admin
+category: Uncategorized
+---
+
+I like listening to music. I prefer when the song finishes. I don't
+want to stay hovering over iTunes for the end of the song. There isn't
+a button to do this but we do have Applescript. Here is the hard way to
+do it.
+
+```applescript
+tell application "iTunes"
+    if player state is playing then
+        if selection is not current track then
+            reveal current track -- reveal selects current track...
+        end if
+        play selection with once
+    end if
+end tell
+```
+
+*[View this code on GitHub](https://gist.github.com/8456341)*
+
+Thanks to [Doug's Applescript for iTunes reference for the reveal
+command.](http://dougscripts.com/itunes/itinfo/info03.php)

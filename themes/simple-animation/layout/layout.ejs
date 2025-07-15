@@ -101,10 +101,7 @@
     
     <footer>Powered by <a href="https://hexo.io/">Hexo</a></footer>
 
-    <%# Analytics %>
-    <%- partial('_partial/analytics') %>
-    
-    <% if (is_post()) { %>
+    <% if (is_post() || is_archive() || is_category() || is_tag()) { %>
     <%- js('js/prism.js') %>
     <% } %>
 </body>
