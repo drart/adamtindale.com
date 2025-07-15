@@ -1,12 +1,8 @@
-PELICAN=pelican
-PELICANOPTS=-v
-
+# Hexo configuration
 BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+OUTPUTDIR=$(BASEDIR)/public
 
+# Deployment configuration
 FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
@@ -20,20 +16,21 @@ RSYNCFLAGS=-avcz
 RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n
 #RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  
 RSYNC_EXCLUDES=--exclude='.*'  
-OLD_RSYNC_FLAGS='-P -rvz'
 
 DROPBOX_DIR=~/Dropbox/Public/
 
 help:
-	@echo 'Makefile for a pelican Web site                                        '
+	@echo 'Makefile for a hexo Web site                                           '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
-	@echo '   make html                        (re)generate the web site          '
+	@echo '   make html                        generate the web site              '
 	@echo '   make clean                       remove the generated files         '
-	@echo '   make regenerate                  regenerate files upon modification '
-	@echo '   make publish                     generate using production settings '
-	@echo '   make serve                       serve site at http://localhost:8000'
-	@echo '   make devserver                   start/restart develop_server.sh    '
+	@echo '   make serve                       serve site at http://localhost:4000'
+	@echo '   make develop                     generate and serve                 '
+	@echo '   make watch                       generate with file watching        '
+	@echo '   make deploy                      deploy using hexo                  '
+	@echo '   make new-post TITLE="title"      create new blog post               '
+	@echo '   make new-page TITLE="title"      create new page                    '
 	@echo '   ssh_upload                       upload the web site via SSH        '
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
 	@echo '   rsync_test                       test rsync files via rsync+ssh     '
@@ -42,58 +39,55 @@ help:
 	@echo '   github                           upload the web site via gh-pages   '
 	@echo '                                                                       '
 
-
-html: clean $(OUTPUTDIR)/index.html
+html: clean
+	hexo generate
 	@echo 'Done'
 
-$(OUTPUTDIR)/%.html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-
 clean:
-	find $(OUTPUTDIR) -mindepth 1 -delete
-
-regenerate: clean
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	hexo clean
 
 serve:
-	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
+	hexo serve
 
-devserver:
-	$(BASEDIR)/develop_server.sh restart
+develop:
+	hexo generate && hexo serve
 
-publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+watch:
+	hexo generate --watch
 
-ssh_upload: publish
+deploy:
+	hexo deploy
+
+build-deploy: clean
+	hexo generate
+	hexo deploy
+
+new-post:
+	hexo new post "$(TITLE)"
+
+new-page:
+	hexo new page "$(TITLE)"
+
+publish: html
+	@echo 'Site generated and ready for deployment'
+
+ssh_upload: html
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-rsync_upload: publish
+rsync_upload: html
 	rsync -e "ssh -p $(SSH_PORT)"  $(RSYNCFLAGS) $(RSYNC_EXCLUDES) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-rsync_test: publish
+rsync_test: html
 	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_TESTFLAGS) $(RSYNC_EXCLUDES) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-dropbox_upload: publish
+dropbox_upload: html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
-ftp_upload: publish
+ftp_upload: html
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
-github: publish
+github: html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
-
-# # derived from this rsync command that worked well for publishing
-# # rsync -e ssh  --size-only -avn --exclude 'projects' --exclude 'uc' --exclude ".*" --exclude 'blog' --exclude '*.markdown' deploy/ adamrtindale@adamtindale.com:adamtindale.com/
-#
-# 	push:
-# 	hyde gen -r 
-# 	rsync -e ssh  $(RSYNCFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
-#
-# 	test:
-# 	hyde gen -r 
-# 	rsync -e ssh $(TESTFLAGS) $(EXCLUDEFLAGS) deploy/ $(SITE)
-# SYNCFLAGS=-avcz
-# TESTFLAGS=$(RSYNCFLAGS) -n
+.PHONY: html help clean serve develop watch deploy build-deploy new-post new-page publish ssh_upload rsync_upload rsync_test dropbox_upload ftp_upload github
