@@ -5,12 +5,17 @@ author: Admin
 category: Creative Pact 2010
 ---
 
-Last one!
+*Last one!*
+
 Today I played with spectral flux to change the size of particles across the screen. For each frame of audio a particle is moved from the middle screen. I was surprised how easy spectral flux was and how great it could look.
+
 [This link was invaluable.](http://apistudios.com/hosted/marzec/badlogic/wordpress/?cat=18)
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0699.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-2402.jpg)
+
 ------------------------------------------------------------------------
+
 ```processing
 import javax.media.opengl.*;
 import processing.opengl.*;

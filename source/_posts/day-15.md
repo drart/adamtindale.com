@@ -6,10 +6,14 @@ category: Creative Pact 2010
 ---
 
 Whew! Here is a quick patch based upon a circle that draws brightness based on the level according to FFT analysis. I can see this moving and rotating in the future but for today I have something done.
+
 I think I am going to start looking at saving frames and doing waterfall like displays so you can see into the past. That should be fun.
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0983.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-1529.jpg)
+
 ------------------------------------------------------------------------
+
 ```processing
 import javax.media.opengl.*;
 import processing.opengl.*;

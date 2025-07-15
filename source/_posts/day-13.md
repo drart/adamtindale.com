@@ -6,11 +6,15 @@ category: Creative Pact 2010
 ---
 
 Today I am working with a visual idea that I want to turn into music. I have a blurry scene where the action moves up and a sine wave moves down. It is a start.
+
 I am using a stack blur from [quasimondo](http://incubator.quasimondo.com/processing/stackblur.pde). It is super fast and it looks ok. Not quite as pleasurable as a gaussian but way faster. I also got bit on a pointer reference thing when converting a PGraphics to a PImage. Be careful! PGraphics is a subclass of PImage and you can assign one to the other thanks to inheritance but to copy the actual image from one to the other you have to use the get() method  and then things will behave like you expect. Thanks to the [javadocs](http://processing.googlecode.com/svn/trunk/processing/build/javadoc/core/index.html) for Processing.
+
 I have linked code at the bottom.
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0203.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0241.jpg)
+
 ------------------------------------------------------------------------
+
 ```processing
 import javax.media.opengl.*;
 import processing.opengl.*;

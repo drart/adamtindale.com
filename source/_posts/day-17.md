@@ -6,9 +6,12 @@ category: Creative Pact 2010
 ---
 
 Today is a simple patch that does a spectral lissajous plot. Enjoy!
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0117.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0218.jpg)
+
 ------------------------------------------------------------------------
+
 ```processing
 import javax.media.opengl.*;
 import processing.opengl.*;

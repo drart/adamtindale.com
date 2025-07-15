@@ -6,9 +6,12 @@ category: Creative Pact 2010
 ---
 
 Got a little busy today so I made a quick sketch to see if I understood making shapes with OPENGL. I do!
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0173.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0484.jpg)
+
 ------------------------------------------------------------------------
+
 ```processing
 import javax.media.opengl.*;
 import processing.opengl.*;
