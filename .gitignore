@@ -1,13 +1,6 @@
-output/
 public/
 .DS_STORE
 .DS_Store
 .*.swp
-*.pyc
-.gists/
-cache/
-fontconfig/
-venv/
 node_modules/
 package-lock.json
-db.json
