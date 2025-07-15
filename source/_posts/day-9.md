@@ -6,10 +6,14 @@ category: Creative Pact 2010
 ---
 
 I made a bad VJ patch today. I have a rotating sphere made from a series of line strips with colour gradients. The patch pulses with size and colour to volume. Maybe soon I will put that feature extraction from the other day to use and make something a little more sophisticated.
+
 It is made with OPENGL again so I have included the code below.
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-2463.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0785.jpg)
+
 ------------------------------------------------------------------------
+
 ```processing
 import ddf.minim.*;
 import ddf.minim.analysis.*;
