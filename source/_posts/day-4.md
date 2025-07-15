@@ -6,10 +6,13 @@ category: Creative Pact 2010
 ---
 
 This one has been in the works for awhile. I have been looking at the minim BETA for a few days and now I feel like I am getting my head around it. Today I made my first UGen. I think I am going to submit it to the distribution. It is a byte swapping algorithm inspired by swap\~ in zexy for PD. This is one of my favourite distortions. Very loud and very nasty. You've been warned.
+
 Today I also finally delved into Processing's method for exporting applets. So, I am not going to dump a whole lot of code in this post. If you want to see the code follow the links below.
 The audio display is rendered as points. This is inspired by something I saw at MUTEK this year and is also the flavour of the visual material for Frank Bretschneider's EXP. <http://www.frankbretschneider.de/Web-Site/exp.html>
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0589.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-1116.jpg)
+
 ------------------------------------------------------------------------
 ```processing
 /**

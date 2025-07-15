@@ -6,9 +6,12 @@ category: Creative Pact 2010
 ---
 
 My first sketch is a simple Lissajous curve out of a live audio input. I borrowed some code from a Minim example and a [sketch](http://www.openprocessing.org/visuals/?visualID=6656) from [OpenProcessing.org](http://www.openprocessing.org/).
+
 I used the RMS values from the audio buffer to determine the sound and location of each plot. These changes aren't radical but they add some flavour. Enjoy!
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0037.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0176.jpg)
+
 ```processing
 import ddf.minim.*;
 import processing.video.*;

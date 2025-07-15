@@ -6,10 +6,14 @@ category: Creative Pact 2010
 ---
 
 Last night I finished watching the first season of [The Wire](http://www.imdb.com/title/tt0306414/). I have been watching it on DVD and the splash screen and the opening scene of the show has all of these signal displays. So, I dusted off my trigonometry skills and started making some sine waves dance on my screen.
+
 I have some ideas about how to tweak this a bit more by casting the shapes to PImages and then applying filters but I have a busy day, so that will happen another time. I expect that the sketches during the week will be shorter than the weekend ones. I think that is just how it goes.
+
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0264.jpg)
 ![Screenshot of software.](/img/blog/creative-pact-2010/screen-0342.jpg)
+
 ------------------------------------------------------------------------
+
 Today's Code:
 ```processing
 float amp1;
