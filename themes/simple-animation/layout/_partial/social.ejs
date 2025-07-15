@@ -1,0 +1,17 @@
+<% if (theme.social) { %>
+<div id="social">
+    <% for (var name in theme.social) { %>
+        <a class="social" target="_blank" href="<%- theme.social[name] %>">
+            <img src="<%- url_for('images/' + name + '.png') %>" alt="<%- name.charAt(0).toUpperCase() + name.slice(1).replace('googlescholar', 'Google Scholar') %>">
+        </a>
+    <% } %>
+    <div id="socialtext"></div>
+    <script>
+        var socialites = document.querySelectorAll('#social img');
+        for (var i = 0 ; i < socialites.length; i++){
+            socialites[i].onmouseover = function(e){document.getElementById("socialtext").innerHTML = this.alt;}
+            socialites[i].onmouseleave = function(e){document.getElementById("socialtext").innerHTML = '';} 
+        }
+    </script>
+</div>
+<% } %>
