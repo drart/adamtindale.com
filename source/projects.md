@@ -5,7 +5,7 @@ permalink: projects/
 
 ## Current Projects
 - [Duo with Colin Labadie](/projects/colinlabadie/) : Colin Labadie (Electronic Guitar) + Adam Tindale (Electronic Percussion). 2014 -
-- `<a href="http://a-r-r-a-y.com" target="_blank">ARRAY</a> `{=html} : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 -
+- [ARRAY](http://a-r-r-a-y.com) : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 -
 - [Vector Rails](/projects/vectorrails/) : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 -
 - [i send data live](/projects/isenddatalive/) : Robin Davies (Laptop) + Adam Tindale (Electronic Drums) 2004 -
 ## Online Pieces
@@ -16,11 +16,11 @@ permalink: projects/
 - [SPHERE](/sphere) : 2010
 ## Past Projects
 - [Tt by Udo Kasemets](/projects/kasemets/) : Performed by David Schotzko, Richard Windeyer , and Adam Tindale. 2015
-- [For Amplified Dancers + Laptop](http://www.youtube.com/watch?v=hHhkFQQl9CY) : Jeannie Vandekerkhove (Dance + Choreography), Jodie Vandekerkhove (Dance), + Adam Tindale (Electronics). 2011
-- [Octophonic](http://soundcloud.com/adamtindale/octophonic-stereo-redux) : Live Audio Performance Piece. 2011
-- `<a href="http://colourdataprocessing.net" target="_blank">Colour Data Processing</a> `{=html} : Ryan Boatright, Jordan Tate, + Adam Tindale. (Installation) 2011
+- [For Amplified Dancers + Laptop](https://www.youtube.com/watch?v=hHhkFQQl9CY) : Jeannie Vandekerkhove (Dance + Choreography), Jodie Vandekerkhove (Dance), + Adam Tindale (Electronics). 2011
+- [Octophonic](https://soundcloud.com/adamtindale/octophonic-stereo-redux) : Live Audio Performance Piece. 2011
+- [Colour Data Processing](https://colourdataprocessing.net) : Ryan Boatright, Jordan Tate, + Adam Tindale. (Installation) 2011
 - [Record](/record) : Online EP. 2011
-- `<a href="http://losslessprocessing.tumblr.com" target="_blank">Lossless Processing</a> `{=html} : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 2011
+- [Lossless Processing](https://losslessprocessing.tumblr.com) : Jordan Tate + Adam Tindale. (Image Transformation Software Art). 2010 - 2011
 - [Secret Axis](/projects/secretaxis/) : Cultural Exchange via Audio Art. 2010
 - [ALE](/ale) : ACAD Laptop Ensemble. 2008 - 2011
 - [The Open Spaces Project](/blog/documentation/open-spaces-project/) : Daelik (Choreography), Paul Gazzola (Set Design + Dramaturge), + Adam Tindale (Audio + Video). 2009

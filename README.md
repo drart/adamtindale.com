@@ -2,7 +2,7 @@
 
 My website is built with a makefile. Isn't yours?
 
-Built with hexo.js, html5, css, javascript, vim, bash, rsync, jquery, git and probably some other tools.
+Built with hexo.js, html5, css, javascript, p5, neovim, bash, rsync, jquery, git and probably some other tools.
 
 ## Inspiration/Attributions
 - <http://danielmiessler.com/study/git>  

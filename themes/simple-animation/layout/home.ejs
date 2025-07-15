@@ -1,0 +1,21 @@
+<%- partial('page') %>
+
+<% if (site.data.upcoming && site.data.upcoming.events.length > 0) { %>
+    <h4 id="upcoming" style="text-decoration:underline;">Upcoming Events</h4>
+    <div id="futureevents">
+        <% site.data.upcoming.events.forEach(function(event) { %>
+            <p>
+                <strong><%= event.title %></strong><br>
+                <% if (event.event) { %><%= event.event %><br><% } %>
+                <% if (event.venue) { %><%= event.venue %><br><% } %>
+                <% if (event.location) { %><%= event.location %><br><% } %>
+                <% if (event.date) { %><%= event.date %><br><% } %>
+                <% if (event.links) { %>
+                    <% event.links.forEach(function(link) { %>
+                        <a href="<%= link.url %>"><%= link.text %></a><br>
+                    <% }); %>
+                <% } %>
+            </p>
+        <% }); %>
+    </div>
+<% } %>

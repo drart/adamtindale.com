@@ -1,0 +1,768 @@
+# Past Events - Complete migration from past.rst
+events:
+  - title: "Adam Tindale and Angus Tarnawsky"
+    event: "International Computer Music Conference (ICMC) and The New York City Electronic Music Festival (NYCEMF)"
+    venue: "Fridman Gallery"
+    location: "New York, NY, USA"
+    date: "June 17, 2019"
+    links:
+      - url: "https://nycemf.org/list-of-accepted-works/"
+        text: "Event Details"
+
+  - title: "Adam Tindale and Angus Tarnawsky"
+    event: "improv@CIRMMT"
+    location: "Montreal, QC, Canada"
+    date: "April 25, 2019"
+    links:
+      - url: "https://www.facebook.com/events/305546583384156/"
+        text: "Facebook Event"
+      - url: "http://www.cirmmt.org/activities/special/improv_march2019"
+        text: "CIRMMT Info"
+
+  - title: "Adam Tindale and Angus Tarnawsky"
+    event: "Music in New Technologies (MINT)"
+    location: "Halifax, NS, Canada"
+    date: "November 17, 2018"
+    links:
+      - url: "https://vimeo.com/303629712"
+        text: "Video"
+
+  - title: "Adam Tindale and Angus Tarnawsky"
+    event: "Rituals and Spaces - Lecture/Performance"
+    venue: "Music in New Technologies (MINT)"
+    location: "Halifax, NS, Canada"
+    date: "November 17, 2018"
+    links:
+      - url: "https://www.facebook.com/hfxmint/"
+        text: "Facebook"
+
+  - title: "Afaq Ahmed Karadia and Adam Tindale"
+    event: "Vector Festival"
+    location: "Toronto, ON, Canada"
+    date: "July 13, 2018"
+    links:
+      - url: "https://www.facebook.com/events/196887827808675/"
+        text: "Facebook Event"
+
+  - title: "ARRAY - Adam Tindale and Katherine Fraser"
+    event: "in the soil arts festival"
+    location: "St. Catherine's, ON, Canada"
+    date: "April 29, 2016"
+    links:
+      - url: "http://www.inthesoil.on.ca/"
+        text: "Website"
+
+  - title: "Unorchestrated Structure for Strings with Soloist"
+    event: "Adam Tindale with Kingston Community Strings"
+    venue: "St. Andrew's Church"
+    location: "Kingston, ON, Canada"
+    date: "February 19, 2016"
+    links:
+      - url: "http://kingstoncommunitystrings.org/"
+        text: "Website"
+
+  - title: "Jessica Thompson, Dafydd Hughes, and Adam Tindale"
+    event: "New Music, New Audiences"
+    venue: "Palmerston Library"
+    location: "Toronto, ON, Canada"
+    date: "November 10, 2015"
+    links:
+      - url: "https://www.musiccentre.ca/sites/www.musiccentre.ca/files/NM101_media_release_2015.pdf"
+        text: "PDF"
+
+  - title: "Adam Tindale"
+    event: "Improvisation as a Method for Investigating Digital Musical Interfaces"
+    venue: "ProprioMedia"
+    location: "Toronto, ON, Canada"
+    date: "October 23, 2015"
+    links:
+      - url: "https://propriomedia.wordpress.com/23-october-2015/"
+        text: "Website"
+
+  - title: "Adam Tindale - Oscillate"
+    event: "Toronto International Electroacoustic Symposium (TIES)"
+    location: "Toronto, ON, Canada"
+    date: "August 19-22, 2015"
+    links:
+      - url: "http://naisa.ca/symposia/toronto-electroacoustic-symposium/symposium-overview/?edition=2015"
+        text: "Website"
+
+  - title: "Rob Cruickshank, Dafydd Hughes, and Adam Tindale"
+    event: "New Music, New Audiences"
+    venue: "Canadian Music Centre"
+    location: "Toronto, ON, Canada"
+    date: "May 24, 2015"
+    links:
+      - url: "https://www.musiccentre.ca/node/131290"
+        text: "Website"
+
+  - title: "Adam Tindale and Colin Labadie"
+    event: "The End of the Beginning"
+    venue: "NUMUS: MIX"
+    location: "Waterloo, ON, Canada"
+    date: "April 17, 2015"
+    links:
+      - url: "http://numus.on.ca/14-15-season/vignettes-a-go-go/"
+        text: "Website"
+
+  - title: "Opening Up the Space III: It's Really-Like Music"
+    venue: "Robert Gill Theatre, Centre for Drama Theatre & Performance Studies"
+    event: "University of Toronto"
+    location: "Toronto, ON, Canada"
+    date: "March 27, 2015"
+    links:
+      - url: "http://www.cesareschotzko.com/uploads/1/7/8/6/17863507/opening_up_the_space_series_flyer_.pdf"
+        text: "PDF"
+
+  - title: "Dafydd Hughes, Matthew Fava, and Adam Tindale"
+    event: "New Music, New Audiences"
+    venue: "Canadian Music Centre"
+    location: "Toronto, ON, Canada"
+    date: "March 21, 2015"
+
+  - title: "Adam Tindale"
+    event: "Function Keys Conference"
+    venue: "Centre3 for Print and Media Art"
+    location: "Hamilton, ON, Canada"
+    date: "November 14-16, 2014"
+    links:
+      - url: "http://functionkeys.ca/2014/"
+        text: "Website"
+
+  - title: "Adam Tindale and Colin Labadie"
+    event: "The End of the Beginning"
+    venue: "New Music Kingston"
+    location: "Kingston, ON, Canada"
+    date: "October 26, 2014"
+
+  - title: "Woods by ARRAY3"
+    event: "Jim Olsen, Adam Tindale, and Katherine Fraser"
+    venue: "Filmideo 2014"
+    location: "Index Art Center, Newark, NJ, USA"
+    date: "September 26, 2014"
+    links:
+      - url: "http://www.indexartcenter.org/?page_id=62"
+        text: "Website"
+
+  - title: "Group Show Curated by Mohammad Rezaei"
+    event: "POP Live"
+    venue: "Quartiers POP"
+    location: "Montreal, QC, Canada"
+    date: "September 17, 2014 - September 21, 2014"
+    links:
+      - url: "http://popmontrealpoplife.tumblr.com/"
+        text: "Website"
+
+  - title: "Adam Tindale"
+    event: "8x8"
+    venue: "HAVN (Hamilton Audio/Visual Node)"
+    location: "Hamilton, ON, Canada"
+    date: "August 26, 2014"
+    links:
+      - url: "https://www.facebook.com/events/359767947505776/"
+        text: "Facebook Event"
+
+  - title: "Brian Garbet, James O'Callaghan, and Adam Tindale"
+    event: "Coast x Coast"
+    venue: "Canadian Music Centre"
+    location: "Toronto, ON, Canada"
+    date: "August 12, 2014"
+    links:
+      - url: "https://www.musiccentre.ca/node/122352"
+        text: "Website"
+
+  - title: "Woods by ARRAY3"
+    event: "Jim Olsen, Adam Tindale, and Katherine Fraser"
+    venue: "Parkdale Video Showcase"
+    location: "Toronto, ON, Canada"
+    date: "August 8, 2014"
+    links:
+      - url: "http://parkdaleshowcase.ca/?page_id=368"
+        text: "Website"
+
+  - title: "Adam Tindale"
+    event: "Research Rendezvous"
+    venue: "OCAD University"
+    location: "Toronto, ON, Canada"
+    date: "May 22, 2014"
+
+  - title: "bart plemenga, Eldad Tsabary, and guests (including me)"
+    event: "Yodel EA OH!"
+    venue: "New Adventures in Sound Art"
+    location: "Toronto, ON, Canada"
+    date: "May 3, 2014"
+    links:
+      - url: "https://www.facebook.com/events/465044103597779/"
+        text: "Facebook Event"
+
+  - title: "Flight by ARRAY3"
+    event: "Jim Olsen, Adam Tindale, and Katherine Fraser"
+    venue: "Gallery of Alberta Media Art"
+    location: "Calgary, AB, Canada"
+    date: "January 30, 2014 – April 29, 2014"
+    links:
+      - url: "http://www.epcorcentre.org/WhatsOn/ShowDetails.aspx?show_id=4F31CD9E-9CDC-4BCB-9FB1-DFE0E75376B5"
+        text: "Website"
+
+  - title: "Audiopollination"
+    event: "ABA"
+    venue: "Array Space"
+    date: "January 15, 2014"
+    links:
+      - url: "http://audiopollination.ca/"
+        text: "Website"
+      - url: "https://www.facebook.com/events/1445539602326794/"
+        text: "Facebook Event"
+
+  - title: "ABA"
+    venue: "Placebo Space"
+    location: "Toronto, ON, Canada"
+    date: "November 1, 2013"
+    links:
+      - url: "https://www.facebook.com/events/608937292461267/"
+        text: "Facebook Event"
+
+  - title: "Tweet Your Work at the Unicorn"
+    event: "Jeff Watson, Simone Jones, and Adam Tindale"
+    venue: "Gamercamp Conference"
+    location: "Toronto, ON, Canada"
+    date: "November 1, 2013"
+    links:
+      - url: "http://www.gamercamp.ca/conference/"
+        text: "Website"
+
+  - title: "Artist Talk"
+    event: "Adam Tindale"
+    venue: "COM 349: Projects in Digital Sound"
+    location: "Marymount Manhattan College, New York, NY, USA"
+    date: "September 30, 2013"
+
+  - title: "Sarah Peebles, Adam Tindale, Dafydd Hughes, and Ian Jarvis"
+    event: "INTERsection Music Festival curated by New Adventures in Sound Art"
+    venue: "Dundas Square"
+    location: "Toronto, ON, Canada"
+    date: "August 31, 2013"
+    links:
+      - url: "http://www.contactcontemporarymusic.ca/intersection/"
+        text: "Website"
+
+  - title: "Oscillating Oscillators"
+    event: "Adam Tindale and Doug Van Nort"
+    venue: "Toronto Electroacoustic Symposium"
+    location: "New Adventures in Sound Art, Toronto, ON, Canada"
+    date: "August 14, 2013 - August 17, 2013"
+    links:
+      - url: "http://cec.sonus.ca/events/TES/2013/"
+        text: "Website"
+
+  - title: "SIMPLE"
+    event: "Adam Tindale"
+    venue: "Toronto Electroacoustic Symposium"
+    location: "New Adventures in Sound Art, Toronto, ON, Canada"
+    date: "August 14, 2013 - August 17, 2013"
+    links:
+      - url: "http://cec.sonus.ca/events/TES/2013/"
+        text: "Website"
+
+  - title: "Adam Tindale + Travis Kirton"
+    event: "Music and Media - International Musicological Society"
+    venue: "Carleton University"
+    location: "Ottawa, ON, Canada"
+    date: "July 11, 2013 - July 13, 2013"
+    links:
+      - url: "http://www.wwclassicsonline.com/mam.html"
+        text: "Website"
+
+  - title: "Travis Kirton, Adam Tindale, and Greg Debicki"
+    event: "C4 – Media, Interactivity & Audio for iOS"
+    venue: "ITP Camp"
+    location: "New York University, New York, NY, USA"
+    date: "June 10, 2013 - June 12, 2013"
+    links:
+      - url: "http://itp.nyu.edu/camp2013/ai1ec_event/c4-media-interactivity-for-ios"
+        text: "Website"
+
+  - title: "Adam Tindale"
+    event: "New Software for Documenting Visual Responses to Music"
+    venue: "American Synesthesia Association Conference"
+    location: "OCAD University, Toronto, ON, Canada"
+    date: "May 31, 2013 - June 2, 2013"
+    links:
+      - url: "http://blog.ocad.ca/wordpress/synesthesiaconference/music-visualization-workshop-may-31-2013/"
+        text: "Workshop"
+      - url: "http://www.synesthesia.info/"
+        text: "Website"
+
+  - title: "ABA"
+    event: "Hazelton Lanes Art Festival"
+    location: "Toronto, ON, Canada"
+    date: "May 10, 2013"
+    links:
+      - url: "http://hazeltonlanes.com/arts-festival/"
+        text: "Website"
+
+  - title: "Adam Tindale"
+    event: "Faculty Talks Series"
+    venue: "OCAD University"
+    location: "Toronto, ON, Canada"
+    date: "December 4, 2012"
+
+  - title: "ARRAY"
+    event: "Jim Olsen, Katherine Fraser + Adam Tindale"
+    venue: "Soundasaurus Festival"
+    location: "Engineered Air Theatre - EPCOR Centre for the Arts, Calgary, AB, Canada"
+    date: "November 15, 2012"
+
+  - title: "Adam Tindale"
+    event: "Artist Talk"
+    venue: "University of Victoria"
+    date: "November 9, 2012"
+
+  - title: "Adam Tindale"
+    event: "Developing Tools for Contemporary Electronic Music Performance"
+    venue: "Alan Turing Lecture Series"
+    location: "University of Victoria"
+    date: "November 8, 2012"
+
+  - title: "Building Audio Control Interfaces for Android"
+    event: "Lawrence Fyfe & Adam Tindale"
+    venue: "CCRMA Summer Workshops"
+    location: "Stanford University, Palo Alto, CA, USA"
+    date: "July 30, 2012 - August 3, 2012"
+    note: "CANCELLED"
+
+  - title: "Sisters"
+    event: "Jeannie and Jodie Vandekerkhove with Adam Tindale"
+    venue: "The Works Festival"
+    location: "Edmonton, AB, Canada"
+    date: "June 21 & 27, July 1 & 2, 2012"
+    links:
+      - url: "http://www.theworks.ab.ca/festivalfolder/festival/2012/pdf/Works2012Guide.pdf"
+        text: "PDF"
+
+  - title: "Lossless Processing"
+    event: "Jordan Tate + Adam Tindale"
+    venue: "Hot One Inch Action"
+    location: "Calgary, AB, Canada"
+    date: "May 26, 2012"
+    links:
+      - url: "http://www.hotoneinchaction.com/"
+        text: "Website"
+
+  - title: "Node and Message Management with the JunctionBox Interaction Toolkit"
+    event: "Lawrence Fyfe, Adam Tindale, & Sheelagh Carpendale"
+    venue: "New Interfaces for Musical Expression"
+    location: "University of Michigan, Ann Arbor, MI, USA"
+    date: "May 21-23, 2012"
+    links:
+      - url: "http://www.eecs.umich.edu/nime2012/"
+        text: "Website"
+
+  - title: "Touch"
+    event: "Corrine Vessey, Ian Nicolas, and Adam Tindale"
+    venue: "Bach, Tots, and Tiptoes"
+    location: "Calgary, AB, Canada"
+    date: "May 21, 2012"
+
+  - title: "Touch"
+    event: "Corrine Vessey, Ian Nicolas, and Adam Tindale"
+    venue: "Bach, Tots, and Tiptoes"
+    location: "Calgary, AB, Canada"
+    date: "May 9, 2012"
+
+  - title: "JunctionBox for Android: An Interaction Toolkit for Android-based Mobile Devices"
+    event: "Lawrence Fyfe, Adam Tindale, & Sheelagh Carpendale"
+    venue: "Linux Audio Conference"
+    location: "Stanford University, Palo Alto, CA, USA"
+    date: "April 12-15, 2012"
+    links:
+      - url: "http://lac.linuxaudio.org/2012/"
+        text: "Website"
+
+  - title: "CE3C: Past, Present, and Future"
+    event: "Kurtis Lesick, Travis Kirton, and Adam Tindale"
+    venue: "Technology in Society: An Exploration"
+    location: "DeVry Institute of Technology, Calgary, AB, Canada"
+    date: "March 30, 2012"
+
+  - title: "THE DESTROYER"
+    event: "Adam Tindale"
+    venue: "The Lossless Gallery"
+    location: "Calgary, AB, Canada"
+    date: "March 6, 2012"
+    links:
+      - url: "http://acadpopup.wordpress.com/2012/03/03/the-lossless-gallery-opening-next-week/"
+        text: "Website"
+
+  - title: "RECORD"
+    event: "Adam Tindale"
+    venue: "[SONiK] Fest 5.0"
+    location: "New York, NY, USA"
+    date: "March 3, 2012"
+    links:
+      - url: "http://sonikfest.info/"
+        text: "Website"
+
+  - title: "Adam Tindale"
+    event: "BYOB Calgary"
+    venue: "Hillhurst Sunnyside Community Centre"
+    location: "Calgary, AB, Canada"
+    date: "February 11, 2012"
+    links:
+      - url: "http://www.byobworldwide.com/post/17001340991/byob-calgary-we-are-pleased-to-announce-the"
+        text: "Website"
+
+  - title: "ARRAY"
+    event: "Rick Silva, Katherine Fraser + Adam Tindale"
+    venue: "High Performance Rodeo - Soundasaurus"
+    location: "Engineered Air Theatre - EPCOR Centre for the Arts, Calgary, AB, Canada"
+    date: "January 22, 2012"
+
+  - title: "Octophonic [stereo redux]"
+    event: "Adam Tindale"
+    venue: "Streaming Festival"
+    location: "The Hague, Netherlands"
+    date: "December 1-18, 2011"
+    links:
+      - url: "http://www.streamingfestival.com"
+        text: "Website"
+
+  - title: "Original Artwork"
+    event: "Adam Tindale"
+    venue: "Contemporary Art Gallery of Calgary"
+    location: "It's Worth at Least 30$, Circa Showroom"
+    date: "December 14, 2011"
+
+  - title: "For Amplified Dancers & Laptop"
+    event: "Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale"
+    venue: "Mile Zero Dance Salon: The Wired Body"
+    location: "Edmonton, AB, Canada"
+    date: "November 26, 2011"
+    links:
+      - url: "http://www.milezerodance.com/wired.html"
+        text: "Website"
+
+  - title: "Dorkbot Calgary Presentation"
+    event: "Adam Tindale"
+    venue: "Protospace"
+    location: "Calgary, AB, Canada"
+    date: "November 22, 2011"
+    links:
+      - url: "http://dorkbotcalgary.wordpress.com/2011/11/06/next-meeting-tuesday-november-22nd-7-pm-protospace/"
+        text: "Website"
+
+  - title: "For Amplified Dancers & Laptop"
+    event: "Jeannie Vandekerkhove, Jodie Vandekerkhove, & Adam Tindale"
+    venue: "Sea of Sound 2011"
+    location: "Edmonton, AB, Canada"
+    date: "November 18-20, 2011"
+    links:
+      - url: "http://seaofsoundedmonton.wordpress.com"
+        text: "Website"
+
+  - title: "Processing Workshop"
+    event: "Adam Tindale"
+    venue: "University of Cincinnati"
+    location: "Cincinnati, OH, USA"
+    date: "November 14-16, 2011"
+
+  - title: "Octophonic [stereo redux]"
+    event: "Adam Tindale"
+    venue: "Protospace"
+    location: "Calgary, AB, Canada"
+    date: "October 22, 2011"
+    links:
+      - url: "http://www.protospace.ca/events/21/hack-halloween"
+        text: "Website"
+
+  - title: "ARRAY"
+    event: "Rick Silva, Katherine Fraser + Adam Tindale"
+    venue: "SLAMMENBERRY JAM Festival"
+    location: "Vertigo Theatre, Calgary, AB, Canada"
+    date: "October 6, 2011"
+    links:
+      - url: "http://www.calgaryurbanfestival.com/Home/Entries/2011/9/27_Slammenberry_Jam_5.html"
+        text: "Website"
+
+  - title: "Colour Data Processing"
+    event: "Jordan Tate, Ryan Boatright, and Adam Tindale"
+    venue: "International Symposium on Electronic Art"
+    location: "Sabanci University, Istanbul, Turkey"
+    date: "September 14, 2011 - September 21, 2011"
+    links:
+      - url: "http://isea2011.sabanciuniv.edu/"
+        text: "Website"
+
+  - title: "Conference on Interdisciplinary Musicology"
+    venue: "Glasgow University"
+    location: "Glasgow, Scotland"
+    date: "August 30, 2011 - September 3, 2011"
+    links:
+      - url: "http://www.n-ism.org/CIM2011/"
+        text: "Website"
+
+  - title: "Understanding Visual Music Conference"
+    venue: "Concordia University"
+    location: "Montreal, QC, Canada"
+    date: "August 26, 2011 - August 27, 2011"
+    links:
+      - url: "http://uvm2011.hexagram.ca/"
+        text: "Website"
+
+  - title: "Octophonic: Guest Performance in Mark Lowe's Bin 15"
+    event: "Adam Tindale"
+    venue: "Calgary Folk Festival"
+    location: "Calgary, AB, Canada"
+    date: "July 24, 2011"
+
+  - title: "RECORD"
+    event: "Adam Tindale"
+    location: "Calgary, AB, Canada"
+    date: "June 11, 2011"
+    links:
+      - url: "http://www.speedshow.net/"
+        text: "Website"
+
+  - title: "Digital Media 2020 Summit"
+    venue: "Banff Centre for the Arts, Banff New Media Institute"
+    location: "Banff, AB"
+    date: "May 8, 2011 - May 10, 2011"
+
+  - title: "Self-Directed Creative Residency"
+    event: "Adam Tindale, Rick Silva, and Katherine Fraser (ARRAY)"
+    venue: "Banff Centre for the Arts, Banff New Media Institute"
+    location: "Banff, AB"
+    date: "April 22, 2011 - April 24, 2011"
+
+  - title: "Lossless Processing"
+    event: "Jordan Tate + Adam Tindale"
+    venue: ".GIF .JPG .PNG .TIF"
+    location: "HEREart, New York, NY, USA"
+    date: "March 3, 2011 - April 30, 2011"
+    links:
+      - url: "http://gjpt.wordpress.com/"
+        text: "Website"
+
+  - title: "Vector Rails - Temporal Extinction Event + Evidence - Losperus"
+    venue: "Convocation Hall"
+    location: "University of Alberta, Edmonton, AB, Canada"
+    date: "April 2, 2011"
+
+  - title: "RECORD"
+    event: "Adam Tindale"
+    venue: "Resound Festival"
+    location: "Falmouth, England"
+    date: "March 25, 2011 - March 27, 2011"
+    links:
+      - url: "http://resoundfalmouth2011.tumblr.com/"
+        text: "Website"
+
+  - title: "Adam Tindale"
+    event: "(Un) Pleasant Over Drones"
+    location: "Falmouth, England"
+    date: "March 25, 2011"
+    links:
+      - url: "http://resoundfalmouth2011.tumblr.com/post/3589356104/un-pleasant-over-drones"
+        text: "Website"
+
+  - title: "ARRAY"
+    event: "Rick Silva, Katherine Fraser + Adam Tindale"
+    venue: "EMMEDIA"
+    location: "Calgary, AB, Canada"
+    date: "March 5, 2011"
+
+  - title: "Adam Tindale + Shaun Friessen"
+    venue: "Endeavor Arts"
+    location: "Calgary, AB, Canada"
+    date: "February 4, 2011"
+
+  - title: "Vector Rails"
+    venue: "MILE ZERO Salon - Bust curated by Shawn Pinchbeck"
+    location: "Edmonton, AB, Canada"
+    date: "January 29, 2011"
+
+  - title: "Vector Rails"
+    venue: "Soundasaurus Festival - High Performance Rodeo"
+    location: "Engineered Air Theatre, EPCOR Centre, Calgary, AB, Canada"
+    date: "January 21, 2011"
+    links:
+      - url: "http://www.hprodeo.ca/2011/soundasaurus"
+        text: "Website"
+
+  - title: "ALE"
+    venue: "Midway - High Performance Rodeo"
+    location: "Calgary, AB, Canada"
+    date: "January 7, 2011"
+
+  - title: "Lossless Processing"
+    event: "Jordan Tate + Adam Tindale"
+    venue: "DigitalCultures001"
+    location: "Alberta College of Art + Design, Calgary, AB, Canada"
+    date: "November 29, 2010"
+    links:
+      - url: "http://ce3c.com"
+        text: "Website"
+
+  - title: "CLAP"
+    event: "Adam Tindale"
+    venue: "Instructions for Initial Conditions"
+    location: "Lincoln, Nebraska, USA"
+    date: "November 5, 2010 – November 29, 2010"
+    links:
+      - url: "http://www.driftstation.org/"
+        text: "Website"
+
+  - title: "Lossless Processing"
+    event: "Jordan Tate + Adam Tindale"
+    venue: "Unleashed Devices Group Show"
+    location: "TINT arts @ Watermans, London, England"
+    date: "September 1, 2010 - October 22, 2010"
+    time: "Opening September 15, 2010. 6:30 GMT"
+    links:
+      - url: "http://www.watermans.org.uk/exhibitions/unleashed_devices"
+        text: "Website"
+    note: "Check out the Catalogue"
+
+  - title: "TPTP in 6 Bits (Lossless Processing + Error)"
+    event: "Jordan Tate, Ryan Boatright, + Adam Tindale"
+    venue: "TPTP Space"
+    location: "Paris, France"
+    date: "October 7, 2010 - October 22, 2010"
+    links:
+      - url: "http://tptpspace.net/"
+        text: "Website"
+
+  - title: "Sphere"
+    event: "Adam Tindale"
+    venue: "Vertico Theatre"
+    location: "Soulocentric Festival, Calgary, Alberta"
+    date: "October 9, 2010"
+    time: "8pm"
+    links:
+      - url: "http://www.soulocentric.org"
+        text: "Website"
+
+  - title: "Self-Directed Creative Residency"
+    event: "Jordan Tate + Adam Tindale"
+    venue: "Banff Centre for the Arts, Banff New Media Institute"
+    location: "Banff, AB"
+    date: "August 1-8, 2010"
+
+  - title: "Multi-touch Tabletop Music (MTM)"
+    event: "Lawrence Fyfe + Adam Tindale"
+    venue: "CCRMA Summer Workshop"
+    location: "Stanford University, Palo Alto, CA, USA"
+    date: "July 24-30, 2010"
+    note: "More Information"
+
+  - title: "ARRAY"
+    event: "Rick Silva, Katherine Fraser + Adam Tindale"
+    venue: "Central United Church"
+    location: "131 7th Avenue SW, Calgary, AB, Canada"
+    date: "June 25, 2010"
+    time: "7:30pm"
+    note: "MySpace Event Page"
+
+  - title: "ALE"
+    event: "Digital Alberta BBQ"
+    location: "Calgary, AB, Canada"
+    date: "June 22, 2010"
+
+  - title: "New Interfaces for Musical Expression Conference"
+    venue: "University of Technology in Sydney"
+    location: "Sydney, Australia"
+    date: "June 10-20, 2010"
+
+  - title: "TINTarts Lab Virtual Residency"
+    event: "Jordan Tate, Ryan Boatright, + Adam Tindale"
+    location: "London, England / internet"
+    date: "June - August, 2010"
+    links:
+      - url: "http://lab.tintarts.org/"
+        text: "Website"
+
+  - title: "MUTEK"
+    location: "Montreal, QC, Canada"
+    date: "June 2-6, 2010"
+
+  - title: "ACAD Faculty Show"
+    event: "Adam Tindale + Jordan Tate"
+    venue: "Lossless Processing"
+    location: "Illingworth Kerr Gallery, Calgary, AB, Canada"
+    date: "April 15-24, 2010"
+    note: "More Information"
+
+  - title: "mono.mono//stereo"
+    event: "Jennifer Vallis + Adam Tindale"
+    venue: "EMMEDIA"
+    location: "Calgary, AB, Canada"
+    date: "April 22, 2010"
+
+  - title: "ALE"
+    venue: "Illingworth Kerr Gallery"
+    location: "Calgary, AB, Canada"
+    date: "April 15, 2010"
+
+  - title: "Making it Contemporary Artist Panel"
+    event: "Paul Becher, Richard Boulet, + Adam Tindale"
+    venue: "Illingworth Kerr Gallery"
+    location: "Calgary, AB, Canada"
+    date: "April 15, 2010"
+    links:
+      - url: "http://www.acad.ab.ca/wh_2010_04_ikg_mic_pd.html"
+        text: "Website"
+
+  - title: "ALE Performance"
+    venue: "Alberta College of Art + Design"
+    location: "Calgary, AB, Canada"
+    date: "April 15, 2010"
+
+  - title: "Adam Tindale + Jordan Tate Talk"
+    venue: "Calgary Open Source Software Festival"
+    location: "Calgary, AB, Canada"
+    date: "April 9, 2010"
+    links:
+      - url: "http://cossfest.ca/"
+        text: "Website"
+
+  - title: "Live Cinema Panel"
+    venue: "The District"
+    location: "Calgary, AB, Canada"
+    date: "March 23, 2010"
+    note: "Presented by Digital Alberta + CE3C"
+
+  - title: "Andrea Revel"
+    event: "2010 Olympic Games"
+    location: "Vancouver, BC, Canada"
+    date: "February 15, 2010"
+
+  - title: "Andrea Revel"
+    event: "2010 Olympic Games"
+    location: "Whistler, BC, Canada"
+    date: "February 14, 2010"
+
+  - title: "Andrea Revel"
+    venue: "Palominos"
+    location: "Calgary, AB, Canada"
+    date: "February 7, 2010"
+
+  - title: "Technology + Art Panel"
+    venue: "University of Calgary Happening Festival"
+    location: "Calgary, AB, 2010"
+    date: "January 28, 2010"
+
+  - title: "ALE"
+    venue: "University of Calgary Happening Festival"
+    location: "Calgary, AB, 2010"
+    date: "January 27, 2010"
+
+  - title: "Vector Rails"
+    event: "Clinker + Adam Tindale"
+    venue: "Soundasaurus"
+    location: "Engineered Air Theatre, Calgary, AB, Canada"
+    date: "January 22, 2010"
+
+  - title: "ALE"
+    venue: "High Performance Rodeo - Midway"
+    location: "EPCOR Centre, Calgary, AB, Canada"
+    date: "January 8, 2010"

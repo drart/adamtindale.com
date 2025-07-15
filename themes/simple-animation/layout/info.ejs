@@ -1,0 +1,56 @@
+<%# Info Page Template with Events Data %>
+
+<canvas id="myCanvas"></canvas>
+
+<article>
+    <%- page.content %>
+    
+    <h2>Events</h2>
+    
+    <h4 id="upcoming" style="text-decoration:underline;">Upcoming Events</h4>
+    <div id="futureevents">
+        <% if (site.data.upcoming && site.data.upcoming.events.length > 0) { %>
+            <% site.data.upcoming.events.forEach(event => { %>
+                <div class="event" style="margin-bottom: 1em;">
+                    <strong><%= event.title %></strong><br>
+                    <% if (event.event) { %><%= event.event %><br><% } %>
+                    <% if (event.venue) { %><%= event.venue %><br><% } %>
+                    <%= event.location %><br>
+                    <%= event.date %>
+                    <% if (event.links) { %>
+                        <br>
+                        <% event.links.forEach((link, index) => { %>
+                            <% if (index > 0) { %> | <% } %>
+                            <a href="<%= link.url %>"><%= link.text %></a>
+                        <% }) %>
+                    <% } %>
+                </div>
+            <% }) %>
+        <% } %>
+    </div>
+    <script>if (document.getElementById('futureevents').children.length === 0) document.getElementById('upcoming').hidden = true;</script>
+    
+    <h4 id="past" style="text-decoration:underline;">Past Events</h4>
+    <div id="pastevents">
+        <% if (site.data.past && site.data.past.events.length > 0) { %>
+            <% site.data.past.events.forEach(event => { %>
+                <div class="event" style="margin-bottom: 1em;">
+                    <strong><%= event.title %></strong><br>
+                    <% if (event.event) { %><%= event.event %><br><% } %>
+                    <% if (event.venue) { %><%= event.venue %><br><% } %>
+                    <%= event.location %><br>
+                    <%= event.date %>
+                    <% if (event.links) { %>
+                        <br>
+                        <% event.links.forEach((link, index) => { %>
+                            <% if (index > 0) { %> | <% } %>
+                            <a href="<%= link.url %>"><%= link.text %></a>
+                        <% }) %>
+                    <% } %>
+                </div>
+            <% }) %>
+        <% } %>
+    </div>
+</article>
+
+<script type="text/javascript" src="<%- url_for('/js/anim.js') %>"></script>
