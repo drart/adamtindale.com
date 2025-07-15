@@ -7,7 +7,7 @@
     
     <%# CSS %>
     <%- css('css/' + (theme.css_file || 'main.css')) %>
-    <% if (is_post()) { %>
+    <% if (is_post() || (is_page() && page.prism)) { %>
     <%- css('css/blog.css') %>
     <%- css('css/prism.css') %>
     <% } %>
@@ -101,7 +101,7 @@
     
     <footer>Powered by <a href="https://hexo.io/">Hexo</a></footer>
 
-    <% if (is_post() || is_archive() || is_category() || is_tag() || (is_home() && page.posts && page.posts.length > 0)) { %>
+    <% if (is_post() || (is_page() && page.prism) || is_archive() || is_category() || is_tag() || (is_home() && page.posts && page.posts.length > 0)) { %>
     <%- js('js/prism.js') %>
     <% } %>
 </body>

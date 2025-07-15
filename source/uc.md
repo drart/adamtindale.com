@@ -1,10 +1,7 @@
 ---
 title: Processing Workshop
+prism: true
 ---
-
-description
-url
-save_as
 ## Reference Books and Websites
 - [Processing website](http://www.processing.org)
 - [Learning Processing by Dan Shiffman](http://learningprocessing.org)
@@ -62,18 +59,18 @@ Processing has two basic ideas: fill and stroke. Fill is the fill colour for you
 - mousePressed
 ## A good habit
 Commenting. Do it. Leave yourself notes. Breadcrumbs. It's easy. Do it. Future you will appreciate it.
-<pre>
+```processing
 /* multi 
         line
             comment*/
 // single line comment. 
 background(123);// I chose this colour to match my shirt
-</pre>
+```
 ## Animating
 Processing makes creating animations very simple. What we need to do is set up our environment and then for every frame of our animation we need to do something. Processing provides us two functions to fill in that it will call when running our sketch: setup() and draw(). Guess which does which?
 These functions need the keyword *void* in front of them. This is a byproduct of Java. It isn't necessary to understand this yet but you do need to make sure it is included.
 In this example we use the [random()](http://processing.org/reference/random_.html) function to give us a random number to place the rect() and to give it a size.
-<pre>
+```processing
 void setup()
 {
     // do your setup here
@@ -84,28 +81,28 @@ void draw()
     // do your drawing here
     rect( random(width), random(height), random(300), random(400) );
 }
-</pre>
+```
 ## Assignment 4
 *Make a simple animation and use the frameRate() function to change the framerate.*
 ## Interaction
 Processing makes it very easy to interact with the mouse and keyboard. The *mousePressed* keyword will let us know if the mouse is being pressed during the current frame.
 In this example we will draw a rectangle in the middle of sketch if the mouse is being pressed.
-<pre> 
+```processing
 if (mousePressed)
     rect(width/2,height/2,100,100);
-</pre> 
+``` 
 The *mouseX* and *mouseY* keywords return the x and y position of the mouse during the current frame. We can make a sketch which follows the mouse quite easily.
-<pre>
+```processing
 rectMode(CENTER); // otherwise the mouse will be in the top corner of the rect
 rect(mouseX,mouseY,100,100);
-</pre>
+```
 ## Assignment 5
 *Move your drawing with the mouse.*
 ## Object Orient Programming
 [Down with OOP](http://processing.org/learning/objects/)
 Object oriented programming is a cornerstone of modern programming. What we do is abstract our code so that is a general solution to our problem. This allows us to reuse it over and over again. This also helps separate solution from the implementation. We can write an object that knows how to do something and then write a sketch that uses that object to do that thing.
 We do this using the *class* keyword. We write a class to contain our code and it will store some properties and give us methods to access those. Properties are internal variables that we shouldn't touch.
-<pre>
+```processing
 class mything
 {
     int xposition;
@@ -124,7 +121,7 @@ class mything
 }
 mything thing = new mything(width/2, height/2, 100);
 thing.draw();
-</pre>
+```
 ## Assignment 6
 *Put your drawing into an class.*
 ## Self Study
@@ -140,24 +137,24 @@ thing.draw();
 ## Rendering Modes + OPENGL
 OPENGL is short for the Open Graphics Language. It is a shared format for talking to graphics cards in their native format: polygons. If your sketch uses mostly shapes you will likely benefit from using OPENGL to render your sketch. This will make it much faster and tax your machine less.
 First we will need to import the OPENGL library into our sketch and then we will need to tell Processing to use it instead of the default renderer. Processing has made the second part very simple with the size() function. All we have to do is add one more argument that is the name of the renderer we'd like to use.
-<pre>
+```processing
 import processing.opengl.*;
 size( 100,100, OPENGL);
-</pre>
+```
 ## Offscreen Rendering
 [Jer Thorp Tutorial](http://blog.blprnt.com/blog/blprnt/processing-tip-rendering-large-amounts-of-text-fast)
 When you call a drawing command Processing renders it to the screen then carries on. This can take some time for each command. If you have thousands, or tens of thousands, of things being drawn to the screen the framerate can slow down. What we can do is render the whole scene in memory and the output the resulting scene to the screen. We can do this by using a PGraphics object. It requires a little extra typing but we gain a lot of speed.
-<pre>
+```processing
 Pgraphics offscreen = createGraphics(width,height); // like loadImage. We'll see that later.
 offscreen.beginDraw();
 offscreen.background(100); // grey backgroun
 // do some more drawing in here
 offscreen.endDraw();
-</pre>
+```
 ## Output to a video
 We can collect frames of our drawing into a video. This can be very useful when your sketch can't run at full framerate and doesn't require any interaction. You can record the output and then show that.
 The following sketch records the first 60 frames and then closes the resulting video file. The file must be closed or your computer will not know where the file ends and your music collection begins (ie. possibility of disaster)
-<pre>
+```processing
 import processing.video.*;
 MovieMaker mm;  // Declare MovieMaker object
 void setup() 
@@ -182,7 +179,7 @@ void draw()
                     // We don't want to finish it multiple times
   }
 }
-</pre>
+```
 ## Assignment 7
 *Output a video file of one of your sketches.*
 ### Make it Fun
@@ -192,7 +189,7 @@ void draw()
 - data folder
 ## Filters
 Ghosting example.
-<pre>
+```processing
 void setup()
 {
     /// other setup
@@ -205,34 +202,34 @@ void draw()
     rect(0,0,width,height); // assumes rectMode(CORNER) which is default    
     // do your drawing here
 }
-</pre>
+```
 In the following example we can apply filters to our whole sketch or we can apply them to offscreen buffers stored in PImages.
-<pre>
+```processing
 PImage myimage = loadImage("test.jpg");
 // some drawing
 rect(width/2, height/2, 100,100);
 filter(BLUR, 4); // blurs all drawing to this point
 myimage.filter(BLUR,4); // blurs our image
 image(myimage, width/2, height/2); // puts our blurred image onscreen
-</pre>
+```
 ## Make lots of them
 [Arrays](http://processing.org/reference/Array.html)
 [Two-Dimensional Arrays](http://processing.org/learning/2darray/)
 *for* loops are staples of programming. We can harness the computer's ability to do many things without complaining (unlike humans). In our structure we have to define a variable to keep track of how many times we do something, we give a condition to end our loop, and then we define how we step through it.
 In this example we have our variable *i*, which is very common, that will start at zero and then increment to the width of our sketch. We can access our variable inside of our loop to do a different task for each step of the loop.
-<pre> 
+```processing
 for( int i = 0; i < width; i = i + 1)
     rect(i,i, 10, 10);
-</pre>
+```
 The final statement in the for definition is often changed to *i++* which means that the variable *i* is to be incremented by one after it is read. This will increment *i* until such a time that it gets be bigger than *width* and then the loop will end. So, if our sketch is 720 pixels wide then we will draw 720 rectangles diagonally along our canvas.
-<pre> 
+```processing
 for( int i = 0; i < width; i++ )
     rect(i,i, 10, 10);
-</pre>
+```
 ## Keeping Track of Lots of Them
 You want to have a thousand things. You could make a thousand variables. It would work but it would not be fun.
 Arrays are the solution. These give you one variable name that references multiples. To use these with objects we have to do a little bit of work. Let's use our *mything* object.
-<pre>
+```processing
 mything[] things = new mything[100]; // asks for 100 mything objects
 void setup()
 {
@@ -247,17 +244,17 @@ void draw()
   for ( int i = 0 ; i < things.length; i++)
       things[i].draw();
 }
-</pre>
+```
 ## What if?
 So want something to happen only if something else is a certain way. You need an *if* statement. *if* will evaluate a statement and run a block of code if it evaluates true.
-<pre> 
+```processing
 if (18 > 5) 
 {
     println("True!");
 }
-</pre>
+```
 What if we want to run a different block of code if the evaluation is false? We us an *else* statement for this. In the following example the first block of code will run if the mouse is more than halfway across the screen.
-<pre>
+```processing
 if (mouseX > width/2)
 {
     rect(0,0, 100,100);
@@ -266,13 +263,13 @@ else
 {
     ellipse(0,0,100,100);
 }
-</pre>
+```
 ## Loading images
 Processing makes this very simple. First we have to locate our sktech folder on our hard drive. This is done by pressing apple or command K. You can also access this under the Sketch menu in Processing. Now we need to create a data folder. Anything you put in there will be found by your sketch.
 Let's imagine that we have an image there called \"test.jpg\" and we want to load it into our sketch and held by a PImage object.
-<pre>
+```processing
 PImage myimage = loadImage("test.jpg");
-</pre>
+```
 That's it. Seriously. Thanks Processing Dudes!
 *Detail* Normally when load classes we have to use the new keyword. In this case loadImage is a special function that looks for files, loads them, and then returns a new PImage object. The function deals with creating our new object inside of itself.
 ## Other stuff

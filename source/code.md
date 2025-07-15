@@ -28,10 +28,16 @@ You can find links to specific pieces of code below. If you'd like to get social
 - [ChucK Documentation Editor](http://chuck.cs.princeton.edu)
 ## Github Activity
 <ul id="activity" style="list-style-type: none;"></ul>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/0.11.4/jquery.timeago.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/0.11.4/jquery.timeago.js"></script>
 <script>!$.fn.timeago && document.write(unescape('%3Cscript src="/js/jquery.timeago.js"%3E%3C/script%3E'))</script>
-<script type="text/javascript" src="/theme/js/jquery.github-activity.js"></script>
+<script type="text/javascript" src="/js/jquery.github-activity.js"></script>
 <script type="text/javascript">
-     $("ul#activity").githubActivityFor('drart'); ;
+     $("ul#activity").githubActivityFor('drart'); 
+     // Fallback if GitHub API fails due to CORS
+     setTimeout(function() {
+         if ($("ul#activity").children().length === 0) {
+             $("ul#activity").html('<li>For the latest activity, visit <a href="https://github.com/drart">github.com/drart</a></li>');
+         }
+     }, 3000);
 </script>
