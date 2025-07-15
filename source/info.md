@@ -1,47 +1,23 @@
 ---
 title: Bio/CV/Events
-permalink: info/index.html
+permalink: info/
 ---
 
 [![image](/img/adamtindalethumb.jpg)](/img/adamtindale.jpg)
-
-# Bio
-
-Adam Tindale is an electronic drummer and digital instrument designer.
-He is an Associate Professor of Human-Computer Interaction in the
-Digital Futures Initiative at OCAD University. Adam performs on his
-E-Drumset: a new electronic instrument that utilizes physical modeling
-and machine learning with an intuitive physical interface. He completed
-a Bachelor of Music at Queen\'s University, a Masters of Music
-Technology at McGill University, and an Interdisciplinary Ph.D. in
-Music, Computer Science and Electrical Engineering at the University of
-Victoria.
-
-# Curriculum Vitae
-
-```{=html}
+## Bio
+Adam Tindale is an electronic drummer and digital instrument designer. He is an Associate Professor of Human-Computer Interaction in the Digital Futures Initiative at OCAD University. Adam performs on his E-Drumset: a new electronic instrument that utilizes physical modeling and machine learning with an intuitive physical interface. He completed a Bachelor of Music at Queen's University, a Masters of Music Technology at McGill University, and an Interdisciplinary Ph.D. in Music, Computer Science and Electrical Engineering at the University of Victoria.
+## Curriculum Vitae
 <p> Download my CV. <a href="/media/files/AdamTindaleCV.pdf" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/cv']);">pdf</a> </p>
-```
-# Events
-
-```{=html}
+## Events
 <!--h3 id="upcoming" style="cursor: pointer; cursor: hand; text-decoration:underline; ">Upcoming Events</h3-->
 <h4 id="upcoming" style="text-decoration:underline;">Upcoming Events</h4>
 <div id="futureevents">
-```
-```{=html}
 </div>
-```
-```{=html}
 <script>if (document.getElementById('futureevents').children.length === 0 ) document.getElementById('upcoming').hidden = true;</script>
-```
-```{=html}
 <h4 id="past" style="text-decoration:underline;">Past Events</h4>
 <div id="pastevents">
-```
 | Adam Tindale and Angus Tarnawsky
-| International Computer Music Conference (ICMC) and The New York City
-  Electronic Music Festival (NYCEMF)
+| International Computer Music Conference (ICMC) and The New York City Electronic Music Festival (NYCEMF)
 | Fridman Gallery
 | June 17, 2019
 | New York, NY, USA
@@ -76,13 +52,13 @@ Victoria.
 | ARRAY
 | Adam Tindale and Katherine Fraser
 | in the soil arts festival
-| St. Catherine\'s, ON, Canada
+| St. Catherine's, ON, Canada
 | April 29, 2016
 | <http://www.inthesoil.on.ca/>
 | 
 | Unorchestrated Structure for Stings with Soloist
 | Adam Tindale with Kingston Community Strings
-| St. Andrew\'s Church
+| St. Andrew's Church
 | Kingston, ON, Canada
 | February 19, 2016
 | <http://kingstoncommunitystrings.org/>
@@ -122,7 +98,7 @@ Victoria.
 | April 17, 2015
 | <http://numus.on.ca/14-15-season/vignettes-a-go-go/>
 | 
-| Opening Up the Space III: It\'s Really-Like Music
+| Opening Up the Space III: It's Really-Like Music
 | Robert Gill Theatre, Centre for Drama Theatre & Performance Studies
 | University of Toronto
 | Toronto, ON, Canada
@@ -170,7 +146,7 @@ Victoria.
 | August 26, 2014
 | <https://www.facebook.com/events/359767947505776/>
 | 
-| Brian Garbet, James O\'Callaghan, and Adam Tindale
+| Brian Garbet, James O'Callaghan, and Adam Tindale
 | Coast x Coast
 | Canadian Music Centre
 | Toronto, ON, Canada
@@ -348,8 +324,7 @@ Victoria.
 | Calgary, AB, Canada
 | May 9, 2012
 | 
-| JunctionBox for Android: An Interaction Toolkit for Android-based
-  Mobile
+| JunctionBox for Android: An Interaction Toolkit for Android-based Mobile
 | Devices
 | Lawrence Fyfe, Adam Tindale, & Sheelagh Carpendale
 | Linux Audio Conference
@@ -403,7 +378,7 @@ Victoria.
 | Original Artwork
 | Adam Tindale
 | Contemporary Art Gallery of Calgary
-| It\'s Worth at Least 30\$
+| It's Worth at Least 30\$
 | Circa Showroom
 | December 14, 2011
 | 
@@ -468,7 +443,7 @@ Victoria.
 | Montreal, QC, Canada
 | <http://uvm2011.hexagram.ca/>
 | 
-| Octophonic: Guest Performance in Mark Lowe\'s Bin 15
+| Octophonic: Guest Performance in Mark Lowe's Bin 15
 | Adam Tindale
 | Calgary Folk Festival
 | July 24, 2011
@@ -708,7 +683,4 @@ Victoria.
 | EPCOR Centre
 | Calgary, AB, Canada
 | January 8, 2010
-
-```{=html}
 </div>
-```
