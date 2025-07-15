@@ -7,7 +7,7 @@ category: Processing
 
 ![animated gif](/img/blog/2010/08/blackorwhite.gif)
 ------------------------------------------------------------------------
-::: gist
+
 ```processing
 // TITLE: Rolling
 // Adam Tindale 2010

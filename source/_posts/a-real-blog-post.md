@@ -1,7 +1,7 @@
 ---
 title: A real blog post
 date :   2011-05-09 11:43
-category : uncategorized
+category: Uncategorized
 ---
 
 Isn't a blog supposed to be about the musings of the blogger? I have done a lot of reporting of projects that I have finished. This summer I am going to try and post more works in progress and expose process a little more.
