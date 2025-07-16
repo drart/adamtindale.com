@@ -26,10 +26,11 @@
             position: fixed;
             top: 0;
             left: 0;
-            height: 70px;
+            height: 30px;
             margin: 0;
             padding: 0;
             width: 100%;
+            z-index: 100;
         }
         img {
             -webkit-user-drag: none;
@@ -42,38 +43,104 @@
         .track{
             cursor: ne-resize;
         }
-        /*
-        set track hover to be cursor: ne-resize; 
-        */
+        .track:hover {
+            text-decoration: underline;
+        }
+        
+        .track.current {
+            font-weight: bold;
+        }
+        
+        /* Waveform display - fixed at top 30px */
+        .waveform-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            cursor: pointer;
+            z-index: 200;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+        
+        .waveform-container.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+        
+        .waveform-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+            mix-blend-mode: multiply;
+        }
+        
+        .waveform-progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            width: 0%;
+            transition: width 0.1s ease;
+            pointer-events: none;
+            mix-blend-mode: screen;
+        }
+        
+        .waveform-container:hover .waveform-image {
+            opacity: 0.9;
+        }
+        
+        /* SoundCloud link styling */
+        .soundcloud-link {
+            opacity: 0.7;
+            font-size: 9pt;
+            margin-left: 10px;
+        }
+        
+        .soundcloud-link:hover {
+            opacity: 1;
+        }
     </style>
 </head>
+<body>
+    <!-- Waveform display -->
+    <div class="waveform-container" id="waveform-container">
+        <img id="waveform-image" class="waveform-image" src="simple1_waveform.png" alt="Waveform">
+        <div class="waveform-progress" id="waveform-progress"></div>
+    </div>
+    
     <canvas id="tracker" class="trackprogress"></canvas>
-    <img id="trackimg" class="trackprogress" src="simple1.png">
+    <img id="trackimg" style="position: fixed; top: 30px; left: 0; height: 70px; margin: 0; padding: 0; width: 100%;" src="simple1.png">
     <main>
         <div class="tracklisting">
             <div>Simple</div>
-            <div class="track" data-img="simple1.png">
+            <div class="track current" data-img="simple1.png" data-track="0">
                 <audio autoplay="autoplay">
                     <source src="Simple/SIMPLE_1.wav" type="audio/wav">
                 </audio>
                 1. 5:12
             </div>
 
-            <div class="track" data-img="simple2.png">
+            <div class="track" data-img="simple2.png" data-track="1">
                 <audio>
                     <source src="Simple/SIMPLE_2.wav" type="audio/wav">
                 </audio>
                 2. 8:45
             </div>
 
-            <div class="track" data-img="simple3.png">
+            <div class="track" data-img="simple3.png" data-track="2">
                 <audio>
                     <source src="simple/SIMPLE_3.wav" type="audio/wav">
                 </audio>
                 3. 7:21
             </div>
 
-            <div class="track" data-img="simple4.png">
+            <div class="track" data-img="simple4.png" data-track="3">
                 <audio>
                     <source src="simple/SIMPLE_4.wav" type="audio/wav">
                 </audio>
@@ -81,50 +148,128 @@
             </div>
 
             <a href="http://www.adamtindale.com">Adam Tindale</a> <br>
-
-            <!-- total time -->
-
+            <a href="https://soundcloud.com/adamtindale/sets/simple" class="soundcloud-link" target="_blank">Listen on SoundCloud</a>
         </div>
     </main>
 
 	<script>
+		// Track data for local files
+		const trackData = [
+			{ 
+				title: 'SIMPLE 1', 
+				duration: '5:12',
+				localFile: 'Simple/SIMPLE_1.wav',
+				waveformImage: 'simple1_waveform.png',
+				soundcloudUrl: 'https://soundcloud.com/adamtindale/simple-1'
+			},
+			{ 
+				title: 'SIMPLE 2', 
+				duration: '8:45',
+				localFile: 'Simple/SIMPLE_2.wav',
+				waveformImage: 'simple2_waveform.png',
+				soundcloudUrl: 'https://soundcloud.com/adamtindale/simple-2'
+			},
+			{ 
+				title: 'SIMPLE 3', 
+				duration: '7:21',
+				localFile: 'simple/SIMPLE_3.wav',
+				waveformImage: 'simple3_waveform.png',
+				soundcloudUrl: 'https://soundcloud.com/adamtindale/simple-3'
+			},
+			{ 
+				title: 'SIMPLE 4', 
+				duration: '7:43',
+				localFile: 'simple/SIMPLE_4.wav',
+				waveformImage: 'simple4_waveform.png',
+				soundcloudUrl: 'https://soundcloud.com/adamtindale/simple-4'
+			}
+		];
+		
 		let tracks = document.getElementsByTagName('audio');
         let currenttrack = tracks[0];
+        let currentTrackIndex = 0;
+        
+        // Jump to track function
+        function jumpToTrack(index) {
+            if (index >= 0 && index < tracks.length) {
+                // Stop current track
+                currenttrack.pause();
+                currenttrack.currentTime = 0;
+                
+                // Update current track
+                currentTrackIndex = index;
+                currenttrack = tracks[index];
+                
+                // Update visuals
+                updateTrackVisuals(index);
+                
+                // Play new track
+                currenttrack.play();
+                
+                // Update waveform visibility
+                updateWaveformVisibility();
+            }
+        }
+        
+        // Update track visuals
+        function updateTrackVisuals(index) {
+            // Update album art image
+            const trackDiv = document.querySelector(`[data-track="${index}"]`);
+            if (trackDiv) {
+                const myimg = document.getElementById('trackimg');
+                myimg.src = trackDiv.dataset.img;
+            }
+            
+            // Update waveform image
+            const waveformImg = document.getElementById('waveform-image');
+            const waveformContainer = document.getElementById('waveform-container');
+            
+            if (waveformImg && trackData[index]) {
+                waveformImg.src = trackData[index].waveformImage;
+                waveformImg.alt = `${trackData[index].title} waveform`;
+                
+                // Show waveform when track is selected
+                waveformContainer.classList.add('visible');
+            }
+            
+            // Update visual current track
+            updateTrackDisplay();
+        }
+        
+        // Show/hide waveform based on playback state
+        function updateWaveformVisibility() {
+            const waveformContainer = document.getElementById('waveform-container');
+            
+            if (currenttrack && !currenttrack.paused) {
+                waveformContainer.classList.add('visible');
+            } else {
+                waveformContainer.classList.remove('visible');
+            }
+        }
+        
+        function updateTrackDisplay() {
+            document.querySelectorAll('.track').forEach((item, index) => {
+                item.classList.toggle('current', index === currentTrackIndex);
+            });
+        }
+        
+        // Update waveform progress
+        function updateWaveformProgress() {
+            if (currenttrack && currenttrack.duration > 0) {
+                const progressPercent = (currenttrack.currentTime / currenttrack.duration) * 100;
+                const waveformProgress = document.getElementById('waveform-progress');
+                if (waveformProgress) {
+                    waveformProgress.style.width = progressPercent + '%';
+                }
+            }
+        }
 
 		for (track of tracks ){
-			// track.addEventListener('playing', function(){
-            //     var c = document.getElementById("tracker");
-            //     var ctx = c.getContext("2d");
-            //     var my_gradient = ctx.createLinearGradient(0, 0, 0, 100);
-            //     my_gradient.addColorStop(0, "orange");
-            //     my_gradient.addColorStop(1, "white");
-            //     ctx.fillStyle = my_gradient;
-            //     ctx.fillRect(0, 0, 200, 70);   
-            //     //ctx.drawImage(trackImg, 0,0,1920,70,0,0,c.width,c.height);
-			// });
-			// track.addEventListener('pause', function(){
-            //     var c = document.getElementById("tracker");
-            //     var ctx = c.getContext("2d");
-            //     ctx.clearRect(0,0,c.width,c.height);
-            //     var my_gradient = ctx.createLinearGradient(0, 0, 0, 180);
-            //     my_gradient.addColorStop(0, "black");
-            //     my_gradient.addColorStop(1, "white");
-            //     ctx.fillStyle = my_gradient;
-            //     ctx.fillRect(0, 0, (this.currentTime/this.duration)*c.width, 140);   
-			// });
 			track.addEventListener('ended', function(){
-				let nextTrack;
-				let nextDiv = this.parentElement.nextElementSibling;
-				if ( nextDiv ){
-					nextTrack = this.parentElement.nextElementSibling.firstElementChild;
-                    var myimg = document.getElementById("trackimg");
-                    myimg.src = nextDiv.dataset.img;
-				}
-				if( nextTrack ){
-                    currenttrack = nextTrack;
-                    nextTrack.currentTime = 0;
-					nextTrack.play();
-				}else{
+				// Auto-advance to next track
+				if (currentTrackIndex < tracks.length - 1) {
+					jumpToTrack(currentTrackIndex + 1);
+				} else {
 					console.log('All done. Thanks for listening!');
 				}
 			});
@@ -132,30 +277,88 @@
                 var c = document.getElementById("tracker");
                 var ctx = c.getContext("2d");
                 ctx.clearRect(0,0,c.width,c.height);
-                var my_gradient = ctx.createLinearGradient(0, 0, 0, 180);
-                my_gradient.addColorStop(0, "black");
-                my_gradient.addColorStop(1, "white");
+                var my_gradient = ctx.createLinearGradient(0, 0, 0, 30);
+                my_gradient.addColorStop(0, "white");
+                my_gradient.addColorStop(1, "black");
                 ctx.fillStyle = my_gradient;
-                ctx.fillRect(0, 0, (this.currentTime/this.duration)*c.width, 140);  
+                ctx.fillRect(0, 0, (this.currentTime/this.duration)*c.width, 30);
+                
+                // Update waveform progress
+                updateWaveformProgress();
+ 			});
+ 			
+ 			track.addEventListener('play', function(){
+ 				updateWaveformVisibility();
+ 			});
+ 			
+ 			track.addEventListener('pause', function(){
+ 				updateWaveformVisibility();
  			});
 			track.parentElement.addEventListener('click', function(){
-				for (track of tracks){
-					if ( this.firstElementChild === track ){
-                        currenttrack = track;
-                        var myimg = document.getElementById("trackimg");
-                        myimg.src = this.dataset.img;
-						if ( this.firstElementChild.paused ){
-							this.firstElementChild.play();	
-						}else{
-							this.firstElementChild.pause();
-						}
-					}else{
-						track.pause();
+				const trackIndex = parseInt(this.dataset.track);
+				if (trackIndex === currentTrackIndex) {
+					// Same track - toggle play/pause
+					if (currenttrack.paused) {
+						currenttrack.play();
+					} else {
+						currenttrack.pause();
 					}
+				} else {
+					// Different track - jump to it
+					jumpToTrack(trackIndex);
 				}
+				
+				// Update waveform visibility
+				updateWaveformVisibility();
 			});
 		}
 
+        // Waveform click-to-seek functionality
+        document.getElementById('waveform-container').addEventListener('click', function(e) {
+            if (currenttrack && currenttrack.duration > 0) {
+                const rect = this.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const seekPercent = clickX / rect.width;
+                const seekTime = seekPercent * currenttrack.duration;
+                
+                // Seek to the clicked position
+                currenttrack.currentTime = seekTime;
+                
+                // If track is paused, start playing
+                if (currenttrack.paused) {
+                    currenttrack.play();
+                }
+                
+                console.log(`Seeking to ${seekTime.toFixed(2)}s (${(seekPercent * 100).toFixed(1)}%)`);
+            }
+        });
+        
+        // Also allow clicking on canvas for seeking
+        document.getElementById('tracker').addEventListener('click', function(e) {
+            if (currenttrack && currenttrack.duration > 0) {
+                const rect = this.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const seekPercent = clickX / rect.width;
+                const seekTime = seekPercent * currenttrack.duration;
+                
+                // Seek to the clicked position
+                currenttrack.currentTime = seekTime;
+                
+                // If track is paused, start playing
+                if (currenttrack.paused) {
+                    currenttrack.play();
+                }
+                
+                console.log(`Canvas seek to ${seekTime.toFixed(2)}s (${(seekPercent * 100).toFixed(1)}%)`);
+            }
+        });
+        
+        // Initialize waveform visibility on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateWaveformVisibility();
+        });
+        
+        // Keep existing trackimg click functionality
         document.getElementById("trackimg").addEventListener('click', function(e){
             currenttrack.currentTime = (e.x / this.width ) * currenttrack.duration;
         });
@@ -163,9 +366,6 @@
         document.getElementById("trackimg").addEventListener('drag', function(e){
             currenttrack.currentTime = (e.x / this.width ) * currenttrack.duration;
         });
-
-        // keyboard space bar start/stop
-        // set style of track playing
 
 	</script>
 </body>
