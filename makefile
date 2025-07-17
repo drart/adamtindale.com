@@ -13,7 +13,7 @@ SSH_USER=adamrtindale
 SSH_TARGET_DIR=adamtindale.com/
 
 RSYNCFLAGS=-avcz
-RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n
+RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n --delete --itemize-changes
 #RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  
 RSYNC_EXCLUDES=--exclude='.*'  
 

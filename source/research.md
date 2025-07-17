@@ -24,11 +24,11 @@ The E-Drumset is collection of software and hardware that allows alternatives to
 A new paradigm in gesture recognition systems that utilizes music information retrieval approaches. Timbre-recognition based instruments use real time classification techniques to determine the gesture used in order to provide high level information to the player.
 
 <div class="videoWrapper">
-    <iframe title="YouTube video player" width="640" height="510" src="http://www.youtube.com/embed/8wiG4dcH9JM" frameborder="0" allowfullscreen></iframe>
+    <iframe title="YouTube video player" width="640" height="510" src="https://www.youtube.com/embed/8wiG4dcH9JM" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Demo: Acoustically Excited Physical Models
 
 <div class="videoWrapper">
-    <iframe title="YouTube video player" width="640" height="510" src="http://www.youtube.com/embed/4KfCGhccbdw" frameborder="0" allowfullscreen></iframe>
+    <iframe title="YouTube video player" width="640" height="510" src="https://www.youtube.com/embed/4KfCGhccbdw" frameborder="0" allowfullscreen></iframe>
 </div>
