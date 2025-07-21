@@ -1,7 +1,7 @@
 # Simple Animation Theme Configuration
 
 # Theme Settings
-blog_title: Blog
+blog_title: Adam's Blog
 css_file: main.css
 display_pages_on_menu: false
 recent_blog: true

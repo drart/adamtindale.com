@@ -60,12 +60,12 @@
 
                 <%# Blog Categories %>
                 <% if (site.categories.length > 0) { %>
-                <li id="blogtitle"><a href="<%- url_for(config.archive_dir || 'blog') %>"><%- theme.blog_title || 'Blog' %></a></li>
+                <li id="blogtitle"><a href="<%- url_for('blog/') %>"><%- theme.blog_title || 'Blog' %></a></li>
                 <hr>
                 <ul id="menu-categories">
                     <%# Recent Posts %>
                     <% if (theme.recent_blog !== false) { %>
-                    <li class="menu-category"><a href="<%- url_for(config.archive_dir || 'blog') %>">Recent Posts</a>
+                    <li class="menu-category"><a href="<%- url_for('blog/') %>">Recent Posts</a>
                     <ul class="menu-category" id="recent-posts">
                         <% site.posts.sort('date', -1).limit(5).forEach(function(post) { %>
                         <li><a href="<%- url_for(post.path) %>"><%- post.title %></a></li>

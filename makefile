@@ -12,10 +12,10 @@ SSH_PORT=22
 SSH_USER=adamrtindale
 SSH_TARGET_DIR=adamtindale.com/
 
-RSYNCFLAGS=-avcz
-RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n --delete --itemize-changes
+RSYNCFLAGS=-avcz --delete
+RSYNC_TESTFLAGS=$(RSYNCFLAGS) -n --itemize-changes
 #RSYNC_EXCLUDES=--exclude='projects' --exclude='.*'  
-RSYNC_EXCLUDES=--exclude='.*'  
+RSYNC_EXCLUDES=--exclude='.*' --exclude='record/' --exclude='simple/' --exclude='slide/'  --exclude='sphere/' --exclude='oscillate/' 
 
 DROPBOX_DIR=~/Dropbox/Public/
 

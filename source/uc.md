@@ -1,6 +1,7 @@
 ---
 title: Processing Workshop
 prism: true
+permalink: uc/
 ---
 ## Reference Books and Websites
 - [Processing website](http://www.processing.org)
