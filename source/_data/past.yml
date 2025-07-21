@@ -1,5 +1,100 @@
 # Past Events - Complete migration from past.rst
 events:
+  - title: "Cool New Instruments Night"
+    event: "Gridquencer demonstration"
+    venue: "Tranzac"
+    location: "Toronto, ON, Canada"
+    date: "June 8, 2024"
+    links:
+      - url: "https://www.tranzac.org/event/cool-new-instruments-night/"
+        text: "Event Details"
+
+  - title: "Soundscape Workshop Intensive"
+    event: "Residency"
+    venue: "New Adventures in Sound Art (NAISA)"
+    location: "South River, ON, Canada"
+    date: "May 2024"
+
+  - title: "Bitstance"
+    event: "Audioblast - Resonant Futures"
+    venue: "Colloque, Apo33"
+    location: "Nantes, France"
+    date: "February 24, 2024"
+
+  - title: "Navigating Generative AI in Art and Design Education"
+    event: "Learning To Teach Creative Technologies with Generative AI"
+    location: "New York, NY, USA"
+    date: "2024"
+    links:
+      - url: "https://wp.nyu.edu/ltt2024/"
+        text: "Event Details"
+
+  - title: "Navigating Generative AI in Art and Design Education"
+    event: "Generative AI Community of Practice"
+    location: "Toronto, ON, Canada"
+    date: "2024"
+
+  - title: "Navigating Generative AI in Art and Design Education"
+    event: "Association of Independent Colleges of Art and Design (AICAD) Symposium"
+    location: "Cincinnati, OH, USA"
+    date: "2023"
+    links:
+      - url: "https://www.aicad.org/aicad-2023-symposium/"
+        text: "Event Details"
+
+  - title: "Bitstance"
+    event: "Cafe Electroniq"
+    location: "Frederick, Maryland, USA"
+    date: "August 1, 2023"
+
+  - title: "Generative AI and Studio Practice: A Roundtable"
+    venue: "OCAD University"
+    location: "Toronto, ON, Canada"
+    date: "May 24, 2023"
+
+  - title: "Bitstance"
+    venue: "ARRAY Space"
+    location: "Toronto, ON, Canada"
+    date: "April 1, 2023"
+
+  - title: "Adam Bakes Bread"
+    event: "Performance with Michael Polumbo and Alexander Vincent"
+    venue: "Tranzac"
+    location: "Toronto, ON, Canada"
+    date: "February 11, 2023"
+    links:
+      - url: "https://www.instagram.com/p/CoaTMC6p1Xw/"
+        text: "Instagram"
+
+  - title: "RUR: A Torrent of Light"
+    event: "Tapestry Opera"
+    venue: "OCAD University"
+    location: "Toronto, Canada"
+    date: "May 28 - June 5, 2022"
+    links:
+      - url: "https://tapestryopera.com/performances/r-u-r-a-torrent-of-light/"
+        text: "Performance Details"
+
+  - title: "Adam Tindale and Colin Clark"
+    event: "Situated Sounds"
+    venue: "Array Space"
+    location: "Toronto, Canada"
+    date: "April 23, 2022"
+    links:
+      - url: "https://www.arraymusic.ca/biologies/"
+        text: "Event Details"
+
+  - title: "Research Residency"
+    venue: "Dancemakers"
+    location: "Toronto, ON, Canada"
+    date: "2021"
+
+  - title: "Jun Li, Jiayin Guan, and Adam Tindale"
+    event: "OPEN Show"
+    venue: "OCAD University"
+    location: "Toronto, Canada"
+    date: "2020"
+
   - title: "Adam Tindale and Angus Tarnawsky"
     event: "International Computer Music Conference (ICMC) and The New York City Electronic Music Festival (NYCEMF)"
     venue: "Fridman Gallery"
