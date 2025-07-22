@@ -43,6 +43,10 @@ html: clean
 	hexo generate
 	@echo 'Done'
 
+generate:
+	hexo generate
+	@echo 'Done'
+
 clean:
 	hexo clean
 
@@ -74,10 +78,10 @@ publish: html
 ssh_upload: html
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-rsync_upload: html
+rsync_upload: generate
 	rsync -e "ssh -p $(SSH_PORT)"  $(RSYNCFLAGS) $(RSYNC_EXCLUDES) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-rsync_test: html
+rsync_test: generate
 	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_TESTFLAGS) $(RSYNC_EXCLUDES) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 dropbox_upload: html
@@ -90,4 +94,4 @@ github: html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean serve develop watch deploy build-deploy new-post new-page publish ssh_upload rsync_upload rsync_test dropbox_upload ftp_upload github
+.PHONY: html generate help clean serve develop watch deploy build-deploy new-post new-page publish ssh_upload rsync_upload rsync_test dropbox_upload ftp_upload github
