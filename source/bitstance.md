@@ -1,4 +1,8 @@
-# Bitstance Project Information
+---
+permalink: bitstance/
+---
+
+# Bitstance 
 
 - **Bandcamp:** https://bitstance.bandcamp.com/
 - **Bitstance Radio:** https://bitstance.org/
@@ -35,11 +39,12 @@
 
 ## Live Performances
 
-### 2023
-- **April 1, 2023** - ARRAY Space, Toronto, ON, Canada
-- **August 1, 2023** - Cafe Electroniq, Frederick, Maryland, USA
-
 ### 2024
 - **February 24, 2024** - Audioblast - Resonant Futures, Colloque, Apo33, Nantes, France
+
+### 2023
+- **August 1, 2023** - Cafe Electroniq, Frederick, Maryland, USA
+- **April 1, 2023** - ARRAY Space, Toronto, ON, Canada
+
 
 

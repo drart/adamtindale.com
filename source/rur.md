@@ -1,6 +1,6 @@
 ---
 title: "RUR: A Torrent of Light"
-date: 2024-01-01
+permalink: rur/
 ---
 
 # RUR: A Torrent of Light 

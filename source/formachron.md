@@ -1,6 +1,5 @@
 ---
 title: Formachron
-date: 2024-01-01
 permalink: formachron/
 ---
 
@@ -17,25 +16,14 @@ permalink: formachron/
 
 ## Events & Performances
 
-### Public Demonstrations
+- **Exit Points** - May 30, 2025. Array Space. Toronto, ON, Canada. https://www.facebook.com/events/537824305874692
 - **Cool New Instruments Night** - June 8, 2024. Tranzac, Toronto, ON, Canada.  https://www.tranzac.org/event/cool-new-instruments-night/
 
 ## Publications
 
-### Academic Papers
 - **Tindale, A. and Clark, C.** "Reshaping Time - Exploring grid interfaces for ansiorhythmic patterns." *New Interfaces for Musical Expression (NIME) 2024*, Utrecht, Netherlands.
-  - **Status**: Accepted for publication (September 2024)
-  - **Note**: Unusual timing as NIME conference typically occurs in May
-
 
 ## Code
 
 - **Repository**: https://github.com/drart/gridquencer
-
-## Collaborators & Team
-
-### Core Team
-- **Adam Tindale**: Primary developer and researcher
-- **Colin Clark**: Co-researcher and co-author (NIME 2024 paper)
-- **Aaditya Vaze**: Graduate student contributor (funded by Gerta Grant)
 
