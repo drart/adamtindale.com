@@ -4,13 +4,17 @@ permalink: projects/
 ---
 
 ## Current Projects
+- [formachron](/projects/formachron) : a tactile polymetric, polytuplet, polyphasic sequencer instrument. 2020 - 
+- [Bitstance](/projects/bitstance/) : William Brent, David Cecchetto, Colin Clark, and Adam Tindale. 2020 - 
+- [RUR: A Torrent of Light](/projects/rur/) : An Opera collaboration between Tapestry Opera and Social Body Lab. 2016 -
 - [Duo with Colin Labadie](/projects/colinlabadie/) : Colin Labadie (Electronic Guitar) + Adam Tindale (Electronic Percussion). 2014 -
 - [ARRAY](http://a-r-r-a-y.com) : Rick Silva (Visuals), Adam Tindale (Electronics) + Katherine Fraser (Violin). 2010 -
 - [Vector Rails](/projects/vectorrails/) : Clinker (Modular Synthesizers) + Adam Tindale (Electronic Drums). 2009 -
 - [i send data live](/projects/isenddatalive/) : Robin Davies (Laptop) + Adam Tindale (Electronic Drums) 2004 -
 ## Online Pieces
+- [SLIDE](/slide) : 2017
 - [BEEP](/beep) : 2015
-- [OSCILLATE](/oscillate) : 2015
+- [OSCILLATE](/oscillate) : 2015 (currently down, sorry)
 - [SIMPLE](/simple) : 2013
 - [RECORD](/record) : 2011
 - [SPHERE](/sphere) : 2010

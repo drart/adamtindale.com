@@ -1,5 +1,5 @@
 ---
-permalink: bitstance/
+permalink: projects/bitstance/
 ---
 
 # Bitstance 

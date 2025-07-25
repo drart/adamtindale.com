@@ -1,6 +1,6 @@
 ---
 title: "RUR: A Torrent of Light"
-permalink: rur/
+permalink: projects/rur/
 ---
 
 # RUR: A Torrent of Light 

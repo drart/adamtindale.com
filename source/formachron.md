@@ -1,6 +1,6 @@
 ---
 title: Formachron
-permalink: formachron/
+permalink: projects/formachron/
 ---
 
 # Formachron
